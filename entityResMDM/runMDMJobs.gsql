@@ -1,0 +1,3 @@
+USE GRAPH Entity_Resolution
+
+RUN LOADING JOB loadEntityResolutionData 
