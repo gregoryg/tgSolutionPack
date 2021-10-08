@@ -1,0 +1,19 @@
+tgSolutionPack - this package contains scripts and data to be used to populate any
+   tigergraph instance with on of the popular starter kit demos. Currently the kit
+includes these use cases:
+
+    - Entity Resolution (MDM0
+    - Fraud Detection
+    - Customer 360
+
+The package can be installed on any instance containing a tigergraph application.
+The install process is simple:
+
+1. Push the tgSolutionPack.tar.gz file to the target machine
+2. uncompress the archive
+	tar -xzvf tgSolutionPack.tar.gz
+3. cd
+	cd tgSolutionPack
+4. run the install script and following the instructions
+	./runDPInstall.sh
+
