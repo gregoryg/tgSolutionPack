@@ -17,13 +17,17 @@ if [[ "$resp" == *"refused"* || "$resp" == *"not found"* ]]; then
   exit 0
 fi
 
+echo ''
 echo "TigerGraph tgSolutionPack install script"
 echo ""
 echo "Usage: "
 echo ""
 echo "1 - Entity Resolution(MDM)"
 echo "2 - Fraud Detection"
-echo "3 - Customer360"
+echo "3 - LDBC Benchmark"
+echo "4 - TPC-DS Benchmark"
+echo "5 - Flight Delays"
+echo "5 - Customer360"
 echo ''
 
 read -p "Pick a number, or enter a/A for all: " choice
@@ -39,9 +43,19 @@ case $choice in
 		gsql < entityResMDM/runMDMJobs.gsql
 	;;
 	2)
-	echo "Install AML - TBD"
+	echo "Install Fraud/AML - TBD"
 	;;
 	3)
+	echo "Install LDBC - TBD"
+		gsql < ldbc/createLDBCSchema.gsql
+	;;
+	4)
+	echo "Install TPC-DS - TBD"
+	;;
+	5)
+	echo "Install Flight Delays - TBD"
+	;;
+	6)
 	echo "Install Cust360 - TBD"
 	;;
 esac
