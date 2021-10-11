@@ -37,6 +37,7 @@ echo "You selected $choice to install, is this correct?"
 case $choice in
 
 	1)
+		echo ''
 		echo "Install MDM...."
 		gsql < entityResMDM/createMDMSchema.gsql
 		gsql < entityResMDM/createMDMJobs.gsql
@@ -46,16 +47,22 @@ case $choice in
 	echo "Install Fraud/AML - TBD"
 	;;
 	3)
-	echo "Install LDBC - TBD"
+		echo ''
+		echo "Install LDBC - TBD"
 		gsql < ldbc/createLDBCSchema.gsql
+		gsql < ldbc/createLDBCSampleJobs.gsql
+		#gsql < ldbc/createLDBCSchema.gsql
 	;;
 	4)
+	echo ''
 	echo "Install TPC-DS - TBD"
 	;;
 	5)
+	echo ''
 	echo "Install Flight Delays - TBD"
 	;;
 	6)
+	echo ''
 	echo "Install Cust360 - TBD"
 	;;
 esac
