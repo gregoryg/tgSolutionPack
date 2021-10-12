@@ -26,8 +26,9 @@ echo "1 - Entity Resolution(MDM)"
 echo "2 - Fraud Detection"
 echo "3 - LDBC Benchmark"
 echo "4 - TPC-DS Benchmark"
-echo "5 - Flight Delays"
-echo "5 - Customer360"
+echo "5 - Synthea HealthCare"
+echo "6 - Flight Delays"
+echo "7 - Customer360"
 echo ''
 
 read -p "Pick a number, or enter a/A for all: " choice
@@ -52,6 +53,8 @@ case $choice in
 		gsql < ldbc/createLDBCSchema.gsql
 		gsql < ldbc/createLDBCSampleJobs.gsql
 		#gsql < ldbc/createLDBCSchema.gsql
+		gsql < ldbc/createLDBCSampleJobs.gsql
+		runLDBCLoadJob.sql
 	;;
 	4)
 	echo ''
@@ -59,12 +62,18 @@ case $choice in
 	;;
 	5)
 	echo ''
-	echo "Install Flight Delays - TBD"
+	echo "Install Synthea"
+		gsql < synthea/scripts/createSyntheaSchema.gsql
 	;;
 	6)
 	echo ''
+	echo "Install Flight Delays - TBD"
+	;;
+	7)
+	echo ''
 	echo "Install Cust360 - TBD"
 	;;
+
 esac
 
 echo ''
