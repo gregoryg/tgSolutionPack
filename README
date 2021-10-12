@@ -8,33 +8,41 @@ includes these use cases:
     - Fraud Detection
     - LDBC benchmark Data
     - TPC-DS Benchmark
+    - Synthea Health Care data
+    - Flight Delays - publis transportation dataset
     - Customer 360
 
 The package can be installed on any instance containing a tigergraph application.
 The install process is simple:
 
-1. Push the tgSolutionPack.tar.gz file to the target machine. if you are running Docker locally:
+1. Copy(scp for secure copy) the tgSolutionPack.tar.gz file to the target machine. if you are running Docker locally:
 
          scp -P 14022 tgSolutionPack.tar.gz tigergraph@localhost:~/
 
             will transfer the file to the root of the tigergraph user home
 
-2. uncompress the archive:
+2. ssh to the container
+
+   ssh -p 14022 tigergraph@localhost
+
+3. uncompress the archive:
 
 	     tar -xzvf tgSolutionPack.tar.gz
 
-3. change directory into the tgSolution pack folder:
+4. change directory into the tgSolution pack folder:
 
       cd tgSolutionPack
 
-4. run the install script and following the instructions
+5. run the install script and following the instructions
 	
       ./runDPInstall.sh
 
-5. Select one of the solution packs to install (1-5)
+6. Select one of the solution packs to install (1-5)
 
-6. The script wil create the objects, loading job and begin to load data
+7. The script wil create the objects, loading job and begin to load data
 
-7. Go to the Studio UI to see progress (on the Docker container: http://localhost:14240
+8. Go to the Studio UI to see progress 
+
+      - for the local Docker container: http://localhost:14240
 
 
