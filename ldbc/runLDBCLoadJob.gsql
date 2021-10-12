@@ -1,0 +1,3 @@
+USE GRAPH LDBC_Benchmark
+
+RUN LOADING JOB loadLDBCData
