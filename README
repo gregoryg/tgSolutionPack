@@ -4,18 +4,18 @@ tgSolutionPack - this package contains scripts and data to be used to populate a
    tigergraph instance with on of the popular starter kit demos. Currently the kit
 includes these use cases:
 
-    - Entity Resolution (MDM0
-    - Fraud Detection
+    - Entity Resolution (MDM)
+    - Fraud Detection - TBD
     - LDBC benchmark Data
-    - TPC-DS Benchmark
+    - TPC-DS Benchmark - TBD
     - Synthea Health Care data
-    - Flight Delays - publis transportation dataset
-    - Customer 360
+    - Flight Delays - publis transportation dataset - TBD
+    - Customer 360 - TBD
 
 The package can be installed on any instance containing a tigergraph application.
 The install process is simple:
 
-1. Copy(scp for secure copy) the tgSolutionPack.tar.gz file to the target machine. if you are running Docker locally:
+1. Copy (scp for secure copy) the tgSolutionPack.tar.gz archieve file to the target machine. if you are running Docker locally:
 
          scp -P 14022 tgSolutionPack.tar.gz tigergraph@localhost:~/
 
@@ -37,9 +37,19 @@ The install process is simple:
 	
       ./runDPInstall.sh
 
-6. Select one of the solution packs to install (1-5)
+6. Select one of the solution packs to install
 
-7. The script wil create the objects, loading job and begin to load data
+   1 - Entity Resolution(MDM)
+   2 - Fraud Detection
+   3 - LDBC Benchmark
+   4 - TPC-DS Benchmark
+   5 - Synthea HealthCare
+   6 - Flight Delays
+   7 - Customer360
+
+7. The script wil create the objects, loading job and begin to load data.
+
+   NOTE: As with most gsql utilities, all existing objects are first removed
 
 8. Go to the Studio UI to see progress 
 
