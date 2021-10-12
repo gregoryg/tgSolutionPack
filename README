@@ -1,20 +1,40 @@
+TigerGraph Solution Kit installer
+
 tgSolutionPack - this package contains scripts and data to be used to populate any
    tigergraph instance with on of the popular starter kit demos. Currently the kit
 includes these use cases:
 
     - Entity Resolution (MDM0
     - Fraud Detection
+    - LDBC benchmark Data
+    - TPC-DS Benchmark
     - Customer 360
 
 The package can be installed on any instance containing a tigergraph application.
 The install process is simple:
 
-1. Push the tgSolutionPack.tar.gz file to the target machine
-2. uncompress the archive
-	tar -xzvf tgSolutionPack.tar.gz
-3. cd
-	cd tgSolutionPack
-4. run the install script and following the instructions
-	./runDPInstall.sh
+1. Push the tgSolutionPack.tar.gz file to the target machine. if you are running Docker locally:
 
-dddddddd
+         scp -P 14022 tgSolutionPack.tar.gz tigergraph@localhost:~/
+
+            will transfer the file to the root of the tigergraph user home
+
+2. uncompress the archive:
+
+	     tar -xzvf tgSolutionPack.tar.gz
+
+3. change directory into the tgSolution pack folder:
+
+      cd tgSolutionPack
+
+4. run the install script and following the instructions
+	
+      ./runDPInstall.sh
+
+5. Select one of the solution packs to install (1-5)
+
+6. The script wil create the objects, loading job and begin to load data
+
+7. Go to the Studio UI to see progress (on the Docker container: http://localhost:14240
+
+
