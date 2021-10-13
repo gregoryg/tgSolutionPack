@@ -64,6 +64,8 @@ case $choice in
 	echo ''
 	echo "Install Synthea"
 		gsql < synthea/scripts/createSyntheaSchema.gsql
+		./synthea/scripts/installLoadJobs.sh
+		gsql < synthea/scripts/runSyntheaLoadJobs.gsql
 	;;
 	6)
 	echo ''

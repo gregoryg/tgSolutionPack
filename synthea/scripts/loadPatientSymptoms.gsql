@@ -1,5 +1,8 @@
 drop job loadPatientSymptoms
 
+USE GRAPH SyntheaGrap
+
+BEGIN
 create loading job loadPatientSymptoms  {
 
     define filename f1;
@@ -9,3 +12,4 @@ create loading job loadPatientSymptoms  {
         to edge _PATIENT_HAS_SYMPTOM values($1, $0, $5, $6)
         using header="true", separator=",";
 }
+END
