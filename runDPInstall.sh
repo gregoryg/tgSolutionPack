@@ -52,9 +52,7 @@ case $choice in
 		echo "Install LDBC - TBD"
 		gsql < ldbc/createLDBCSchema.gsql
 		gsql < ldbc/createLDBCSampleJobs.gsql
-		#gsql < ldbc/createLDBCSchema.gsql
-		gsql < ldbc/createLDBCSampleJobs.gsql
-		runLDBCLoadJob.sql
+		gsql < ldbc/runLDBCLoadJob.gsql
 	;;
 	4)
 	echo ''
