@@ -1,7 +1,5 @@
 USE GRAPH LDBC_Benchmark
 
-DROP JOB ALL
-
 BEGIN
 CREATE LOADING JOB loadLDBCData FOR GRAPH LDBC_Benchmark {
    DEFINE FILENAME comment = "./ldbc/data/comment_sample.csv";
@@ -23,7 +21,6 @@ CREATE LOADING JOB loadLDBCData FOR GRAPH LDBC_Benchmark {
    DEFINE FILENAME hasMember= "./ldbc/data/forum_hasMember_person_sample.csv";
    DEFINE FILENAME isLocatedAt= "./ldbc/data/person_isLocatedIn_place_0_0.csv";
    DEFINE FILENAME knows= "./ldbc/data/person_knows_person_sample.csv";
-
    
    LOAD comment TO VERTEX Comment VALUES ($0, $1, $2, $3, $4, $5) USING SEPARATOR="|", HEADER="true", EOL="\n";
    LOAD forum TO VERTEX Forum VALUES ($0, $1, $2) USING SEPARATOR="|", HEADER="true", EOL="\n";

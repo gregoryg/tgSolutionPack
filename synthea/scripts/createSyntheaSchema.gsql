@@ -1,7 +1,5 @@
 SET exit_on_error = FALSE
 
-DROP ALL
-
 CREATE VERTEX _Gender(PRIMARY_ID gender_id STRING) WITH primary_id_as_attribute="true"
 
 CREATE VERTEX _Race(PRIMARY_ID race_id STRING) WITH primary_id_as_attribute="true"

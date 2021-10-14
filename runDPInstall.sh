@@ -68,12 +68,20 @@ case $choice in
 	6)
 	echo ''
 	echo "Install Flight Delays - TBD"
+	 gsql < airline/scripts/createAirlineSchema.gsql
 	;;
 	7)
 	echo ''
 	echo "Install Cust360 - TBD"
 	;;
-
+	a)
+	echo ''
+	echo 'Lets load all of the schemas'
+	gsql < entityResMDM/createMDMSchema.gsql
+	gsql < ldbc/createLDBCSchema.gsql
+	gsql < synthea/scripts/createSyntheaSchema.gsql
+	gsql < airline/scripts/createAirlineSchema.gsql
+	echo ''
 esac
 
 echo ''
