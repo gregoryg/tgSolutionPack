@@ -1,96 +1,96 @@
 USE GRAPH AirlineGraph
 
-CREATE LOADING JOB load_job_mysql_Airline_L_AIRLINE_ID_csv_1634144632268 FOR GRAPH mysql_Airline {
+CREATE LOADING JOB load_job_AirlineGraph_L_AIRLINE_ID_csv_1634144632268 FOR GRAPH AirlineGraph {
       DEFINE FILENAME MyDataSource;
       LOAD MyDataSource TO VERTEX L_AIRLINE_ID VALUES($0, $0, $1) USING SEPARATOR="\1", HEADER="true", EOL="\n";
 }
 
-CREATE LOADING JOB load_job_mysql_Airline_L_AIRPORT_csv_1634144632269 FOR GRAPH mysql_Airline {
+CREATE LOADING JOB load_job_AirlineGraph_L_AIRPORT_csv_1634144632269 FOR GRAPH AirlineGraph {
       DEFINE FILENAME MyDataSource;
       LOAD MyDataSource TO VERTEX L_AIRPORT VALUES($0, $0, $1) USING SEPARATOR="\1", HEADER="true", EOL="\n";
 }
 
-CREATE LOADING JOB load_job_mysql_Airline_L_AIRPORT_ID_csv_1634144632269 FOR GRAPH mysql_Airline {
+CREATE LOADING JOB load_job_AirlineGraph_L_AIRPORT_ID_csv_1634144632269 FOR GRAPH AirlineGraph {
       DEFINE FILENAME MyDataSource;
       LOAD MyDataSource TO VERTEX L_AIRPORT_ID VALUES($0, $0, $1) USING SEPARATOR="\1", HEADER="true", EOL="\n";
 }
 
-CREATE LOADING JOB load_job_mysql_Airline_L_AIRPORT_SEQ_ID_csv_1634144632270 FOR GRAPH mysql_Airline {
+CREATE LOADING JOB load_job_AirlineGraph_L_AIRPORT_SEQ_ID_csv_1634144632270 FOR GRAPH AirlineGraph {
       DEFINE FILENAME MyDataSource;
       LOAD MyDataSource TO VERTEX L_AIRPORT_SEQ_ID VALUES($0, $0, $1) USING SEPARATOR="\1", HEADER="true", EOL="\n";
 }
 
-CREATE LOADING JOB load_job_mysql_Airline_L_CANCELLATION_csv_1634144632270 FOR GRAPH mysql_Airline {
+CREATE LOADING JOB load_job_AirlineGraph_L_CANCELLATION_csv_1634144632270 FOR GRAPH AirlineGraph {
       DEFINE FILENAME MyDataSource;
       LOAD MyDataSource TO VERTEX L_CANCELLATION VALUES($0, $0, $1) USING SEPARATOR="\1", HEADER="true", EOL="\n";
 }
 
-CREATE LOADING JOB load_job_mysql_Airline_L_CITY_MARKET_ID_csv_1634144632271 FOR GRAPH mysql_Airline {
+CREATE LOADING JOB load_job_AirlineGraph_L_CITY_MARKET_ID_csv_1634144632271 FOR GRAPH AirlineGraph {
       DEFINE FILENAME MyDataSource;
       LOAD MyDataSource TO VERTEX L_CITY_MARKET_ID VALUES($0, $0, $1) USING SEPARATOR="\1", HEADER="true", EOL="\n";
 }
 
-CREATE LOADING JOB load_job_mysql_Airline_L_DEPARRBLK_csv_1634144632271 FOR GRAPH mysql_Airline {
+CREATE LOADING JOB load_job_AirlineGraph_L_DEPARRBLK_csv_1634144632271 FOR GRAPH AirlineGraph {
       DEFINE FILENAME MyDataSource;
       LOAD MyDataSource TO VERTEX L_DEPARRBLK VALUES($0, $0, $1) USING SEPARATOR="\1", HEADER="true", EOL="\n";
 }
 
-CREATE LOADING JOB load_job_mysql_Airline_L_DISTANCE_GROUP_250_csv_1634144632272 FOR GRAPH mysql_Airline {
+CREATE LOADING JOB load_job_AirlineGraph_L_DISTANCE_GROUP_250_csv_1634144632272 FOR GRAPH AirlineGraph {
       DEFINE FILENAME MyDataSource;
       LOAD MyDataSource TO VERTEX L_DISTANCE_GROUP_250 VALUES($0, $0, $1) USING SEPARATOR="\1", HEADER="true", EOL="\n";
 }
 
-CREATE LOADING JOB load_job_mysql_Airline_L_DIVERSIONS_csv_1634144632272 FOR GRAPH mysql_Airline {
+CREATE LOADING JOB load_job_AirlineGraph_L_DIVERSIONS_csv_1634144632272 FOR GRAPH AirlineGraph {
       DEFINE FILENAME MyDataSource;
       LOAD MyDataSource TO VERTEX L_DIVERSIONS VALUES($0, $0, $1) USING SEPARATOR="\1", HEADER="true", EOL="\n";
 }
 
-CREATE LOADING JOB load_job_mysql_Airline_L_MONTHS_csv_1634144632273 FOR GRAPH mysql_Airline {
+CREATE LOADING JOB load_job_AirlineGraph_L_MONTHS_csv_1634144632273 FOR GRAPH AirlineGraph {
       DEFINE FILENAME MyDataSource;
       LOAD MyDataSource TO VERTEX L_MONTHS VALUES($0, $0, $1) USING SEPARATOR="\1", HEADER="true", EOL="\n";
 }
 
-CREATE LOADING JOB load_job_mysql_Airline_L_ONTIME_DELAY_GROUPS_csv_1634144632274 FOR GRAPH mysql_Airline {
+CREATE LOADING JOB load_job_AirlineGraph_L_ONTIME_DELAY_GROUPS_csv_1634144632274 FOR GRAPH AirlineGraph {
       DEFINE FILENAME MyDataSource;
       LOAD MyDataSource TO VERTEX L_ONTIME_DELAY_GROUPS VALUES($0, $0, $1) USING SEPARATOR="\1", HEADER="true", EOL="\n";
 }
 
-CREATE LOADING JOB load_job_mysql_Airline_L_QUARTERS_csv_1634144632275 FOR GRAPH mysql_Airline {
+CREATE LOADING JOB load_job_AirlineGraph_L_QUARTERS_csv_1634144632275 FOR GRAPH AirlineGraph {
       DEFINE FILENAME MyDataSource;
       LOAD MyDataSource TO VERTEX L_QUARTERS VALUES($0, $0, $1) USING SEPARATOR="\1", HEADER="true", EOL="\n";
 }
 
-CREATE LOADING JOB load_job_mysql_Airline_L_STATE_ABR_AVIATION_csv_1634144632275 FOR GRAPH mysql_Airline {
+CREATE LOADING JOB load_job_AirlineGraph_L_STATE_ABR_AVIATION_csv_1634144632275 FOR GRAPH AirlineGraph {
       DEFINE FILENAME MyDataSource;
       LOAD MyDataSource TO VERTEX L_STATE_ABR_AVIATION VALUES($0, $0, $1) USING SEPARATOR="\1", HEADER="true", EOL="\n";
 }
 
-CREATE LOADING JOB load_job_mysql_Airline_L_STATE_FIPS_csv_1634144632276 FOR GRAPH mysql_Airline {
+CREATE LOADING JOB load_job_AirlineGraph_L_STATE_FIPS_csv_1634144632276 FOR GRAPH AirlineGraph {
       DEFINE FILENAME MyDataSource;
       LOAD MyDataSource TO VERTEX L_STATE_FIPS VALUES($0, $0, $1) USING SEPARATOR="\1", HEADER="true", EOL="\n";
 }
 
-CREATE LOADING JOB load_job_mysql_Airline_L_UNIQUE_CARRIERS_csv_1634144632277 FOR GRAPH mysql_Airline {
+CREATE LOADING JOB load_job_AirlineGraph_L_UNIQUE_CARRIERS_csv_1634144632277 FOR GRAPH AirlineGraph {
       DEFINE FILENAME MyDataSource;
       LOAD MyDataSource TO VERTEX L_UNIQUE_CARRIERS VALUES($0, $0, $1) USING SEPARATOR="\1", HEADER="true", EOL="\n";
 }
 
-CREATE LOADING JOB load_job_mysql_Airline_L_WEEKDAYS_csv_1634144632279 FOR GRAPH mysql_Airline {
+CREATE LOADING JOB load_job_AirlineGraph_L_WEEKDAYS_csv_1634144632279 FOR GRAPH AirlineGraph {
       DEFINE FILENAME MyDataSource;
       LOAD MyDataSource TO VERTEX L_WEEKDAYS VALUES($0, $0, $1) USING SEPARATOR="\1", HEADER="true", EOL="\n";
 }
 
-CREATE LOADING JOB load_job_mysql_Airline_L_WORLD_AREA_CODES_csv_1634144632280 FOR GRAPH mysql_Airline {
+CREATE LOADING JOB load_job_AirlineGraph_L_WORLD_AREA_CODES_csv_1634144632280 FOR GRAPH AirlineGraph {
       DEFINE FILENAME MyDataSource;
       LOAD MyDataSource TO VERTEX L_WORLD_AREA_CODES VALUES($0, $0, $1) USING SEPARATOR="\1", HEADER="true", EOL="\n";
 }
 
-CREATE LOADING JOB load_job_mysql_Airline_L_YESNO_RESP_csv_1634144632281 FOR GRAPH mysql_Airline {
+CREATE LOADING JOB load_job_AirlineGraph_L_YESNO_RESP_csv_1634144632281 FOR GRAPH AirlineGraph {
       DEFINE FILENAME MyDataSource;
       LOAD MyDataSource TO VERTEX L_YESNO_RESP VALUES($0, $0, $1) USING SEPARATOR="\1", HEADER="true", EOL="\n";
 }
 
-CREATE LOADING JOB load_job_mysql_Airline_On_Time_On_Time_Performance_2016_1_csv_1634144632282 FOR GRAPH mysql_Airline {
+CREATE LOADING JOB load_job_AirlineGraph_On_Time_On_Time_Performance_2016_1_csv_1634144632282 FOR GRAPH AirlineGraph {
       DEFINE FILENAME MyDataSource;
       LOAD MyDataSource TO VERTEX On_Time_On_Time_Performance_2016_1 VALUES(gsql_uuid_v4("\0"), $0, $3, $5, $8, $9, $10, $15, $18, $24, $27, $29, $30, $31, $32, $36, $37, $38, $39, $40, $41, $42, $43, $46, $50, $51, $52, $53, $54, $56, $57, $58, $59, $60, $61, $62, $63, $65, $66, $67, $68, $69, $72, $73, $74, $75, $76, $77, $80, $81, $82) USING SEPARATOR="\1", HEADER="true", EOL="\n";
       LOAD MyDataSource TO EDGE L_AIRLINE_ID_to_On_Time_On_Time_Performance_2016_1 VALUES($7, gsql_uuid_v4("\0")) USING SEPARATOR="\1", HEADER="true", EOL="\n";
