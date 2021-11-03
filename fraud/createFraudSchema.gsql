@@ -1,0 +1,60 @@
+---- Global vertices, edges, and all graphs
+Vertex Types: 
+  - VERTEX Transaction(PRIMARY_ID id STRING, ts UINT, amount FLOAT) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="false"
+  - VERTEX User(PRIMARY_ID id STRING, signupEpoch UINT, mobile STRING, trust_score FLOAT) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="false"
+  - VERTEX Device_Token(PRIMARY_ID id STRING, is_banned BOOL, os_name STRING, os_version STRING, model STRING, carrier STRING, is_rooted BOOL, is_emulator BOOL, device_name STRING, trust_score FLOAT) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="false"
+  - VERTEX Payment_Instrument(PRIMARY_ID id STRING, token_handle STRING, token_type STRING, card_issuing_country_iso2 STRING, card_issuing_bank STRING, card_bin STRING, trust_score FLOAT) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="false"
+Edge Types: 
+  - DIRECTED EDGE User_Transfer_Transaction(FROM User, TO Transaction) WITH REVERSE_EDGE="User_Transfer_Transaction_Rev"
+  - DIRECTED EDGE User_Transfer_Transaction_Rev(FROM Transaction, TO User) WITH REVERSE_EDGE="User_Transfer_Transaction"
+  - UNDIRECTED EDGE User_to_Device(FROM User, TO Device_Token)
+  - UNDIRECTED EDGE User_to_Payment(FROM User, TO Payment_Instrument)
+  - DIRECTED EDGE User_Refer_User(FROM User, TO User) WITH REVERSE_EDGE="User_Referred_By_User"
+  - DIRECTED EDGE User_Referred_By_User(FROM User, TO User) WITH REVERSE_EDGE="User_Refer_User"
+  - DIRECTED EDGE User_Receive_Transaction(FROM User, TO Transaction) WITH REVERSE_EDGE="User_Receive_Transaction_Rev"
+  - DIRECTED EDGE User_Receive_Transaction_Rev(FROM Transaction, TO User) WITH REVERSE_EDGE="User_Receive_Transaction"
+
+Graphs: 
+  - Graph AntiFraud(Transaction:v, User:v, Device_Token:v, Payment_Instrument:v, User_Transfer_Transaction:e, User_Transfer_Transaction_Rev:e, User_to_Device:e, User_to_Payment:e, User_Refer_User:e, User_Referred_By_User:e, User_Receive_Transaction:e, User_Receive_Transaction_Rev:e)
+Jobs: 
+  - CREATE LOADING JOB load_job_client_csv_1562879607034 FOR GRAPH AntiFraud {
+      DEFINE FILENAME MyDataSource;
+      LOAD MyDataSource TO VERTEX User VALUES($0, $1, $2, $3) USING SEPARATOR="\t", HEADER="true", EOL="\n";
+    }
+
+  - CREATE LOADING JOB load_job_userDevice_csv_1562879792868 FOR GRAPH AntiFraud {
+      DEFINE FILENAME MyDataSource;
+      LOAD MyDataSource TO EDGE User_to_Device VALUES($0, $1) USING SEPARATOR="\t", HEADER="true", EOL="\n";
+    }
+
+  - CREATE LOADING JOB load_job_client_referral_csv_1562880033661 FOR GRAPH AntiFraud {
+      DEFINE FILENAME MyDataSource;
+      LOAD MyDataSource TO EDGE User_Refer_User VALUES($1, $0) USING SEPARATOR="\t", HEADER="true", EOL="\n";
+    }
+
+  - CREATE LOADING JOB load_job_device_csv_1562879721889 FOR GRAPH AntiFraud {
+      DEFINE FILENAME MyDataSource;
+      LOAD MyDataSource TO VERTEX Device_Token VALUES($0, $1, $2, $3, $4, $5, $6, $7, $8, $10) USING SEPARATOR="\t", HEADER="true", EOL="\n";
+    }
+
+  - CREATE LOADING JOB load_job_payment_csv_1562879819765 FOR GRAPH AntiFraud {
+      DEFINE FILENAME MyDataSource;
+      LOAD MyDataSource TO VERTEX Payment_Instrument VALUES($1, $2, $3, _, $5, $7, $10) USING SEPARATOR="\t", HEADER="true", EOL="\n";
+      LOAD MyDataSource TO EDGE User_to_Payment VALUES($0, $1) USING SEPARATOR="\t", HEADER="true", EOL="\n";
+    }
+
+  - CREATE LOADING JOB load_job_transaction_csv_1632368107281 FOR GRAPH AntiFraud {
+      DEFINE FILENAME MyDataSource;
+      LOAD MyDataSource TO VERTEX Transaction VALUES($0, $4, $3) USING SEPARATOR="\t", HEADER="true", EOL="\n";
+      LOAD MyDataSource TO EDGE User_Transfer_Transaction VALUES($2, $0) USING SEPARATOR="\t", HEADER="true", EOL="\n";
+      LOAD MyDataSource TO EDGE User_Receive_Transaction VALUES($1, $0) USING SEPARATOR="\t", HEADER="true", EOL="\n";
+    }
+
+Queries: 
+  - InvitedUserBehavior(vertex<User> inputUser) 
+  - MultiTransaction(vertex<Transaction> transaction) 
+  - RepeatedUser(vertex<User> receiver) 
+  - SameReceiverSender(vertex<Transaction> transaction) 
+  - TransferredAmount(vertex<User> sender, string startDate, string endDate) 
+  - circleDetection(vertex<User> srcId) 
+  - fraudConnectivity(vertex<User> inputUser, float trustScore)
