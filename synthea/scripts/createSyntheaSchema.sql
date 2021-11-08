@@ -96,10 +96,10 @@ CREATE  TABLE demographics (
      NUM8          DOUBLE,
      NUM9          DOUBLE,
      NUM10          DOUBLE,
-     NUM10          LESS_THAN_HS,
-     NUM10          HS_DEGREE,
-     NUM10          SOME_COLLEGE,
-     NUM10          BS_DEGREE
+     LESS_THAN_HS   VARCHAR(250),
+     HS_DEGREE      VARCHAR(250),
+     SOME_COLLEGE   VARCHAR(250),
+     BS_DEGREE      VARCHAR(250)
 );
 
 DROP TABLE IF EXISTS devices;
@@ -139,7 +139,7 @@ CREATE  TABLE patients (
      DEATHDATE    VARCHAR(50),
      SSN    VARCHAR(50),
      DRIVERS    VARCHAR(20),
-     PASSPORT    VARCHAR210),
+     PASSPORT    VARCHAR(210),
      PREFIX    VARCHAR(20),
      FIRST    VARCHAR(20),
      LAST    VARCHAR(20),
@@ -188,9 +188,6 @@ CREATE  TABLE payers (
      LON    FLOAT,
      COUNTY    VARCHAR(200)
 );
-
-## Load from csv
-LOAD DATA LOCAL INFILE './synthea/data/allergies.csv' INTO TABLE allergies FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS ();
 
 
 
