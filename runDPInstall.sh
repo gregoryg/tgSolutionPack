@@ -3,7 +3,7 @@
 ###############################################
 # Copyright (c)  2015-now, TigerGraph Inc.
 # All rights reserved
-# Demopack for TigerGraph Pre Sales
+# Solution pack for TigerGraph Pre Sales
 # Author: robert.hardaway@tigergraph.com
 ################################################
 
@@ -28,7 +28,11 @@ echo "3 - LDBC Benchmark"
 echo "4 - TPC-DS Benchmark"
 echo "5 - Synthea HealthCare"
 echo "6 - Flight Delays"
-echo "7 - Customer360"
+echo '7 - IMDB'
+echo "8 - Customer360"
+echo '9 - Recommendations'
+echo "A/a - install all of the packs"
+echo "mysql - Stage all of the source data to a local mysql db"
 echo ''
 
 read -p "Pick a number, or enter a/A for all: " choice
@@ -72,15 +76,35 @@ case $choice in
 	;;
 	7)
 	echo ''
+	echo "Install IMDB"
+	  gsql < imdb/scripts/createIMDBSchema.gsql
+	;;
+	8)
+	echo ''
 	echo "Install Cust360 - TBD"
+	;;
+	8)
+	echo ''
+	echo "Install Recommendations"
+		gsql < recommendations/scripts/createRecommendationsSchema.gsql
 	;;
 	a)
 	echo ''
 	echo 'Lets load all of the schemas'
-	gsql < entityResMDM/createMDMSchema.gsql
-	gsql < ldbc/createLDBCSchema.gsql
-	gsql < synthea/scripts/createSyntheaSchema.gsql
-	gsql < airline/scripts/createAirlineSchema.gsql
+	  gsql < entityResMDM/createMDMSchema.gsql
+	  gsql < ldbc/createLDBCSchema.gsql
+	  gsql < synthea/scripts/createSyntheaSchema.gsql
+	  gsql < airline/scripts/createAirlineSchema.gsql
+	  gsql < fraud/scripts/createFraudSchema.gsql
+	  gsql < imdb/scripts/createIMDBSchema.gsql
+		gsql < recommendations/scripts/createRecommendationsSchema.gsql
+	echo ''
+	;;
+	mysql)
+	echo ''
+	echo 'Lets stage all of the schemas to mysql'
+	echo ''
+	./runMySQLSetup.sh
 	echo ''
 esac
 

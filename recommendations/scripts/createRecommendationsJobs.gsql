@@ -4,34 +4,21 @@ DROP JOB ALL
 
 BEGIN
 CREATE LOADING JOB loadEntityResolutionData FOR GRAPH Entity_Resolution {
-   DEFINE FILENAME entities = "./data/entity.csv";
+   DEFINE FILENAME people = "./data/people.csv";
+   DEFINE FILENAME movie = "./data/movie.csv";
+   DEFINE FILENAME titleBasics = "./data/movie.csv";
+   DEFINE FILENAME tag = "./data/tag.sample.csv";
    DEFINE FILENAME video = "./data/video.csv";
-   DEFINE FILENAME video_play = "./data/video_play.csv";
-   DEFINE FILENAME video_genre = "./data/video_genre.csv";
-   DEFINE FILENAME video_keyword = "./data/video_keyword.csv";
+   DEFINE FILENAME videoGenre = "./data/video_genre.csv";
+   DEFINE FILENAME videoPlay = "./data/video_play.csv";
 
-   LOAD entities TO VERTEX Account VALUES ($0, $1, $6, $2, $4, $8);
-   LOAD entities TO VERTEX Address VALUES ($0, $10, $11, $12);
-   LOAD entities TO VERTEX LastName VALUES ($0, $2);
-   LOAD entities TO VERTEX Email VALUES ($0, $3);
-   LOAD entities TO VERTEX Phone VALUES ($0, $7);
-   LOAD entities TO VERTEX IP VALUES ($0, $5);
-   LOAD entities TO VERTEX Device VALUES ($0, $9);
+   LOAD people TO VERTEX Person VALUES ($0, $1, $2, $3, $4, $5);
+   LOAD movie TO VERTEX Movie VALUES ($0, $1, $2);
+   LOAD titleBasics TO VERTEX TitleBasics VALUES ($0, $1, $2, $3, $4, $5, $6, $7, $8);
+   LOAD tag TO VERTEX Tag VALUES ($0, $1, $2, $3);
    LOAD video TO VERTEX Video VALUES ($0, $1, $2, $3);
-   LOAD video_play TO VERTEX VideoPlayEvent VALUES ($0, $1, $2, $3, $4);
-   LOAD video_genre TO VERTEX Genre VALUES (gsql_uuid_v4($0), $0, $1);
-   LOAD video_keyword TO VERTEX Keyword VALUES (gsql_uuid_v4($0), $0, $1);
+   LOAD videoGenre TO VERTEX VideoGenre VALUES ($0, $1);
+   LOAD videoPlay TO VERTEX VideoPlay VALUES ($0, $1, $2, $3, $4);
 
-   LOAD entities TO EDGE Has_IP VALUES($0, $5);
-   LOAD entities TO EDGE Has_Email VALUES($0, $3);
-   LOAD entities TO EDGE Has_Last_Name VALUES($0, $2);
-   LOAD entities TO EDGE Has_Device VALUES($0, $9);
-   LOAD entities TO EDGE Same_Owner VALUES($0, $5);
-   LOAD entities TO EDGE Has_Play_Event VALUES($0, $5);
-   LOAD entities TO EDGE Play_Video VALUES($0, $5);
-   LOAD entities TO EDGE Has_Genre VALUES($0, $5);
-   LOAD entities TO EDGE Has_Keyword VALUES($0, $5);
-   LOAD entities TO EDGE Has_Phone VALUES($0, $5);
-   LOAD entities TO EDGE Has_Address VALUES($0, $10);
 }
 END

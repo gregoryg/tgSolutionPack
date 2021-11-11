@@ -15,7 +15,6 @@ SET @@GLOBAL.local_infile = 1;
 
 USE recommendations;
 
-
 ## Load from csv
 LOAD DATA LOCAL INFILE './recommendations/data/ratings.sample.csv' INTO TABLE ratings FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS (userId,movieId,rating,tmstamp);
 LOAD DATA LOCAL INFILE './recommendations/data/name.basics.sample.tsv' INTO TABLE nameBasics FIELDS TERMINATED BY '\t' LINES TERMINATED BY '\n' IGNORE 1 ROWS (nconst,primaryName,birthYear,deathYear,primaryProfession,knownForTitles);
