@@ -1,7 +1,5 @@
 USE GRAPH Entity_Resolution
 
-DROP JOB ALL
-
 BEGIN
 CREATE LOADING JOB loadLDBCData FOR GRAPH Entity_Resolution {
    DEFINE FILENAME comment = "./ldbc/data/comments_0_0.csv";

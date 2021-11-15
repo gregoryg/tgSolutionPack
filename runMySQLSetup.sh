@@ -10,25 +10,45 @@
 echo 'This script will create and populate a local mysql db for use in'
 echo 'demonstrating the database schema import capbilities on Tigergraph'
 echo ''
-echo 'This script assume a local user can login to the mysql database.'
 echo ' Run this command to ensure the user can login by providing a pw'
 echo ''
 echo '   mysql -ubob -p'
 echo ''
-echo ' for user bob, and supplying thier password, login is successful.'
+echo ' for user bob, and supplying their password, login is successful.'
+echo ''
+echo " Running on ${OSTYPE}"
 echo ''
 
+./scripts/checkServerStatus.sh
+retVal=$?
+
+if [[ "$retVal" == 2 ]]; then
+	echo 'mysql doesnt appear to be installed or running, please address'
+	echo ''
+	exit 2
+fi
+
+echo ''
 read -p "Username: " userName
 echo ''
 read -s -p "Password: " pw
 echo ''
 
+echo "Install IMDB schema"
+echo ''
 mysql -u${userName} -p${pw} < ./imdb/scripts/createIMDBSchema.sql
-mysql -uroot -p${pw} < ./synthea/scripts/createSyntheaSchema.sql
-mysql -uroot -p${pw} < ./ldbc/scripts/createLDBCSchema.sql
-mysql -uroot -p${pw} < ./airline/scripts/createAirlineSchema.sql
-mysql -uroot -p${pw} < ./recommendations/scripts/createRecommendationsSchema.sql
-
+echo "Install Synthea schema"
+echo ''
+mysql -u${userName} -p${pw} < ./synthea/scripts/createSyntheaSchema.sql
+echo "Install LDBC schema"
+echo ''
+mysql -u${userName} -p${pw} < ./ldbc/scripts/createLDBCSchema.sql
+echo "Install Airline schema"
+echo ''
+mysql -u${userName} -p${pw} < ./airline/scripts/createAirlineSchema.sql
+echo "Install Recommendations schema"
+echo ''
+mysql -u${userName} -p${pw} < ./recommendations/scripts/createRecommendationsSchema.sql
 echo ''
 read -p "Do you also want to load data for each database? (Y/y or N/n): " loadData
 

@@ -11,7 +11,8 @@
 ##      mysql --local-infile=1
 ##
 
-CREATE DATABASE IF NOT EXISTS ldbc;
+DROP DATABASE IF EXISTS ldbc;
+CREATE DATABASE ldbc;
 USE ldbc;
 
 ## allow cascading deletes
