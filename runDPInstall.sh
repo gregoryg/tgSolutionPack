@@ -81,7 +81,8 @@ case $choice in
 	;;
 	8)
 	echo ''
-	echo "Install Cust360 - TBD"
+	echo "Install Cust360"
+	  ./cust360/installCust360.sh
 	;;
 	8)
 	echo ''

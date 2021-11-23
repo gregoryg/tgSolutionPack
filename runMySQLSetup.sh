@@ -19,20 +19,20 @@ echo ''
 echo " Running on ${OSTYPE}"
 echo ''
 
-./scripts/checkServerStatus.sh
-retVal=$?
+echo 'Enter a user/pw to be used for local access'
+echo ''
+read -p "Username: " userName
+echo ''
+read -s -p "Password: " pw
+echo ''
+##./scripts/checkServerStatus.sh ${userName} ${pw}
+retVal=1
 
 if [[ "$retVal" == 2 ]]; then
 	echo 'mysql doesnt appear to be installed or running, please address'
 	echo ''
 	exit 2
 fi
-
-echo ''
-read -p "Username: " userName
-echo ''
-read -s -p "Password: " pw
-echo ''
 
 echo "Install IMDB schema"
 echo ''
@@ -50,17 +50,32 @@ echo "Install Recommendations schema"
 echo ''
 mysql -u${userName} -p${pw} < ./recommendations/scripts/createRecommendationsSchema.sql
 echo ''
+echo "Install TPC-DS schema"
+echo ''
+mysql -u${userName} -p${pw} < ./tpc-ds/scripts/createTPCDSSchema.sql
+echo ''
+echo "Install TPC-H schema"
+echo ''
+mysql -u${userName} -p${pw} < ./tpc-h/scripts/createTPCHSchema.sql
+echo ''
+echo "Install AdWorks schema"
+echo ''
+mysql -u${userName} -p${pw} < ./adWorks/scripts/create_adWorks_schema.sql
+echo ''
+echo ''
 read -p "Do you also want to load data for each database? (Y/y or N/n): " loadData
 
 if [[ "$loadData" == "Y" || "$loadData" == "y" ]]; then
 	echo ''
     echo "lets do it"
 
-	mysql --local-infile=1 -uroot -p${pw} < ./imdb/scripts/loadIMDBDataSamples.sql
-	mysql --local-infile=1 -uroot -p${pw} < ./synthea/scripts/loadSyntheaData.sql
-	mysql --local-infile=1 -uroot -p${pw} < ./ldbc/scripts/loadLDBCDataSample.sql
-	mysql --local-infile=1 -uroot -p${pw} < ./airline/scripts/loadAirlineData.sql
-	mysql --local-infile=1 -uroot -p${pw} < ./recommendations/scripts/loadRecommendationsData.sql
+	mysql --local-infile=1 -u${userName} -p${pw} < ./imdb/scripts/loadIMDBDataSamples.sql
+	mysql --local-infile=1 -u${userName} -p${pw} < ./synthea/scripts/loadSyntheaData.sql
+	mysql --local-infile=1 -u${userName} -p${pw} < ./ldbc/scripts/loadLDBCDataSample.sql
+	mysql --local-infile=1 -u${userName} -p${pw} < ./airline/scripts/loadAirlineData.sql
+	mysql --local-infile=1 -u${userName} -p${pw} < ./recommendations/scripts/loadRecommendationsData.sql
+	mysql --local-infile=1 -u${userName} -p${pw} < ./tpc-ds/scripts/createTPCDSSchema.sql
+	mysql --local-infile=1 -u${userName} -p${pw} < ./tpc-h/scripts/createTPCHSchema.sql
 
 else
 	echo ''
