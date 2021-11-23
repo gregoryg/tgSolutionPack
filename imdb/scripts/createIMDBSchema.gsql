@@ -1,0 +1,13 @@
+USE GLOBAL
+
+CREATE VERTEX title_basics(PRIMARY_ID titleId STRING, titleType STRING, primaryTitle STRING, originalTitle STRING, isAdult STRING, startYear INT, endYear INT, runtimeMinutes INT) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="true"
+CREATE VERTEX name_basics(PRIMARY_ID nameId STRING, primaryName STRING, birthYear INT, deathYear INT, primaryProfession STRING, knownForTitles STRING) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="true"
+CREATE VERTEX title_ratings(PRIMARY_ID titleId STRING, averageRating FLOAT, numVotes INT) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="true"
+CREATE VERTEX title_principals(PRIMARY_ID principalId STRING, ordering INT, nameId STRING, category STRING, jobName STRING, characters STRING) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="true"
+
+CREATE UNDIRECTED EDGE has_rating(FROM title_basics, TO title_ratings)
+CREATE UNDIRECTED EDGE isPrincipalIn(FROM name_basics, TO title_principals)
+CREATE UNDIRECTED EDGE hasRating(FROM title_ratings, TO title_principals)
+
+
+CREATE GRAPH IMDB(title_basics, name_basics, title_ratings, title_principals, has_rating, isPrincipalIn, hasRating)
