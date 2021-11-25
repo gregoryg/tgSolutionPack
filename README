@@ -4,12 +4,13 @@ tgSolutionPack - this package contains scripts and data to be used to populate a
    tigergraph instance with on of the popular starter kit demos. Currently the kit
 includes these use cases:
 
+    - Airline data
     - Entity Resolution (MDM)
     - Fraud Detection - TBD
     - LDBC benchmark Data
     - TPC-DS Benchmark - TBD
     - Synthea Health Care data
-    - Flight Delays - publis transportation dataset - TBD
+    - Flight Delays - public transportation dataset - TBD
     - Customer 360 - TBD
 
 The package can be installed on any instance containing a tigergraph application.
