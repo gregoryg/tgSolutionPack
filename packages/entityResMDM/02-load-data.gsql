@@ -1,27 +1,28 @@
 USE GRAPH Entity_Resolution
 
-DROP JOB ALL
-
 BEGIN
 CREATE LOADING JOB loadEntityResolutionData FOR GRAPH Entity_Resolution {
-   DEFINE FILENAME entities = "./entityResMDM/data/entity.csv";
+   DEFINE FILENAME entities = "m1:/home/tigergraph/mydata/entityResMDM/data/entity.csv";
 
-   LOAD entities TO VERTEX Account VALUES ($0, $1, $2, $4);
-   LOAD entities TO VERTEX Address VALUES ($0, $8, $9, $10);
-   LOAD entities TO VERTEX LastName VALUES ($0, $2);
-   LOAD entities TO VERTEX Email VALUES ($0, $3);
-   LOAD entities TO VERTEX IP VALUES ($0, $5);
-   LOAD entities TO VERTEX Device VALUES ($0, $6);
-   LOAD entities TO VERTEX DOB VALUES ($0, $7);
-   LOAD entities TO VERTEX Phone VALUES ($0, $11);
-   LOAD entities TO VERTEX Username VALUES ($0, $12);  
+   LOAD entities TO VERTEX Account VALUES ($"id", $"first_name", $"last_name", $"gender");
+   LOAD entities TO VERTEX Address VALUES ($"id", $"streetAddress", $"city", $"state");
+   LOAD entities TO VERTEX LastName VALUES ($"id", $"last_name");
+   LOAD entities TO VERTEX Email VALUES ($"id", $"email");
+   LOAD entities TO VERTEX IP VALUES ($"id", $"ip_address");
+   LOAD entities TO VERTEX Device VALUES ($"id", $"device");
+   LOAD entities TO VERTEX DOB VALUES ($"id", $"dob");
+   LOAD entities TO VERTEX Phone VALUES ($"id", $"phone");
+   LOAD entities TO VERTEX Username VALUES ($"id", $"username");
 
-   LOAD entities TO EDGE Has_Address VALUES($0, $8);
-   LOAD entities TO EDGE Has_IP VALUES($0, $5);
-   LOAD entities TO EDGE Has_Email VALUES($0, $3);
-   LOAD entities TO EDGE Has_Last_Name VALUES($0, $2);
-   LOAD entities TO EDGE Has_Device VALUES($0, $9);
-   LOAD entities TO EDGE Has_Phone VALUES($0, $5);
-   LOAD entities TO EDGE Has_Address VALUES($0, $10);
+   LOAD entities TO EDGE Has_Address VALUES($"id", $"streetAddress");
+   LOAD entities TO EDGE Has_IP VALUES($"id", $"ip_address");
+   LOAD entities TO EDGE Has_Email VALUES($"id", $"email");
+   LOAD entities TO EDGE Has_Last_Name VALUES($"id", $"last_name");
+   LOAD entities TO EDGE Has_Device VALUES($"id", $"city");
+   LOAD entities TO EDGE Has_Phone VALUES($"id", $"ip_address");
+   LOAD entities TO EDGE Has_Address VALUES($"id", $"state");
 }
 END
+
+RUN LOADING JOB loadEntityResolutionData
+DROP JOB loadEntityResolutionData
