@@ -27,10 +27,9 @@ echo "2 - Fraud Detection"
 echo "3 - LDBC Benchmark"
 echo "4 - TPC-DS Benchmark"
 echo "5 - Synthea HealthCare"
-echo "6 - Flight Delays"
-echo '7 - IMDB'
-echo "8 - Customer360"
-echo '9 - Recommendations'
+echo '6 - IMDB'
+echo "7 - Customer360"
+echo '8 - Recommendations'
 echo "A/a - install all of the packs"
 echo "mysql - Stage all of the source data to a local mysql db"
 echo ''
@@ -71,15 +70,10 @@ case $choice in
 	    ;;
 	6)
 	    echo ''
-	    echo "Install Flight Delays - TBD"
-	    gsql < packages/airline/scripts/createAirlineSchema.gsql
-	    ;;
-	7)
-	    echo ''
 	    echo "Install IMDB"
 	    gsql < packages/imdb/scripts/createIMDBSchema.gsql
 	    ;;
-	8)
+	7)
 	    echo ''
 	    echo "Install Cust360"
 	    ./cust360/installCust360.sh
@@ -93,10 +87,9 @@ case $choice in
 	    echo ''
 	    echo 'Lets load all of the schemas'
 	    gsql < packages/entityResMDM/createMDMSchema.gsql
+	    gsql < packages/fraud/scripts/createFraudSchema.gsql
 	    gsql < packages/ldbc/createLDBCSchema.gsql
 	    gsql < packages/synthea/scripts/createSyntheaSchema.gsql
-	    gsql < packages/airline/scripts/createAirlineSchema.gsql
-	    gsql < packages/fraud/scripts/createFraudSchema.gsql
 	    gsql < packages/imdb/scripts/createIMDBSchema.gsql
 	    gsql < packages/recommendations/scripts/createRecommendationsSchema.gsql
 	    echo ''
