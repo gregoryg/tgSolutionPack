@@ -1,5 +1,4 @@
 USE GRAPH Customer360
-DROP JOB customer360_load_orders
 
 CREATE LOADING JOB customer360_load_orders FOR GRAPH Customer360 {
 
@@ -43,7 +42,7 @@ CREATE LOADING JOB customer360_load_orders FOR GRAPH Customer360 {
   LOAD f_orders TO VERTEX Orders   VALUES ($"order_nbr", $"order_type", $"order_timestamp") USING header="true", separator=",", USER_DEFINED_HEADER="hdr_orders";
 
   LOAD f_store  TO EDGE store_location VALUES ($"store_id", $"zipcode") USING header="true", separator=",", USER_DEFINED_HEADER="hdr_store";
- 
+
   LOAD f_orders TO EDGE profile_purchase VALUES ($"user_id", $"order_nbr") USING header="true", separator=",", USER_DEFINED_HEADER="hdr_orders";
   LOAD f_orders TO EDGE order_store VALUES ($"order_nbr", $"store_id") USING header="true", separator=",", USER_DEFINED_HEADER="hdr_orders";
   LOAD f_orders TO EDGE order_items VALUES ($"order_nbr", $"item_id", $"order_timestamp", $"item_qty", $"item_cost", $"item_price", _, _, $"item_profit") USING header="true", separator=",", USER_DEFINED_HEADER="hdr_orders";
@@ -51,4 +50,4 @@ CREATE LOADING JOB customer360_load_orders FOR GRAPH Customer360 {
 }
 
 RUN LOADING JOB customer360_load_orders
-
+DROP JOB customer360_load_orders

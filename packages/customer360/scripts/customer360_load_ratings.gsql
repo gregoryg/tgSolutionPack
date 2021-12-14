@@ -1,15 +1,14 @@
 USE GRAPH Customer360
-DROP JOB customer360_load_ratings
 
 CREATE LOADING JOB customer360_load_ratings FOR GRAPH Customer360 {
 
   ###################################################################
   # define customer group
   ###################################################################
-  DEFINE FILENAME f_movieratings  = "../data/customer360/data/ce_movie_ratings.csv";
-  DEFINE FILENAME f_bookratings   = "../data/customer360/data/ce_book_ratings.csv";
-  DEFINE FILENAME f_movies        = "../data/customer360/data/ce_movies.csv";
-  DEFINE FILENAME f_books         = "../data/customer360/data/ce_books.csv";
+  DEFINE FILENAME f_movieratings  = "m1:/home/tigergraph/mydata/customer360/data/customer360/data/ce_movie_ratings.csv";
+  DEFINE FILENAME f_bookratings   = "m1:/home/tigergraph/mydata/customer360/data/customer360/data/ce_book_ratings.csv";
+  DEFINE FILENAME f_movies        = "m1:/home/tigergraph/mydata/customer360/data/customer360/data/ce_movies.csv";
+  DEFINE FILENAME f_books         = "m1:/home/tigergraph/mydata/customer360/data/customer360/data/ce_books.csv";
 
 
   DEFINE HEADER hdr_movieratings  = "user_id","movie_id","movie_date","movie_rating";
@@ -36,4 +35,4 @@ CREATE LOADING JOB customer360_load_ratings FOR GRAPH Customer360 {
 }
 
 RUN LOADING JOB customer360_load_ratings
-
+DROP JOB customer360_load_ratings

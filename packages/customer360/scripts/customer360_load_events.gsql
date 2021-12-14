@@ -1,18 +1,17 @@
 USE GRAPH Customer360
-DROP JOB customer360_load_events
 
 CREATE LOADING JOB customer360_load_events FOR GRAPH Customer360 {
 
   ###################################################################
   # define customer group
   ###################################################################
-  DEFINE FILENAME f_urls        = "../data/customer360/data/ce_urls.csv";
-  DEFINE FILENAME f_useragent   = "../data/customer360/data/ce_useragent.csv";
-  DEFINE FILENAME f_browser     = "../data/customer360/data/ce_browser.csv";
-  DEFINE FILENAME f_events      = "../data/customer360/data/ce_events.csv";
-  DEFINE FILENAME f_sessions    = "../data/customer360/data/ce_sessions.csv";
-  DEFINE FILENAME f_ipaddr      = "../data/customer360/data/ce_ipaddr.csv";
-  DEFINE FILENAME f_device      = "../data/customer360/data/ce_devices.csv";
+  DEFINE FILENAME f_urls        = "m1:/home/tigergraph/mydata/customer360/data/customer360/data/ce_urls.csv";
+  DEFINE FILENAME f_useragent   = "m1:/home/tigergraph/mydata/customer360/data/customer360/data/ce_useragent.csv";
+  DEFINE FILENAME f_browser     = "m1:/home/tigergraph/mydata/customer360/data/customer360/data/ce_browser.csv";
+  DEFINE FILENAME f_events      = "m1:/home/tigergraph/mydata/customer360/data/customer360/data/ce_events.csv";
+  DEFINE FILENAME f_sessions    = "m1:/home/tigergraph/mydata/customer360/data/customer360/data/ce_sessions.csv";
+  DEFINE FILENAME f_ipaddr      = "m1:/home/tigergraph/mydata/customer360/data/customer360/data/ce_ipaddr.csv";
+  DEFINE FILENAME f_device      = "m1:/home/tigergraph/mydata/customer360/data/customer360/data/ce_devices.csv";
 
 
   DEFINE HEADER hdr_urls      = "page_id", "page_location", "page_menu", "page_item", "item_id", "page_weight", "page_url", "next_page_id";
@@ -47,4 +46,4 @@ CREATE LOADING JOB customer360_load_events FOR GRAPH Customer360 {
 }
 
 RUN LOADING JOB customer360_load_events
-
+DROP JOB customer360_load_events
