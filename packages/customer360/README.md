@@ -9,3 +9,4 @@ Add Steve Fuller's recommendation and Louvain queries from `gregoryg/homelab` re
 ## Query installation is failing
 Query is `bestCustomers` - it will run in interpreted mode, but does not compile (noted 2021-12-20)
 ## Add a demo script
+## Add better S3 or other public location for data files
