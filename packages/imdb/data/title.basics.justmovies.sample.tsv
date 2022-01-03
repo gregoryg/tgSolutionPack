@@ -1,0 +1,500 @@
+tconst	titleType	primaryTitle	originalTitle	isAdult	startYear	endYear	runtimeMinutes	genres
+tt0000502	movie	Bohemios	Bohemios	0	1905	\N	100	\N
+tt0000574	movie	The Story of the Kelly Gang	The Story of the Kelly Gang	0	1906	\N	70	Action,Adventure,Biography
+tt0000591	movie	The Prodigal Son	L'enfant prodigue	0	1907	\N	90	Drama
+tt0000615	movie	Robbery Under Arms	Robbery Under Arms	0	1907	\N	\N	Drama
+tt0000630	movie	Hamlet	Amleto	0	1908	\N	\N	Drama
+tt0000675	movie	Don Quijote	Don Quijote	0	1908	\N	\N	Drama
+tt0000679	movie	The Fairylogue and Radio-Plays	The Fairylogue and Radio-Plays	0	1908	\N	120	Adventure,Fantasy
+tt0000739	movie	El pastorcito de Torrente	El pastorcito de Torrente	0	1908	\N	\N	Drama
+tt0000793	movie	Andreas Hofer	Andreas Hofer	0	1909	\N	\N	Drama
+tt0000814	movie	La bocana de Mar Chica	La bocana de Mar Chica	0	1909	\N	\N	\N
+tt0000838	movie	A Cultura do Cacau	A Cultura do Cacau	0	1909	\N	\N	\N
+tt0000842	movie	De Garraf a Barcelona	De Garraf a Barcelona	0	1909	\N	\N	\N
+tt0000846	movie	Un día en Xochimilco	Un día en Xochimilco	0	1909	\N	\N	\N
+tt0000850	movie	Los dos hermanos	Los dos hermanos	0	1909	\N	\N	\N
+tt0000859	movie	Fabricación del corcho en Sant Feliu de Guixols	Fabricación del corcho en Sant Feliu de Guixols	0	1909	\N	\N	\N
+tt0000862	movie	Faldgruben	Faldgruben	0	1909	\N	\N	\N
+tt0000867	movie	Fiesta de toros	Fiesta de toros	0	1909	\N	\N	\N
+tt0000868	movie	Fiestas de Santa Lucía - Belenes	Fiestas de Santa Lucía - Belenes	0	1909	\N	\N	\N
+tt0000869	movie	Fiestas en La Garriga	Fiestas en La Garriga	0	1909	\N	\N	\N
+tt0000879	movie	Gira política de Madero y Pino Suárez	Gira política de Madero y Pino Suárez	0	1909	\N	\N	\N
+tt0000886	movie	Hamlet, Prince of Denmark	Hamlet	0	1910	\N	\N	Drama
+tt0000941	movie	Locura de amor	Locura de amor	0	1909	\N	\N	Drama
+tt0000947	movie	Lægens offer	Lægens offer	0	1909	\N	\N	\N
+tt0000959	movie	Melilla y el Gurugu	Melilla y el Gurugu	0	1909	\N	\N	\N
+tt0000984	movie	Niños en la alameda	Niños en la alameda	0	1909	\N	\N	\N
+tt0000992	movie	De onde Veje	De onde Veje	0	1909	\N	\N	\N
+tt0001007	movie	La primera y segunda casetas	La primera y segunda casetas	0	1909	\N	\N	\N
+tt0001010	movie	Protección de un convoy de víveres en el puente de camellos	Protección de un convoy de víveres en el puente de camellos	0	1909	\N	\N	\N
+tt0001028	movie	Salome Mad	Salome Mad	0	1909	\N	\N	Comedy
+tt0001038	movie	Sherlock Holmes VI	Sherlock Holmes VI	0	1910	\N	\N	\N
+tt0001043	movie	Smith's Knockabout Theatre	Smith's Knockabout Theatre	0	1909	\N	\N	\N
+tt0001049	movie	Gøngehøvdingen	Gøngehøvdingen	0	1909	\N	\N	Drama,War
+tt0001051	movie	El sueño milagroso	El sueño milagroso	0	1909	\N	\N	\N
+tt0001059	movie	O Terremoto de Benavente	O Terremoto de Benavente	0	1909	\N	\N	Documentary
+tt0001069	movie	Toma del Gurugu	Toma del Gurugu	0	1909	\N	\N	\N
+tt0001080	movie	Two of the Boys	Two of the Boys	0	1909	\N	\N	\N
+tt0001081	movie	La vida en el campamento	La vida en el campamento	0	1909	\N	\N	\N
+tt0001082	movie	Viernes de dolores	Viernes de dolores	0	1909	\N	\N	\N
+tt0001101	movie	Abraham Lincoln's Clemency	Abraham Lincoln's Clemency	0	1910	\N	\N	\N
+tt0001109	movie	L'aluminite	L'aluminite	0	1910	\N	\N	\N
+tt0001112	movie	Amleto	Amleto	0	1910	\N	\N	Drama
+tt0001113	movie	Amor gitano	Amor gitano	0	1910	\N	\N	\N
+tt0001115	movie	Ansigttyven I	Ansigttyven I	0	1910	\N	\N	Crime
+tt0001116	movie	Ansigttyven II	Ansigttyven II	0	1910	\N	\N	\N
+tt0001122	movie	The Red Inn	L'auberge rouge	0	1910	\N	\N	\N
+tt0001141	movie	The Butterfly	The Butterfly	0	1910	\N	\N	\N
+tt0001142	movie	By Order of Napoleon	By Order of Napoleon	0	1910	\N	\N	\N
+tt0001147	movie	O Centenário da Guerra Peninsular	O Centenário da Guerra Peninsular	0	1910	\N	\N	Documentary
+tt0001159	movie	The Connecticut Yankee	The Connecticut Yankee	0	1910	\N	\N	\N
+tt0001163	movie	Corrida da Rampa	Corrida da Rampa	0	1910	\N	\N	Documentary
+tt0001175	movie	Camille	La dame aux camélias	0	1912	\N	\N	Drama,Romance
+tt0001179	movie	Desfile histórico del centenario	Desfile histórico del centenario	0	1910	\N	\N	\N
+tt0001184	movie	Don Juan de Serrallonga	Don Juan de Serrallonga	0	1910	\N	58	Adventure,Drama
+tt0001186	movie	Dorothy and the Scarecrow in Oz	Dorothy and the Scarecrow in Oz	0	1910	\N	\N	\N
+tt0001203	movie	Excursión al Gombreny	Excursión al Gombreny	0	1910	\N	\N	\N
+tt0001230	movie	Gentleman Joe	Gentleman Joe	0	1910	\N	\N	\N
+tt0001240	movie	Hamlet	Hamlet	0	1911	\N	\N	Drama
+tt0001247	movie	His Brother's Wife	His Brother's Wife	0	1910	\N	\N	\N
+tt0001258	movie	The White Slave Trade	Den hvide slavehandel	0	1910	\N	45	Drama
+tt0001277	movie	Kapergasten	Kapergasten	0	1910	\N	\N	Drama
+tt0001285	movie	The Life of Moses	The Life of Moses	0	1909	\N	50	Biography,Drama,Family
+tt0001338	movie	A Night in May	Maiskaya noch, ili utoplennitsa	0	1910	\N	\N	Drama
+tt0001341	movie	Jarní sen starého mládence	Jarní sen starého mládence	0	1913	\N	\N	Comedy
+tt0001348	movie	Orientalsk dans	Orientalsk dans	0	1910	\N	\N	\N
+tt0001353	movie	Paganini	Paganini	0	1911	\N	\N	\N
+tt0001358	movie	Peder Tordenskjold	Peder Tordenskjold	0	1910	\N	\N	\N
+tt0001359	movie	A Pesca do Bacalhau	A Pesca do Bacalhau	0	1910	\N	\N	Documentary
+tt0001364	movie	El pobre Valbuena	El pobre Valbuena	0	1910	\N	\N	\N
+tt0001366	movie	Un portero modelo	Un portero modelo	0	1910	\N	\N	\N
+tt0001370	movie	Rainha Depois de Morta Inês de Castro	Rainha Depois de Morta Inês de Castro	0	1910	\N	\N	Drama,History
+tt0001379	movie	A Record Hustle Through Foggy London	A Record Hustle Through Foggy London	0	1910	\N	\N	\N
+tt0001382	movie	Revolução de 5 de Outubro	Revolução de 5 de Outubro	0	1910	\N	\N	Documentary
+tt0001386	movie	Le roi des parfums	Le roi des parfums	0	1910	\N	\N	\N
+tt0001422	movie	Trail to the West	Trail to the West	0	1910	\N	\N	\N
+tt0001440	movie	Valdemar Sejr	Valdemar Sejr	0	1910	\N	\N	Drama,History
+tt0001465	movie	As Últimas Inundações do Tejo em Santarém	As Últimas Inundações do Tejo em Santarém	0	1910	\N	\N	\N
+tt0001475	movie	Amor fatal	Amor fatal	0	1911	\N	\N	Drama,Romance
+tt0001495	movie	A Balkan Episode	A Balkan Episode	0	1911	\N	\N	\N
+tt0001498	movie	The Battle of Trafalgar	The Battle of Trafalgar	0	1911	\N	51	War
+tt0001515	movie	The Brand	The Brand	0	1911	\N	\N	\N
+tt0001521	movie	En bryllupsaften	En bryllupsaften	0	1911	\N	\N	\N
+tt0001530	movie	The Bushranger's Bride	Captain Midnight, the Bush King	0	1911	\N	\N	Drama
+tt0001531	movie	Captain Starlight, or Gentleman of the Road	Captain Starlight, or Gentleman of the Road	0	1911	\N	\N	\N
+tt0001555	movie	Cortejo Cívico	Cortejo Cívico	0	1911	\N	\N	\N
+tt0001569	movie	The Daddy's Dream	The Daddy's Dream	0	1911	\N	\N	\N
+tt0001586	movie	A Dog's Tale	A Dog's Tale	0	1911	\N	\N	\N
+tt0001602	movie	El fantasma del castillo	El fantasma del castillo	0	1911	\N	\N	\N
+tt0001603	movie	Den farlige leg	Den farlige leg	0	1911	\N	\N	Drama
+tt0001604	movie	The Fatal Wedding	The Fatal Wedding	0	1911	\N	\N	Drama
+tt0001628	movie	The Four Poster Pest	The Four Poster Pest	0	1911	\N	\N	\N
+tt0001630	movie	Der fremde Vogel	Der fremde Vogel	0	1911	\N	45	\N
+tt0001648	movie	The Golden West	The Golden West	0	1911	\N	\N	\N
+tt0001706	movie	The Infant at Snakeville	The Infant at Snakeville	0	1911	\N	\N	\N
+tt0001711	movie	Jahreszeiten des Lebens	Jahreszeiten des Lebens	0	1915	\N	\N	\N
+tt0001712	movie	Jane Shore	Jane Shore	0	1911	\N	\N	\N
+tt0001716	movie	Julius Caesar's Sandals	Julius Caesar's Sandals	0	1911	\N	\N	\N
+tt0001731	movie	The Convict Hero	The Life of Rufus Dawes	0	1911	\N	\N	Drama
+tt0001756	movie	Lucha por la herencia	Lucha por la herencia	0	1911	\N	92	\N
+tt0001764	movie	Madero al sur del país	Madero al sur del país	0	1911	\N	\N	\N
+tt0001778	movie	Menneskedyret	Menneskedyret	0	1911	\N	\N	\N
+tt0001780	movie	Midsummer Tide	Midsummer Tide	0	1911	\N	\N	\N
+tt0001785	movie	The Miner's Curse	The Miner's Curse	0	1911	\N	\N	Drama
+tt0001790	movie	Les Misérables, Part 1: Jean Valjean	Les misérables - Époque 1: Jean Valjean	0	1913	\N	60	Drama
+tt0001803	movie	The Mystery of a Hansom Cab	The Mystery of a Hansom Cab	0	1911	\N	\N	\N
+tt0001812	movie	Oedipus Rex	Oedipus Rex	0	1911	\N	56	Drama
+tt0001826	movie	Par habitude	Par habitude	0	1911	\N	\N	Comedy
+tt0001889	movie	Skæbnebæltet	Skæbnebæltet	0	1911	\N	\N	\N
+tt0001892	movie	Den sorte drøm	Den sorte drøm	0	1911	\N	53	Drama
+tt0001895	movie	Sport Hípico	Sport Hípico	0	1911	\N	\N	Documentary
+tt0001911	movie	Nell Gwynne	Sweet Nell of Old Drury	0	1911	\N	50	Biography,Drama,History
+tt0001914	movie	The Devil's Assistant	Die Sünden der Väter	0	1913	\N	\N	Drama
+tt0001920	movie	Temblor de 1911 en México	Temblor de 1911 en México	0	1911	\N	\N	\N
+tt0001964	movie	The Traitress	Die Verräterin	0	1911	\N	48	Drama
+tt0001965	movie	Vicio y virtud	Vicio y virtud	0	1911	\N	\N	\N
+tt0001992	movie	Zwei Frauen	Zwei Frauen	0	1911	\N	\N	\N
+tt0001993	movie	L'électrocuté	L'électrocuté	0	1911	\N	\N	Sci-Fi
+tt0001998	movie	The Adventures of Lieutenant Petrosino	The Adventures of Lieutenant Petrosino	0	1912	\N	\N	Drama
+tt0002001	movie	The Alaska-Siberian Expedition	The Alaska-Siberian Expedition	0	1912	\N	\N	Documentary
+tt0002019	movie	Amor de bestia	Amor de bestia	0	1912	\N	\N	\N
+tt0002022	movie	Anfisa	Anfisa	0	1912	\N	\N	Drama
+tt0002026	movie	Anny - Story of a Prostitute	Anny - en gatepiges roman	0	1912	\N	68	Drama,Romance
+tt0002031	movie	As You Like It	As You Like It	0	1912	\N	\N	\N
+tt0002039	movie	Atop of the World in Motion	Atop of the World in Motion	0	1912	\N	\N	Documentary
+tt0002044	movie	Le bagnard	Le bagnard	0	1912	\N	\N	\N
+tt0002046	movie	La Barrera número 13	La Barrera número 13	0	1913	\N	\N	\N
+tt0002047	movie	A Batalha	A Batalha	0	1912	\N	\N	Documentary
+tt0002060	movie	Bernáték kikocsiznak	Bernáték kikocsiznak	0	1912	\N	\N	\N
+tt0002088	movie	Carlota Angela	Carlota Angela	0	1912	\N	\N	\N
+tt0002089	movie	Carmen	Carmen	0	1912	\N	\N	\N
+tt0002094	movie	Charles IV	Charles IV	0	1912	\N	50	\N
+tt0002101	movie	Cleopatra	Cleopatra	0	1912	\N	100	Drama,History
+tt0002102	movie	The Clod	The Clod	0	1912	\N	\N	\N
+tt0002109	movie	The Colonel's Son	The Colonel's Son	0	1912	\N	\N	\N
+tt0002112	movie	Concurso Hípico no Porto	Concurso Hípico no Porto	0	1912	\N	\N	Documentary
+tt0002115	movie	La conspiration des drapeaux	La conspiration des drapeaux	0	1912	\N	\N	\N
+tt0002119	movie	The Crime and the Criminal	The Crime and the Criminal	0	1912	\N	\N	\N
+tt0002130	movie	Dante's Inferno	L'Inferno	0	1911	\N	71	Adventure,Drama,Fantasy
+tt0002131	movie	A Dança dos Apaches	A Dança dos Apaches	0	1912	\N	\N	\N
+tt0002140	movie	Do Men Love Women?	Do Men Love Women?	0	1912	\N	\N	\N
+tt0002152	movie	Dødskysset	Dødskysset	0	1915	\N	\N	Drama
+tt0002153	movie	The Great Circus Catastrophe	Dødsspring til hest fra cirkuskuplen	0	1912	\N	45	Drama
+tt0002156	movie	Eclipse de sol	Eclipse de sol	0	1912	\N	\N	\N
+tt0002157	movie	Der Eid des Stephan Huller	Der Eid des Stephan Huller	0	1912	\N	\N	\N
+tt0002161	movie	Episódios da Terrível Explosão de Bombas no Porto	Episódios da Terrível Explosão de Bombas no Porto	0	1912	\N	\N	Documentary
+tt0002163	movie	Eva	Eva	0	1913	\N	\N	Drama
+tt0002165	movie	Excursión a San Lorenzo de Munt	Excursión a San Lorenzo de Munt	0	1912	\N	\N	\N
+tt0002186	movie	The Flying Circus	Den flyvende cirkus	0	1912	\N	46	Drama
+tt0002188	movie	For Freedom of Cuba	For Freedom of Cuba	0	1912	\N	\N	\N
+tt0002199	movie	From the Manger to the Cross; or, Jesus of Nazareth	From the Manger to the Cross; or, Jesus of Nazareth	0	1912	\N	60	Biography,Drama
+tt0002211	movie	Den glade løjtnant	Den glade løjtnant	0	1912	\N	\N	Romance
+tt0002220	movie	Grannie	Grannie	0	1912	\N	\N	\N
+tt0002239	movie	Her Own Money	Her Own Money	0	1914	\N	\N	\N
+tt0002242	movie	Herod	Herod	0	1912	\N	\N	\N
+tt0002262	movie	Il y a des pieds au plafond	Il y a des pieds au plafond	0	1912	\N	\N	\N
+tt0002276	movie	De industrieel van Pont Avesnes	De industrieel van Pont Avesnes	0	1912	\N	\N	\N
+tt0002286	movie	Judith	Judith	0	1912	\N	\N	\N
+tt0002301	movie	Leiria	Leiria	0	1912	\N	\N	Documentary
+tt0002305	movie	Life of Villa	Life of Villa	0	1912	\N	\N	Documentary,War
+tt0002315	movie	El lobo de la sierra	El lobo de la sierra	0	1912	\N	76	\N
+tt0002328	movie	The Lust for Gold	The Lust for Gold	0	1912	\N	\N	\N
+tt0002329	movie	Today and Tomorrow	Ma és holnap	0	1912	\N	\N	\N
+tt0002333	movie	The Might of Gold	Die Macht des Goldes	0	1912	\N	\N	\N
+tt0002335	movie	Magda	Magda	0	1912	\N	\N	\N
+tt0002337	movie	The Mail Order Wife	The Mail Order Wife	0	1912	\N	\N	\N
+tt0002345	movie	Marocco en het Vreemdelingenlegioen	Marocco en het Vreemdelingenlegioen	0	1912	\N	\N	\N
+tt0002348	movie	Maskierte Liebe	Maskierte Liebe	0	1912	\N	\N	\N
+tt0002361	movie	The Midnight Wedding	The Midnight Wedding	0	1912	\N	\N	Drama
+tt0002362	movie	The Mighty Dollar	The Mighty Dollar	0	1912	\N	\N	\N
+tt0002375	movie	La mort du duc d'Enghien	La mort du duc d'Enghien	0	1912	\N	\N	\N
+tt0002395	movie	Le nègre blanc	Le nègre blanc	0	1912	\N	\N	\N
+tt0002405	movie	Oliver Twist	Oliver Twist	0	1912	\N	\N	Drama
+tt0002406	movie	Oliver Twist	Oliver Twist	0	1912	\N	\N	Drama
+tt0002410	movie	Only a Woman	Only a Woman	0	1912	\N	\N	\N
+tt0002423	movie	Passion	Madame DuBarry	0	1919	\N	85	Biography,Drama,Romance
+tt0002425	movie	Paul J. Rainey's African Hunt	Paul J. Rainey's African Hunt	0	1912	\N	60	Documentary
+tt0002431	movie	La pierre philosophe	La pierre philosophe	0	1912	\N	\N	\N
+tt0002432	movie	Los Pirineos de Port-Bou a Andorra	Los Pirineos de Port-Bou a Andorra	0	1912	\N	58	\N
+tt0002438	movie	The Prodigal Daughter	The Prodigal Daughter	0	1912	\N	\N	\N
+tt0002439	movie	The Prodigal Son	The Prodigal Son	0	1913	\N	\N	\N
+tt0002444	movie	Quincy Adams Sawyer	Quincy Adams Sawyer	0	1912	\N	\N	Comedy
+tt0002445	movie	Quo Vadis?	Quo Vadis?	0	1913	\N	120	Drama,History
+tt0002446	movie	Race for a Life	Race for a Life	0	1912	\N	\N	\N
+tt0002452	movie	The Independence of Romania	Independenta Romaniei	0	1912	\N	120	History,War
+tt0002458	movie	Revolución orozquista	Revolución orozquista	0	1912	\N	\N	\N
+tt0002461	movie	The Life and Death of King Richard III	Richard III	0	1912	\N	55	Drama
+tt0002467	movie	Romani, the Brigand	Romani, the Brigand	0	1912	\N	\N	\N
+tt0002474	movie	Saty delaji cloveka	Saty delaji cloveka	0	1913	\N	\N	Comedy
+tt0002479	movie	Seal Hunting in Newfoundland	Seal Hunting in Newfoundland	0	1912	\N	\N	Documentary
+tt0002491	movie	The Sin of a Woman	The Sin of a Woman	0	1912	\N	\N	\N
+tt0002500	movie	The Black Chancellor	Den sorte kansler	0	1912	\N	48	Drama
+tt0002514	movie	Saved in Mid-Air	De svarta maskerna	0	1912	\N	60	Drama
+tt0002517	movie	Talma	Talma	0	1912	\N	\N	\N
+tt0002525	movie	The Tide of Death	The Tide of Death	0	1912	\N	\N	\N
+tt0002540	movie	Tropisk kærlighed	Tropisk kærlighed	0	1912	\N	\N	\N
+tt0002555	movie	The Last Bohemian	Az utolsó bohém	0	1913	\N	\N	Drama,Romance
+tt0002556	movie	Vampyrdanserinden	Vampyrdanserinden	0	1912	\N	\N	\N
+tt0002559	movie	Verkannt	Verkannt	0	1912	\N	\N	\N
+tt0002572	movie	Wenn die Maske fällt	Wenn die Maske fällt	0	1912	\N	\N	\N
+tt0002588	movie	Zigomar contre Nick Carter	Zigomar contre Nick Carter	0	1912	\N	48	Crime,Thriller
+tt0002589	movie	Zona de Incursões em Chaves	Zona de Incursões em Chaves	0	1912	\N	\N	\N
+tt0002590	movie	Zu Tode gehetzt	Zu Tode gehetzt	0	1912	\N	\N	\N
+tt0002591	movie	Zu spät	Zu spät	0	1913	\N	\N	\N
+tt0002594	movie	'Neath Austral Skies	'Neath Austral Skies	0	1913	\N	\N	\N
+tt0002595	movie	...denn alle Schuld rächt sich auf Erden	...denn alle Schuld rächt sich auf Erden	0	1913	\N	\N	\N
+tt0002605	movie	The Adventures of Kathlyn	The Adventures of Kathlyn	0	1913	\N	\N	Adventure
+tt0002624	movie	El amigo del alma	El amigo del alma	0	1913	\N	\N	\N
+tt0002625	movie	Ana Kadova	Ana Kadova	0	1913	\N	92	\N
+tt0002628	movie	Der Andere	Der Andere	0	1913	\N	48	Drama,Thriller
+tt0002637	movie	Arizona	Arizona	0	1913	\N	\N	Western
+tt0002642	movie	The Heir to Skjoldborg	Arvingen til Skjoldborg	0	1914	\N	\N	Drama
+tt0002646	movie	Atlantis	Atlantis	0	1913	\N	121	Drama
+tt0002648	movie	Old Brandis' Eyes	Die Augen des Ole Brandis	0	1913	\N	\N	Drama,Fantasy
+tt0002649	movie	Australia Calls	Australia Calls	0	1913	\N	\N	\N
+tt0002660	movie	Barbarous Mexico	Barbarous Mexico	0	1913	\N	\N	Documentary
+tt0002661	movie	Barcelona bajo la nieve	Barcelona bajo la nieve	0	1913	\N	\N	\N
+tt0002665	movie	The Bartered Bride	The Bartered Bride	0	1913	\N	\N	\N
+tt0002669	movie	The Battle of Gettysburg	The Battle of Gettysburg	0	1913	\N	48	Drama,War
+tt0002670	movie	The Battle of Shiloh	The Battle of Shiloh	0	1913	\N	\N	Drama,War
+tt0002676	movie	El bello Arturo	El bello Arturo	0	1913	\N	\N	Comedy
+tt0002679	movie	Bianco contro negro	Bianco contro negro	0	1913	\N	\N	\N
+tt0002685	movie	Blodets röst	Blodets röst	0	1913	\N	89	Drama
+tt0002722	movie	Buch i Trøjen	Buch i Trøjen	0	1913	\N	\N	\N
+tt0002725	movie	Buried Alive in a Coal Mine	Buried Alive in a Coal Mine	0	1913	\N	\N	Drama
+tt0002727	movie	Bøffen og bananen	Bøffen og bananen	0	1913	\N	\N	\N
+tt0002735	movie	Le camée	Le camée	0	1913	\N	\N	\N
+tt0002739	movie	Carmen	Carmen	0	1914	\N	\N	\N
+tt0002743	movie	El Caín moderno	El Caín moderno	0	1913	\N	48	\N
+tt0002746	movie	Checkers	Checkers	0	1913	\N	\N	Comedy,Drama
+tt0002751	movie	A Chopin Nocturne	Noktyurn Chopyena	0	1913	\N	\N	Drama
+tt0002763	movie	Corazón de presidiario	Corazón de presidiario	0	1913	\N	\N	\N
+tt0002764	movie	Corrida de feria de las fiestas del Pilar	Corrida de feria de las fiestas del Pilar	0	1913	\N	\N	\N
+tt0002765	movie	Corrida de toros en Calatayud	Corrida de toros en Calatayud	0	1913	\N	\N	\N
+tt0002767	movie	The Count of Monte Cristo	The Count of Monte Cristo	0	1913	\N	69	Drama,History
+tt0002771	movie	El crimen del otro	El crimen del otro	0	1913	\N	\N	\N
+tt0002772	movie	The Criminal Path	The Criminal Path	0	1914	\N	\N	Crime,Drama
+tt0002785	movie	La dame de Monsoreau	La dame de Monsoreau	0	1913	\N	\N	\N
+tt0002790	movie	De muerte a vida	De muerte a vida	0	1913	\N	\N	\N
+tt0002798	movie	Le dernier pardon	Le dernier pardon	0	1913	\N	\N	Comedy
+tt0002799	movie	Desastre do Monoplano Gnome na Amadora	Desastre do Monoplano Gnome na Amadora	0	1913	\N	\N	Documentary
+tt0002801	movie	The Black Diamond	Le diamant noir	0	1913	\N	50	\N
+tt0002820	movie	East Lynne	East Lynne	0	1913	\N	69	Drama
+tt0002822	movie	What 80 Million Women Want	What 80 Million Women Want	0	1913	\N	56	Drama
+tt0002823	movie	Die Eisbraut	Die Eisbraut	0	1913	\N	\N	\N
+tt0002832	movie	Evangeline	Evangeline	0	1914	\N	50	Drama
+tt0002833	movie	Evinrude	Evinrude	0	1914	\N	\N	Crime,Drama
+tt0002844	movie	Fantômas: In the Shadow of the Guillotine	Fantômas - À l'ombre de la guillotine	0	1913	\N	54	Crime,Drama
+tt0002857	movie	Uma Ferra em Salvaterra de Magos	Uma Ferra em Salvaterra de Magos	0	1913	\N	\N	Documentary
+tt0002858	movie	Fiestas en Palafrugell	Fiestas en Palafrugell	0	1913	\N	\N	\N
+tt0002859	movie	The Fight for Millions	The Fight for Millions	0	1913	\N	\N	Drama
+tt0002880	movie	The Four Devils	Chetyre chyorta	0	1913	\N	\N	\N
+tt0002883	movie	Les frères ennemis	Les frères ennemis	0	1913	\N	\N	\N
+tt0002885	movie	From Dusk to Dawn	From Dusk to Dawn	0	1913	\N	90	Drama
+tt0002886	movie	La fuerza del destino	La fuerza del destino	0	1913	\N	\N	\N
+tt0002888	movie	Fulano de Tal se enamora de Manón	Fulano de Tal se enamora de Manón	0	1916	\N	\N	Comedy
+tt0002898	movie	Germinal; or, The Toll of Labor	Germinal	0	1913	\N	150	Drama
+tt0002901	movie	The Girl of the Sunny South	The Girl of the Sunny South	0	1913	\N	\N	Drama
+tt0002916	movie	Die große Sünderin	Die große Sünderin	0	1914	\N	\N	\N
+tt0002917	movie	Brother Against Brother	Gränsfolken	0	1913	\N	51	Drama
+tt0002922	movie	Hamlet	Hamlet	0	1913	\N	64	Drama
+tt0002928	movie	Hasard	Hasard	0	1913	\N	\N	\N
+tt0002953	movie	Herrerín y Ballesteros, en Alagón	Herrerín y Ballesteros, en Alagón	0	1913	\N	\N	\N
+tt0002958	movie	El hijo del mar	El hijo del mar	0	1913	\N	\N	\N
+tt0002973	movie	Dr. Mawson in the Antarctic	Dr. Mawson in the Antarctic	0	1913	\N	68	Documentary
+tt0002975	movie	L'homme qui assassina	L'homme qui assassina	0	1913	\N	\N	\N
+tt0002977	movie	Za chest' russkogo znameni	Za chest' russkogo znameni	0	1913	\N	\N	Drama
+tt0002978	movie	Hoodman Blind	Hoodman Blind	0	1913	\N	\N	Drama
+tt0002987	movie	How Fine, How Fresh the Roses Were	Kak khoroshi, kak svezhi byli rozy	0	1913	\N	\N	Romance
+tt0002996	movie	My Husband's Getting Married	Házasodik az uram	0	1913	\N	\N	Comedy
+tt0003002	movie	The Firefly	Ildfluen	0	1913	\N	\N	Drama
+tt0003006	movie	In the Bishop's Carriage	In the Bishop's Carriage	0	1913	\N	50	Crime,Drama
+tt0003008	movie	In the Stretch	In the Stretch	0	1913	\N	\N	Drama
+tt0003010	movie	Incendio en el barrio de Montemolín, Zaragoza	Incendio en el barrio de Montemolín, Zaragoza	0	1913	\N	\N	\N
+tt0003014	movie	Ingeborg Holm	Ingeborg Holm	0	1913	\N	96	Drama
+tt0003015	movie	Die Insel der Seligen	Die Insel der Seligen	0	1913	\N	49	Comedy,Fantasy
+tt0003022	movie	Ivanhoe	Ivanhoe	0	1913	\N	53	Adventure,Drama,Romance
+tt0003024	movie	Jack London's Adventures in the South Sea Islands	Jack London's Adventures in the South Sea Islands	0	1913	\N	\N	Documentary
+tt0003037	movie	Fantomas: The Man in Black	Juve contre Fantômas	0	1913	\N	61	Crime,Drama
+tt0003039	movie	The Keys to Happiness	Klyuchi schastya	0	1913	\N	\N	Drama
+tt0003042	movie	Kleiner Svend und seine Mutter	Kleiner Svend und seine Mutter	0	1913	\N	\N	Drama
+tt0003048	movie	A Lady of Quality	A Lady of Quality	0	1913	\N	\N	Drama
+tt0003051	movie	Die Landstraße	Die Landstraße	0	1913	\N	\N	\N
+tt0003053	movie	Laura y sus pretendientes	Laura y sus pretendientes	0	1913	\N	\N	\N
+tt0003056	movie	Leah Kleschna	Leah Kleschna	0	1913	\N	\N	Crime,Drama
+tt0003058	movie	The Legend of Provence	The Legend of Provence	0	1913	\N	\N	Drama
+tt0003069	movie	Lille Klaus og store Klaus	Lille Klaus og store Klaus	0	1913	\N	\N	Comedy
+tt0003070	movie	The Lipton Cup: Introducing Sir Thomas Lipton	The Lipton Cup: Introducing Sir Thomas Lipton	0	1913	\N	\N	Drama,Sport
+tt0003076	movie	Livets konflikter	Livets konflikter	0	1913	\N	64	Drama
+tt0003084	movie	The Lotus Dancer	The Lotus Dancer	0	1913	\N	\N	Drama
+tt0003098	movie	The Lure of New York	The Lure of New York	0	1913	\N	\N	Drama
+tt0003100	movie	La luz que vuelve	La luz que vuelve	0	1913	\N	\N	\N
+tt0003102	movie	Love Everlasting	Ma l'amor mio non muore...	0	1914	\N	90	Drama
+tt0003108	movie	Macbeth	Macbeth	0	1913	\N	50	Crime,Drama
+tt0003113	movie	Mala raza	Mala raza	0	1913	\N	101	\N
+tt0003116	movie	The Man from the Golden West	The Man from the Golden West	0	1913	\N	\N	Western
+tt0003124	movie	Los marinos de papel	Los marinos de papel	0	1913	\N	\N	\N
+tt0003131	movie	War Is Hell	Maudite soit la guerre	0	1914	\N	50	Drama,War
+tt0003133	movie	De medeminaars	De medeminaars	0	1913	\N	\N	\N
+tt0003139	movie	Mexican War Pictures	Mexican War Pictures	0	1913	\N	\N	Documentary
+tt0003140	movie	Mexican War Pictures	Mexican War Pictures	0	1913	\N	\N	Documentary
+tt0003143	movie	Mijntje en Trijntje	Mijntje en Trijntje	0	1913	\N	\N	\N
+tt0003150	movie	Miraklet	Miraklet	0	1913	\N	100	Drama
+tt0003159	movie	Les Misérables, Part 2: Fantine	Les misérables - Époque 2: Fantine	0	1913	\N	300	Drama
+tt0003160	movie	El modelo de virtudes	El modelo de virtudes	0	1913	\N	\N	\N
+tt0003165	movie	Fantômas: The Dead Man Who Killed	Le mort qui tue	0	1913	\N	90	Crime,Drama,Mystery
+tt0003167	movie	Home, Sweet Home	Home, Sweet Home	0	1914	\N	55	Drama
+tt0003171	movie	Moths	Moths	0	1913	\N	\N	Drama
+tt0003218	movie	Novillada de beneficencia en Zaragoza	Novillada de beneficencia en Zaragoza	0	1913	\N	\N	\N
+tt0003227	movie	The Girl from Abroad; or, The Great Underworld	Den okända	0	1913	\N	54	Drama
+tt0003230	movie	The Old Armchair	The Old Armchair	0	1913	\N	\N	\N
+tt0003240	movie	On the Steps of the Throne	On the Steps of the Throne	0	1913	\N	\N	\N
+tt0003241	movie	One Hundred Years of Mormonism	One Hundred Years of Mormonism	0	1913	\N	90	Drama,History
+tt0003243	movie	The Orphan	The Orphan	0	1913	\N	\N	\N
+tt0003267	movie	The Pendleton, Oregon, Round-Up	The Pendleton, Oregon, Round-Up	0	1913	\N	\N	Documentary
+tt0003287	movie	Pommy Arrives in Australia	Pommy Arrives in Australia	0	1913	\N	\N	Comedy
+tt0003289	movie	The Port of Doom	The Port of Doom	0	1913	\N	\N	Drama
+tt0003294	movie	Primera comunión de las alumnas de las Escuelas Pías	Primera comunión de las alumnas de las Escuelas Pías	0	1913	\N	\N	\N
+tt0003298	movie	A Princess of Bagdad	A Princess of Bagdad	0	1913	\N	\N	Drama,Fantasy
+tt0003299	movie	A Prisoner in the Harem	A Prisoner in the Harem	0	1913	\N	\N	Drama
+tt0003301	movie	The Prisoner of Zenda	The Prisoner of Zenda	0	1913	\N	\N	Adventure
+tt0003305	movie	The Secret of the Well	Le puits mitoyen	0	1914	\N	\N	\N
+tt0003306	movie	På livets ödesvägar	På livets ödesvägar	0	1913	\N	57	Drama
+tt0003309	movie	Captive Souls	Rablélek	0	1914	\N	99	\N
+tt0003316	movie	The Rattlesnake	The Rattlesnake	0	1913	\N	56	Western
+tt0003324	movie	A Regiment of Two	A Regiment of Two	0	1913	\N	57	Comedy,Drama
+tt0003330	movie	The Life of Richard Wagner	Richard Wagner	0	1913	\N	110	Biography,Drama,History
+tt0003334	movie	The Road to Ruin	The Road to Ruin	0	1913	\N	\N	Drama
+tt0003335	movie	The Robbers	The Robbers	0	1913	\N	56	Drama
+tt0003337	movie	Robin Hood	Robin Hood	0	1913	\N	\N	Adventure
+tt0003351	movie	Sapho	Sapho	0	1913	\N	\N	Drama
+tt0003362	movie	The Sea Wolf	The Sea Wolf	0	1913	\N	70	Drama
+tt0003363	movie	The Seed of the Fathers	The Seed of the Fathers	0	1913	\N	\N	Drama,War
+tt0003365	movie	Shadows of the Moulin Rouge	Shadows of the Moulin Rouge	0	1913	\N	60	Drama
+tt0003366	movie	The Shame of the Empire State	The Shame of the Empire State	0	1913	\N	\N	Drama
+tt0003367	movie	The Shattered Vase	Razbitaya vaza	0	1913	\N	\N	Drama
+tt0003376	movie	Silvia Silombra	Silvia Silombra	0	1913	\N	\N	\N
+tt0003378	movie	A Sister to Carmen	A Sister to Carmen	0	1913	\N	\N	Drama
+tt0003379	movie	Sixty Years a Queen	Sixty Years a Queen	0	1913	\N	\N	Biography
+tt0003386	movie	Sodoms Ende	Sodoms Ende	0	1913	\N	\N	Drama
+tt0003387	movie	The Sparrow	Soeurette	0	1914	\N	\N	\N
+tt0003390	movie	Ein Sommernachtstraum in unserer Zeit	Ein Sommernachtstraum in unserer Zeit	0	1914	\N	\N	\N
+tt0003394	movie	Den sorte familie	Den sorte familie	0	1914	\N	\N	\N
+tt0003404	movie	The Star of India	The Star of India	0	1913	\N	\N	Drama
+tt0003406	movie	Statistinnen des Lebens	Statistinnen des Lebens	0	1913	\N	\N	\N
+tt0003414	movie	The Stranglers of Paris	The Stranglers of Paris	0	1913	\N	\N	Crime,Drama
+tt0003419	movie	The Student of Prague	Der Student von Prag	0	1913	\N	85	Drama,Fantasy,Horror
+tt0003423	movie	Die Sumpfblume	Die Sumpfblume	0	1913	\N	53	\N
+tt0003431	movie	Die Tangokönigin	Die Tangokönigin	0	1913	\N	60	\N
+tt0003438	movie	Ten Nights in a Barroom	Ten Nights in a Barroom	0	1913	\N	\N	Drama
+tt0003441	movie	The Terrible Vengeance	Strashnaya mest	0	1913	\N	\N	\N
+tt0003442	movie	Tess of the D'Urbervilles	Tess of the D'Urbervilles	0	1913	\N	\N	Drama,Romance
+tt0003449	movie	The Third Degree	The Third Degree	0	1913	\N	\N	Drama
+tt0003456	movie	Through Fire and Air	Through Fire and Air	0	1913	\N	\N	\N
+tt0003464	movie	The Tonopah Stampede for Gold	The Tonopah Stampede for Gold	0	1913	\N	\N	Western
+tt0003465	movie	Tonto de la huerta	Tonto de la huerta	0	1913	\N	\N	\N
+tt0003469	movie	Tortures Within Prison Walls	Tortures Within Prison Walls	0	1913	\N	\N	Drama
+tt0003470	movie	A Tourada dos Casimiros	A Tourada dos Casimiros	0	1913	\N	\N	Documentary
+tt0003471	movie	Traffic in Souls	Traffic in Souls	0	1913	\N	88	Crime,Drama
+tt0003472	movie	Trampa y cartón	Trampa y cartón	0	1913	\N	\N	\N
+tt0003489	movie	The Last Days of Pompeii	Gli ultimi giorni di Pompei	0	1913	\N	88	Adventure,Drama
+tt0003493	movie	Ungarische Rhapsodie	Ungarische Rhapsodie	0	1913	\N	\N	\N
+tt0003502	movie	A Venetian Night	Eine venezianische Nacht	0	1914	\N	52	\N
+tt0003504	movie	Der Verführte	Der Verführte	0	1913	\N	\N	\N
+tt0003506	movie	The Vicar of Wakefield	The Vicar of Wakefield	0	1913	\N	\N	Drama
+tt0003507	movie	The Vicar of Wakefield	The Vicar of Wakefield	0	1913	\N	\N	Drama
+tt0003508	movie	Victory	Victory	0	1913	\N	\N	War
+tt0003510	movie	Volunteer Organist	Volunteer Organist	0	1913	\N	\N	Drama
+tt0003511	movie	The Vortex of Fate	The Vortex of Fate	0	1913	\N	\N	\N
+tt0003540	movie	When the Earth Trembled	When the Earth Trembled	0	1913	\N	\N	\N
+tt0003545	movie	Who Will Marry Mary?	Who Will Marry Mary?	0	1913	\N	\N	Action,Adventure
+tt0003561	movie	With General Pancho Villa in Mexico	With General Pancho Villa in Mexico	0	1913	\N	\N	\N
+tt0003565	movie	Where Is Coletti?	Wo ist Coletti?	0	1913	\N	86	Crime
+tt0003584	movie	The $5, 000, 000 Counterfeiting Plot	The $5,000,000 Counterfeiting Plot	0	1914	\N	\N	Crime,Thriller
+tt0003587	movie	'Round the World in 80 Days	'Round the World in 80 Days	0	1914	\N	\N	Adventure
+tt0003589	movie	0-18 or A Message from the Sky	On His Majesty's Service	0	1914	\N	\N	Crime,Drama
+tt0003590	movie	A 300 éves ember	A 300 éves ember	0	1914	\N	\N	\N
+tt0003593	movie	Across America by Motor Car	Across America by Motor Car	0	1914	\N	\N	Documentary
+tt0003595	movie	Across the Pacific	Across the Pacific	0	1914	\N	\N	Adventure,Drama,Romance
+tt0003596	movie	The Active Life of Dolly of the Dailies	The Active Life of Dolly of the Dailies	0	1914	\N	170	Drama
+tt0003597	movie	Adoptivkind	Adoptivkind	0	1914	\N	\N	\N
+tt0003598	movie	The Adventures of Andy Clark	The Adventures of Andy Clark	0	1914	\N	\N	Adventure,Comedy
+tt0003599	movie	The Adventures of Buffalo Bill	The Adventures of Buffalo Bill	0	1917	\N	\N	Documentary,Western
+tt0003600	movie	The Adventures of Kitty Cobb	The Adventures of Kitty Cobb	0	1914	\N	\N	Adventure
+tt0003602	movie	The Adventures of a Diplomatic Freelance	The Adventures of a Diplomatic Freelance	0	1914	\N	\N	\N
+tt0003605	movie	After the Ball	After the Ball	0	1914	\N	\N	Drama
+tt0003606	movie	Aftermath	Aftermath	0	1914	\N	\N	Drama
+tt0003608	movie	El alcalde de Zalamea	El alcalde de Zalamea	0	1914	\N	\N	\N
+tt0003609	movie	Alexandra	Alexandra	0	1914	\N	\N	Drama,Romance
+tt0003610	movie	Alexia o La niña del misterio	Alexia o La niña del misterio	0	1916	\N	\N	\N
+tt0003613	movie	Alone in New York	Alone in New York	0	1914	\N	\N	Crime,Drama
+tt0003617	movie	America	America	0	1914	\N	\N	Adventure
+tt0003619	movie	Amigas siempre	Amigas siempre	0	1914	\N	\N	\N
+tt0003622	movie	Love of Perdition	Amor de Perdição	0	1914	\N	\N	Drama
+tt0003623	movie	Amor de pescadora	Amor de pescadora	0	1914	\N	\N	\N
+tt0003625	movie	Anna Karenina	Anna Karenina	0	1914	\N	\N	Drama
+tt0003629	movie	Apuntes de la fiesta de la flor	Apuntes de la fiesta de la flor	0	1914	\N	\N	Documentary
+tt0003630	movie	Golddigger	Az aranyásó	0	1914	\N	\N	Western
+tt0003631	movie	Aristocracy	Aristocracy	0	1914	\N	\N	Drama
+tt0003632	movie	Arme Eva	Arme Eva	0	1916	\N	\N	Drama
+tt0003634	movie	As Ye Sow	As Ye Sow	0	1914	\N	50	Drama
+tt0003637	movie	Assunta Spina	Assunta Spina	0	1915	\N	72	Drama
+tt0003639	movie	At the Cross Roads	At the Cross Roads	0	1914	\N	\N	Drama
+tt0003643	movie	The Avenging Conscience: or 'Thou Shalt Not Kill'	The Avenging Conscience: or 'Thou Shalt Not Kill'	0	1914	\N	78	Crime,Drama,Horror
+tt0003651	movie	Badehotellet	Badehotellet	0	1915	\N	\N	Drama
+tt0003654	movie	Bandits of the Border Mine	Bandits of the Border Mine	0	1914	\N	\N	Drama
+tt0003655	movie	The Banker's Daughter	The Banker's Daughter	0	1914	\N	\N	Drama
+tt0003657	movie	The Bargain	The Bargain	0	1914	\N	70	Western
+tt0003663	movie	Battle of Gettysgoat	Battle of Gettysgoat	0	1914	\N	\N	Comedy
+tt0003664	movie	The Battle of Love	The Battle of Love	0	1914	\N	\N	Drama
+tt0003665	movie	The Battle of the Sexes	The Battle of the Sexes	0	1914	\N	50	Drama
+tt0003668	movie	Beating Back	Beating Back	0	1914	\N	60	Adventure,Biography,Western
+tt0003669	movie	A becsapott újságíró	A becsapott újságíró	0	1915	\N	\N	\N
+tt0003670	movie	Behind the Scenes	Behind the Scenes	0	1914	\N	75	Drama
+tt0003672	movie	La Belle Russe	La Belle Russe	0	1914	\N	\N	Drama
+tt0003675	movie	The Beloved Adventurer	The Beloved Adventurer	0	1914	\N	450	Adventure
+tt0003676	movie	Beneath the Czar	Beneath the Czar	0	1914	\N	\N	Drama
+tt0003677	movie	The Better Man	The Better Man	0	1914	\N	\N	Drama
+tt0003685	movie	Det blaa vidunder	Det blaa vidunder	0	1915	\N	\N	Comedy
+tt0003686	movie	The Boer War	The Boer War	0	1914	\N	\N	Drama
+tt0003688	movie	The Book of Nature	The Book of Nature	0	1914	\N	\N	Documentary
+tt0003689	movie	Born Again	Born Again	0	1914	\N	\N	Drama
+tt0003692	movie	The Boundary Rider	The Boundary Rider	0	1914	\N	\N	Adventure
+tt0003693	movie	A Boy and the Law	A Boy and the Law	0	1913	\N	\N	Drama
+tt0003698	movie	Brewster's Millions	Brewster's Millions	0	1914	\N	\N	Comedy
+tt0003724	movie	In the Days of the Thundering Herd	In the Days of the Thundering Herd	0	1914	\N	48	Western
+tt0003730	movie	The Burglar and the Lady	The Burglar and the Lady	0	1914	\N	\N	Crime,Drama
+tt0003731	movie	Burning Daylight: the Adventures of 'Burning Daylight' in Alaska	Burning Daylight: The Adventures of 'Burning Daylight' in Alaska	0	1914	\N	50	Adventure,Drama
+tt0003732	movie	Burning Daylight: The Adventures of 'Burning Daylight' in Civilization	Burning Daylight: The Adventures of 'Burning Daylight' in Civilization	0	1914	\N	50	Drama
+tt0003735	movie	Bánk bán	Bánk bán	0	1915	\N	\N	\N
+tt0003736	movie	C.O.D.	C.O.D.	0	1914	\N	\N	Comedy
+tt0003737	movie	Cabalgata de los mercados en Barcelona	Cabalgata de los mercados en Barcelona	0	1914	\N	\N	Documentary
+tt0003738	movie	El caballero Casarroja	El caballero Casarroja	0	1914	\N	\N	\N
+tt0003740	movie	Cabiria	Cabiria	0	1914	\N	148	Adventure,Drama,History
+tt0003742	movie	Calatayud en fiestas	Calatayud en fiestas	0	1914	\N	\N	Documentary
+tt0003743	movie	The Call of the North	The Call of the North	0	1914	\N	\N	Adventure,Drama
+tt0003744	movie	Called Back	Called Back	0	1914	\N	\N	Drama
+tt0003746	movie	El calvario de un héroe	El calvario de un héroe	0	1914	\N	\N	\N
+tt0003747	movie	Cameo Kirby	Cameo Kirby	0	1914	\N	50	Action,Drama,Romance
+tt0003748	movie	Captain Alvarez	Captain Alvarez	0	1914	\N	60	Drama
+tt0003749	movie	The Captain Besley Expedition	The Captain Besley Expedition	0	1914	\N	\N	Documentary
+tt0003752	movie	Captain Swift	Captain Swift	0	1914	\N	\N	Drama
+tt0003754	movie	The Capture of a Sea Elephant and Hunting Wild Game in the South Pacific Islands	The Capture of a Sea Elephant and Hunting Wild Game in the South Pacific Islands	0	1914	\N	\N	Documentary
+tt0003756	movie	Cardinal Richelieu's Ward	Cardinal Richelieu's Ward	0	1914	\N	\N	Drama
+tt0003757	movie	Catástrofe de Aguilón	Catástrofe de Aguilón	0	1914	\N	\N	Documentary
+tt0003761	movie	A Celebrated Case	A Celebrated Case	0	1914	\N	\N	Drama
+tt0003763	movie	Charlotte Corday	Charlotte Corday	0	1914	\N	\N	Drama,History
+tt0003764	movie	La chavala	La chavala	0	1914	\N	\N	\N
+tt0003765	movie	The Chechako	The Chechako	0	1914	\N	\N	Drama
+tt0003768	movie	The Chimes	The Chimes	0	1914	\N	\N	Drama,Fantasy
+tt0003771	movie	The Christian	The Christian	0	1914	\N	\N	Drama
+tt0003772	movie	Cinderella	Cinderella	0	1914	\N	52	Drama,Fantasy
+tt0003774	movie	The Circus Man	The Circus Man	0	1914	\N	50	Drama
+tt0003779	movie	Cocaine Traffic; or, the Drug Terror	Cocaine Traffic; Or, The Drug Terror	0	1914	\N	\N	Drama
+tt0003780	movie	The Colosseum in Films	The Colosseum in Films	0	1914	\N	\N	Documentary
+tt0003790	movie	The Coming Power	The Coming Power	0	1914	\N	\N	Drama
+tt0003791	movie	Common Beasts of Africa	Common Beasts of Africa	0	1914	\N	\N	Documentary
+tt0003792	movie	The Conspiracy	The Conspiracy	0	1914	\N	\N	Drama,Mystery
+tt0003798	movie	The Country Mouse	The Country Mouse	0	1914	\N	\N	Comedy
+tt0003799	movie	The County Chairman	The County Chairman	0	1914	\N	\N	Comedy,Drama
+tt0003802	movie	The Criminal Code	The Criminal Code	0	1914	\N	\N	Drama
+tt0003804	movie	The Crucible	The Crucible	0	1914	\N	\N	Drama,Romance
+tt0003806	movie	Crushed	Crushed	0	1914	\N	\N	\N
+tt0003807	movie	El cuervo del campamento	El cuervo del campamento	0	1914	\N	\N	\N
+tt0003808	movie	La cueva vengadora	La cueva vengadora	0	1914	\N	\N	Drama
+tt0003815	movie	Damaged Goods	Damaged Goods	0	1914	\N	\N	Drama
+tt0003816	movie	Damon and Pythias	Damon and Pythias	0	1914	\N	100	Drama
+tt0003817	movie	Dan	Dan	0	1914	\N	\N	Drama,War
+tt0003819	movie	Dance of the Vampire	Tanets s vampirom	0	1914	\N	\N	\N
+tt0003820	movie	The Dancer and the King	The Dancer and the King	0	1914	\N	\N	Drama
+tt0003822	movie	La danza fatal	La danza fatal	0	1915	\N	58	\N
+tt0003825	movie	The Daughters of Men	The Daughters of Men	0	1914	\N	\N	Drama
+tt0003830	movie	Detective Craig's Coup	Detective Craig's Coup	0	1914	\N	\N	Crime,Drama
+tt0003831	movie	The Detective Queen	The Detective Queen	0	1914	\N	\N	Drama
+tt0003832	movie	La deuda del pasado	La deuda del pasado	0	1914	\N	\N	\N
+tt0003836	movie	Diego Corrientes	Diego Corrientes	0	1914	\N	\N	\N
+tt0003838	movie	The Dishonored Medal	The Dishonored Medal	0	1914	\N	\N	Adventure
+tt0003840	movie	Doc	Doc	0	1914	\N	\N	Western
+tt0003854	movie	Dodge City Trail	Dodge City Trail	0	1936	\N	56	Adventure,Music,Western
+tt0003856	movie	The Dollar Mark	The Dollar Mark	0	1914	\N	50	Drama
+tt0003859	movie	Dope	Dope	0	1914	\N	\N	Drama
+tt0003866	movie	Un drama en Aragón	Un drama en Aragón	0	1914	\N	\N	\N
+tt0003867	movie	Un drama en la montaña	Un drama en la montaña	0	1914	\N	\N	\N
+tt0003870	movie	Judge Not	Dömen icke	0	1914	\N	57	Drama
+tt0003871	movie	The Eagle's Mate	The Eagle's Mate	0	1914	\N	\N	Drama
+tt0003874	movie	La echadora de cartas	La echadora de cartas	0	1914	\N	\N	\N
+tt0003875	movie	The Education of Mr. Pipp	The Education of Mr. Pipp	0	1914	\N	\N	Comedy
+tt0003878	movie	O Embarque das Tropas Expedicionárias para Angola e Moçambique	O Embarque das Tropas Expedicionárias para Angola e Moçambique	0	1914	\N	\N	Documentary
+tt0003883	movie	L'enfant de Paris	L'enfant de Paris	0	1913	\N	124	Crime,Drama
+tt0003884	movie	Engelein	Engelein	0	1914	\N	49	Comedy
+tt0003886	movie	Enoch Arden	Enoch Arden	0	1914	\N	\N	Drama
+tt0003887	movie	Entre ruinas	Entre ruinas	0	1914	\N	\N	\N
+tt0003888	movie	The Envoy Extraordinary	The Envoy Extraordinary	0	1914	\N	\N	Drama
+tt0003889	movie	Erstarrte Liebe	Erstarrte Liebe	0	1914	\N	\N	\N
+tt0003890	movie	The Escape	The Escape	0	1914	\N	60	Drama
+tt0003891	movie	Escaped from Siberia	Escaped from Siberia	0	1914	\N	\N	Drama
+tt0003893	movie	Even Unto Death	Even Unto Death	0	1914	\N	\N	Drama
+tt0003897	movie	The Exploits of Elaine	The Exploits of Elaine	0	1914	\N	220	Action
+tt0003924	movie	Facing the Gattling Guns	Facing the Gattling Guns	0	1914	\N	\N	Drama
+tt0003925	movie	A Factory Magdalen	A Factory Magdalen	0	1914	\N	\N	Drama
+tt0003929	movie	Fantasma	Fantasma	0	1914	\N	\N	Fantasy
