@@ -53,7 +53,7 @@ case $choice in
 	2)
 	    echo "Install Fraud/AML"
 		gsql packages/fraud/scripts/01-create-schema.gsql
-		gsql packages/fraud/scripts/02-load-data.gsql
+		##gsql packages/fraud/scripts/02-load-data.gsql
 	    ;;
 	3)
 		echo ''
@@ -65,7 +65,7 @@ case $choice in
 	4)
 	    echo ''
 	    echo "Install TPC-DS - data tbd"
-		gsql packages/tpcds/scripts/01-create-schema.gsql
+		gsql packages/tpc-ds/scripts/01-create-schema.gsql
 	    ;;
 	5)
 	    echo ''
