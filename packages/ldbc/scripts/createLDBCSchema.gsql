@@ -3,7 +3,7 @@ DROP GRAPH LDBC_Benchmark
 
 CREATE GRAPH LDBC_Benchmark()
 
-CREATE SCHEMA_CHANGE JOB ldbc_benchmark_schema FOR GRAPH LDBC_Benchmark {
+CREATE SCHEMA_CHANGE JOB ldbc_benchmark_schema_job FOR GRAPH LDBC_Benchmark {
 
 	ADD VERTEX Comment(PRIMARY_ID id STRING, creationDate STRING, locationIP STRING, browserUsed STRING, content STRING, length STRING) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="true";
 	ADD VERTEX Forum(PRIMARY_ID id STRING, title STRING, creationDate STRING) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="true";
@@ -25,4 +25,7 @@ CREATE SCHEMA_CHANGE JOB ldbc_benchmark_schema FOR GRAPH LDBC_Benchmark {
 	ADD UNDIRECTED EDGE Is_Located_At(FROM Person, TO Place);
 	ADD UNDIRECTED EDGE Knows(FROM Person, TO Person, creationDate STRING);
 }
+
+RUN SCHEMA_CHANGE JOB ldbc_benchmark_schema_job
+DROP JOB ldbc_benchmark_schema_job
 

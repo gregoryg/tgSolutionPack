@@ -51,7 +51,7 @@ case $choice in
 		gsql packages/entityResMDM/scripts/03-add-queries.gsql
 	    ;;
 	2)
-	    echo "Install Fraud/AML"
+	    echo "Install Fraud/AML - data tbd"
 		gsql packages/fraud/scripts/01-create-schema.gsql
 		##gsql packages/fraud/scripts/02-load-data.gsql
 	    ;;
@@ -72,7 +72,7 @@ case $choice in
 	    echo ''
 	    echo "Install Synthea"
 		gsql packages/synthea/scripts/createSyntheaSchema.gsql
-		./synthea/scripts/installLoadJobs.sh
+		./packages/synthea/scripts/installLoadJobs.sh
 		gsql packages/synthea/scripts/runSyntheaLoadJobs.gsql
 	    ;;
 	6)
@@ -84,7 +84,7 @@ case $choice in
 	7)
 	    echo ''
 	    echo "Install Cust360"
-	    ./cust360/installCust360.sh
+	    ./packages/cust360/installCust360.sh
 	    ;;
 	8)
 	    echo ''

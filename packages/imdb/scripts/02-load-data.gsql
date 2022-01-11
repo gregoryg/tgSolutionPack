@@ -11,8 +11,8 @@ CREATE LOADING JOB load_IMDB_Data_job FOR GRAPH IMDB {
    LOAD titleData TO VERTEX Movie VALUES ($"tconst", $"titleType", $"primaryTitle", $"originalTitle", $"isAdult", $"startYear", $"endYear", $"runtimeMinutes", $"genres");
    LOAD ratingData TO VERTEX Rating VALUES ($"tconst", $"averageRating", $"numVotes");
 
-   LOAD title2principalMapData to EDGE isPrincipalIn($"nconst", $"tconst")
-   LOAD title2principalMapData to EDGE hasRating($"tconst", $"tconst")
+   LOAD title2principalMapData to EDGE isPrincipalIn($"nconst", $"tconst");
+   LOAD title2principalMapData to EDGE hasRating($"tconst", $"tconst");
 }
 END
 

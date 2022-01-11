@@ -16,7 +16,7 @@ CREATE SCHEMA_CHANGE JOB tpc_ds_schema_job FOR GRAPH TPCDS {
 
 	ADD UNDIRECTED EDGE Purchases(FROM Customer, TO Store_Sales);
 	ADD UNDIRECTED EDGE PurchasedAt(FROM Store_Sales, TO Store);
-	ADD UNDIRECTED EDGE Includes(FROM Store_Sales, TO Item);
+	ADD UNDIRECTED EDGE Includes(FROM Store_Sales, TO Product_Item);
 }
 
 RUN SCHEMA_CHANGE JOB tpc_ds_schema_job
