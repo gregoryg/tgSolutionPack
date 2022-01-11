@@ -1,0 +1,17 @@
+USE GLOBAL
+DROP GRAPH <graphName>
+
+CREATE GRAPH <graphName>()
+USE GRAPH <graphName>
+
+CREATE SCHEMA_CHANGE JOB <schema_change_job_name> FOR GRAPH <graphName> {
+	 
+	ADD VERTEX V1(PRIMARY_ID <id> STRING, p1 INT, p2 STRING) WITH STATS="OUTDEGREE_BY_EDGETYPE"
+    .......
+
+	ADD UNDIRECTED EDGE E1(FROM V1, TO V2)
+    .....
+}
+
+RUN SCHEMA_CHANGE JOB <schema_change_job_name>
+DROP JOB <schema_change_job_name>
