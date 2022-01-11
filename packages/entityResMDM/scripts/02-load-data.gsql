@@ -1,6 +1,5 @@
 USE GRAPH Entity_Resolution
 
-BEGIN
 CREATE LOADING JOB loadEntityResolutionData FOR GRAPH Entity_Resolution {
    DEFINE FILENAME entities = "m1:/home/tigergraph/mydata/entityResMDM/data/entity.csv";
 
@@ -22,7 +21,6 @@ CREATE LOADING JOB loadEntityResolutionData FOR GRAPH Entity_Resolution {
    LOAD entities TO EDGE Has_Phone VALUES($"id", $"ip_address");
    LOAD entities TO EDGE Has_Address VALUES($"id", $"state");
 }
-END
 
 RUN LOADING JOB loadEntityResolutionData
 DROP JOB loadEntityResolutionData

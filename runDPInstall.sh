@@ -51,7 +51,7 @@ case $choice in
 		gsql packages/entityResMDM/scripts/03-add-queries.gsql
 	    ;;
 	2)
-	    echo "Install Fraud/AML - TBD"
+	    echo "Install Fraud/AML"
 		gsql packages/fraud/scripts/01-create-schema.gsql
 		gsql packages/fraud/scripts/02-load-data.gsql
 	    ;;
@@ -64,7 +64,7 @@ case $choice in
 	    ;;
 	4)
 	    echo ''
-	    echo "Install TPC-DS - TBD"
+	    echo "Install TPC-DS - data tbd"
 		gsql packages/tpcds/scripts/01-create-schema.gsql
 	    ;;
 	5)

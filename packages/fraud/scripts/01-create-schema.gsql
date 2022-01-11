@@ -12,13 +12,10 @@ CREATE SCHEMA_CHANGE JOB anti_fraud_job FOR GRAPH AntiFraud {
     ADD VERTEX Payment_Instrument(PRIMARY_ID id STRING, token_handle STRING, token_type STRING, card_issuing_country_iso2 STRING, card_issuing_bank STRING, card_bin STRING, trust_score FLOAT) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="false";
 
     ADD DIRECTED EDGE User_Transfer_Transaction(FROM User, TO Transaction) WITH REVERSE_EDGE="User_Transfer_Transaction_Rev";
-    ADD DIRECTED EDGE User_Transfer_Transaction_Rev(FROM Transaction, TO User) WITH REVERSE_EDGE="User_Transfer_Transaction";
     ADD UNDIRECTED EDGE User_to_Device(FROM User, TO Device_Token);
     ADD UNDIRECTED EDGE User_to_Payment(FROM User, TO Payment_Instrument);
     ADD DIRECTED EDGE User_Refer_User(FROM User, TO User) WITH REVERSE_EDGE="User_Referred_By_User";
-    ADD DIRECTED EDGE User_Referred_By_User(FROM User, TO User) WITH REVERSE_EDGE="User_Refer_User";
     ADD DIRECTED EDGE User_Receive_Transaction(FROM User, TO Transaction) WITH REVERSE_EDGE="User_Receive_Transaction_Rev";
-    ADD DIRECTED EDGE User_Receive_Transaction_Rev(FROM Transaction, TO User) WITH REVERSE_EDGE="User_Receive_Transaction";
 
 }
 
