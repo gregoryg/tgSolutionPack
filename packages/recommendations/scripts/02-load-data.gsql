@@ -1,0 +1,25 @@
+USE GRAPH Recommendations
+
+BEGIN
+CREATE LOADING JOB recommendation_loading_job FOR GRAPH Recommendations {
+   DEFINE FILENAME people = "./packages/recommendations/data/people.csv";
+   DEFINE FILENAME movie = "./packages/recommendations/data/movie.csv";
+   DEFINE FILENAME titleBasics = "./packages/recommendations/data/movie.csv";
+   DEFINE FILENAME tag = "./packages/recommendations/data/tag.sample.csv";
+   DEFINE FILENAME video = "./packages/recommendations/data/video.csv";
+   DEFINE FILENAME videoGenre = "./packages/recommendations/data/video_genre.csv";
+   DEFINE FILENAME videoPlay = "./packages/recommendations/data/video_play.csv";
+
+   LOAD people TO VERTEX Person VALUES ($0, $1, $2, $3, $4, $5);
+   LOAD movie TO VERTEX Movie VALUES ($0, $1, $2);
+   LOAD titleBasics TO VERTEX TitleBasics VALUES ($0, $1, $2, $3, $4, $5, $6, $7, $8);
+   LOAD tag TO VERTEX Tag VALUES ($0, $1, $2, $3);
+   LOAD video TO VERTEX Video VALUES ($0, $1, $2, $3);
+   LOAD videoGenre TO VERTEX VideoGenre VALUES ($0, $1);
+   LOAD videoPlay TO VERTEX VideoPlay VALUES ($0, $1, $2, $3, $4);
+
+}
+END
+
+RUN LOADING JOB recommendation_loading_job
+DROP JOB recommendation_loading_job

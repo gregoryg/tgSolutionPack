@@ -30,6 +30,7 @@ echo "5 - Synthea HealthCare"
 echo '6 - IMDB'
 echo "7 - Customer360"
 echo '8 - Recommendations'
+echo '9 - AML Sim'
 echo "A/a - install all of the packs"
 echo "mysql - Stage all of the source data to a local mysql db"
 echo ''
@@ -43,19 +44,21 @@ case $choice in
 	1)
 		echo ''
 		echo "Install MDM...."
-		gsql < packages/entityResMDM/01-create-graph.gsql
-		gsql < packages/entityResMDM/02-load-data.gsql
-		gsql < packages/entityResMDM/03-add-queries.gsql
+		gsql < packages/entityResMDM/scripts/01-create-graph.gsql
+		gsql < packages/entityResMDM/scripts/02-load-data.gsql
+		gsql < packages/entityResMDM/scripts/03-add-queries.gsql
 	    ;;
 	2)
 	    echo "Install Fraud/AML - TBD"
+		gsql < packages/fraud/scripts/01-create-graph.gsql
+		gsql < packages/fraud/scripts/02-load-data.gsql
 	    ;;
 	3)
 		echo ''
 		echo "Install LDBC - with small sample dataset"
-		gsql < packages/ldbc/createLDBCSchema.gsql
-		gsql < packages/ldbc/createLDBCSampleJobs.gsql
-		gsql < packages/ldbc/runLDBCLoadJob.gsql
+		gsql < packages/ldbc/scripts/createLDBCSchema.gsql
+		gsql < packages/ldbc/scripts/createLDBCSampleJobs.gsql
+		gsql < packages/ldbc/scripts/runLDBCLoadJob.gsql
 	    ;;
 	4)
 	    echo ''
@@ -71,7 +74,8 @@ case $choice in
 	6)
 	    echo ''
 	    echo "Install IMDB"
-	    gsql < packages/imdb/scripts/createIMDBSchema.gsql
+	    gsql < packages/imdb/scripts/01-create-schema.gsql
+	    gsql < packages/imdb/scripts/02-load-data.gsql
 	    ;;
 	7)
 	    echo ''
@@ -81,7 +85,14 @@ case $choice in
 	8)
 	    echo ''
 	    echo "Install Recommendations"
-		gsql < packages/recommendations/scripts/createRecommendationsSchema.gsql
+		gsql < packages/recommendations/scripts/01-create-schema.gsql
+		gsql < packages/recommendations/scripts/02-load-data.gsql
+	    ;;
+	9)
+	    echo ''
+	    echo "Install AML Sim"
+		gsql < work-in-progress/AMLSim/scripts/01-create-schema.gsql
+		gsql < work-in-progress/AMLSim/scripts/02-load-data.gsql
 	    ;;
 	a)
 	    echo ''
