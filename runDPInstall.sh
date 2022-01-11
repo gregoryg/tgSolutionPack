@@ -31,6 +31,7 @@ echo '6 - IMDB'
 echo "7 - Customer360"
 echo '8 - Recommendations'
 echo '9 - AML Sim'
+echo '9 - Ontime Flight Performance'
 echo "A/a - install all of the packs"
 echo "mysql - Stage all of the source data to a local mysql db"
 echo ''
@@ -94,6 +95,13 @@ case $choice in
 		gsql < work-in-progress/AMLSim/scripts/01-create-schema.gsql
 		gsql < work-in-progress/AMLSim/scripts/02-load-data.gsql
 	    ;;
+	10)
+	    echo ''
+	    echo "Install Ontime Perf Graph"
+		gsql < work-in-progress/airline/scripts/01-create-schema.gsql
+		gsql < work-in-progress/airline/scripts/createAirlineLoadJobs.gsql
+	    ;;
+
 	a)
 	    echo ''
 	    echo 'Lets load all of the schemas'
