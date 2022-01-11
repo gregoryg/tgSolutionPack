@@ -26,6 +26,3 @@ CREATE SCHEMA_CHANGE JOB ldbc_benchmark_schema FOR GRAPH LDBC_Benchmark {
 	ADD UNDIRECTED EDGE Knows(FROM Person, TO Person, creationDate STRING);
 }
 
-RUN SCHEMA_CHANGE JOB ldbc_benchmark_schema
-DROP JOB ldbc_benchmark_schema
-

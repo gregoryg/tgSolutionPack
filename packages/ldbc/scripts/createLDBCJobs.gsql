@@ -1,7 +1,6 @@
-USE GRAPH Entity_Resolution
+USE GRAPH LDBC
 
-BEGIN
-CREATE LOADING JOB loadLDBCData FOR GRAPH Entity_Resolution {
+CREATE LOADING JOB loadLDBCData_job FOR GRAPH LDBC {
    DEFINE FILENAME comment = "./packages/ldbc/data/comments_0_0.csv";
    DEFINE FILENAME forum = "./packages/ldbc/data/forum_0_0.csv";
    DEFINE FILENAME organization = "./packages/ldbc/data/organisation_0_0.csv";
@@ -42,3 +41,7 @@ CREATE LOADING JOB loadLDBCData FOR GRAPH Entity_Resolution {
 
 }
 END
+
+RUN LOADING JOB loadLDBCData_job
+DROP JOB loadLDBCData_job
+
