@@ -31,7 +31,8 @@ echo '6 - IMDB'
 echo "7 - Customer360"
 echo '8 - Recommendations'
 echo '9 - AML Sim'
-echo '9 - Ontime Flight Performance'
+echo '10 - Ontime Flight Performance'
+echo '11 - Adworks'
 echo "A/a - install all of the packs"
 echo "mysql - Stage all of the source data to a local mysql db"
 echo ''
@@ -45,13 +46,13 @@ case $choice in
 	1)
 		echo ''
 		echo "Install MDM...."
-		gsql < packages/entityResMDM/scripts/01-create-graph.gsql
+		gsql packages/entityResMDM/scripts/01-create-schema.gsql
 		gsql < packages/entityResMDM/scripts/02-load-data.gsql
 		gsql < packages/entityResMDM/scripts/03-add-queries.gsql
 	    ;;
 	2)
 	    echo "Install Fraud/AML - TBD"
-		gsql < packages/fraud/scripts/01-create-graph.gsql
+		gsql < packages/fraud/scripts/01-create-schema.gsql
 		gsql < packages/fraud/scripts/02-load-data.gsql
 	    ;;
 	3)
@@ -64,6 +65,7 @@ case $choice in
 	4)
 	    echo ''
 	    echo "Install TPC-DS - TBD"
+		gsql < packages/tpcds/scripts/01-create-schema.gsql
 	    ;;
 	5)
 	    echo ''
@@ -100,6 +102,11 @@ case $choice in
 	    echo "Install Ontime Perf Graph"
 		gsql < work-in-progress/airline/scripts/01-create-schema.gsql
 		gsql < work-in-progress/airline/scripts/createAirlineLoadJobs.gsql
+	    ;;
+	11)
+	    echo ''
+	    echo "Install Adworks Graph"
+		gsql < work-in-progress/adworks/scripts/01-create-schema.gsql
 	    ;;
 
 	a)
