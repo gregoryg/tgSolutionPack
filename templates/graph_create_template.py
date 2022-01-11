@@ -38,21 +38,23 @@ secret=conn.createSecret()
 token=conn.getToken(secret, setToken=True)
 ##print(token)
 
+# 1. CREATE SCHEMA 
+print(conn.gsql(''' USE GLOBAL
 
-# ## 1.4 Create stanzaStageBob Graph Solution
+CREATE VERTEX Calendar() WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="false"
 
-# ### 1.4.1 - Create Schema
-# Let's define the verticies and edges we would like to use for this lab. Below you will see a series of `CREATE` statements. These statements describe our graph solution. When you look at the `CREATE` statements of `EDGES` you will notice `To` and `From`. This is descibing the connections between verticies. Also note at this step we are populating the attributes along with the types. 
 
-# Create load jobs
-## Tigergraph Key
+''', options=[]))
+
+
+# 2. Create load jobs
 print(conn.gsql('''
 USE GRAPH cust360
 
 CREATE DATA_SOURCE S3 se_access_key="{'file.reader.settings.fs.s3a.access.key':'AKIA45R5O******','file.reader.settings.fs.s3a.secret.key':'AInBOILQ7IOUNXrR24LWTe*******'}" FOR GRAPH stanzaStage
 
 BEGIN
-CREATE LOADING JOB stanza_buttoncategory_job FOR GRAPH stanzaStage {
+CREATE LOADING JOB load_job FOR GRAPH cust360 {
    DEFINE FILENAME buttonCategoryData="$stanza_stage_key:{'file.uris':'s3://tg-stanza-data-bucket/stage/buttoncategories.json'}";
    LOAD buttonCategoryData TO VERTEX Category VALUES($"_id":"$oid", $"activities",$"calendar",$"facebook":"user",$"facebook":"page", $"facebook":"picture",$"keys", $"name",$"shortname",$"updated",$"recommendations",$"scraperCreated",$"created",$"logo",$"isDeleted",$"attractionId") USING JSON_FILE="true";
    LOAD buttonCategoryData TO TEMP_TABLE t7 (catoid, actoid) VALUES ($"_id":"$oid", flatten_json_array($"activities",$"$oid")) USING JSON_FILE ="true";
@@ -62,6 +64,7 @@ END
 
 ''', options=[]))
 
-print(conn.gsql('''USE GRAPH stanzaStage
-   RUN LOADING JOB stanza_venue_job USING EOF="true"
+# 3. Run load job
+print(conn.gsql('''USE GRAPH cust360
+   RUN LOADING JOB load_job USING EOF="true"
 '''))
