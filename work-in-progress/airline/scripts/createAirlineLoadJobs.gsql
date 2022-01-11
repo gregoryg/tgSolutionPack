@@ -1,4 +1,4 @@
-USE GRAPH AirlineGraph
+USE GRAPH OnTimePerformanceGraph
 
 CREATE LOADING JOB load_job_AirlineGraph_L_AIRLINE_ID_csv_1634144632268 FOR GRAPH AirlineGraph {
       DEFINE FILENAME MyDataSource;
