@@ -1,13 +1,20 @@
 USE GLOBAL
+DROP GRAPH IMDB
 
-CREATE VERTEX title_basics(PRIMARY_ID titleId STRING, titleType STRING, primaryTitle STRING, originalTitle STRING, isAdult STRING, startYear INT, endYear INT, runtimeMinutes INT) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="true"
-CREATE VERTEX name_basics(PRIMARY_ID nameId STRING, primaryName STRING, birthYear INT, deathYear INT, primaryProfession STRING, knownForTitles STRING) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="true"
-CREATE VERTEX title_ratings(PRIMARY_ID titleId STRING, averageRating FLOAT, numVotes INT) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="true"
-CREATE VERTEX title_principals(PRIMARY_ID principalId STRING, ordering INT, nameId STRING, category STRING, jobName STRING, characters STRING) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="true"
+CREATE GRAPH IMDB()
+USE GRAPH IMDB
 
-CREATE UNDIRECTED EDGE has_rating(FROM title_basics, TO title_ratings)
-CREATE UNDIRECTED EDGE isPrincipalIn(FROM name_basics, TO title_principals)
-CREATE UNDIRECTED EDGE hasRating(FROM title_ratings, TO title_principals)
+CREATE SCHEMA_CHANGE JOB imdb_schema_job FOR GRAPH IMDB {
+
+	ADD VERTEX Movie(PRIMARY_ID tconst STRING, titleType STRING, primaryTitle STRING, originalTitle STRING, isAdult STRING, startYear INT, endYear INT, runtimeMinutes INT, genres STRING) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="true"
+	ADD VERTEX Actor(PRIMARY_ID nconst STRING, primaryName STRING, birthYear INT, deathYear INT, primaryProfession STRING, knownForTitles STRING) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="true"
+	ADD VERTEX Rating(PRIMARY_ID tconst STRING, averageRating FLOAT, numVotes INT) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="true"
+
+	ADD UNDIRECTED EDGE isPrincipalIn(FROM Actor, TO Movie)
+	ADD UNDIRECTED EDGE hasRating(FROM Movie, TO Rating)
+}
+
+RUN SCHEMA_CHANGE JOB imdb_schema_job
+DROP JOB imdb_schema_job
 
 
-CREATE GRAPH IMDB(title_basics, name_basics, title_ratings, title_principals, has_rating, isPrincipalIn, hasRating)

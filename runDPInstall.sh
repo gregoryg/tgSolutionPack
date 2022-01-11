@@ -43,16 +43,16 @@ case $choice in
 	1)
 		echo ''
 		echo "Install MDM...."
-		gsql < packages/entityResMDM/createMDMSchema.gsql
-		gsql < packages/entityResMDM/createMDMJobs.gsql
-		gsql < packages/entityResMDM/runMDMJobs.gsql
+		gsql < packages/entityResMDM/01-create-graph.gsql
+		gsql < packages/entityResMDM/02-load-data.gsql
+		gsql < packages/entityResMDM/03-add-queries.gsql
 	    ;;
 	2)
 	    echo "Install Fraud/AML - TBD"
 	    ;;
 	3)
 		echo ''
-		echo "Install LDBC - TBD"
+		echo "Install LDBC - with small sample dataset"
 		gsql < packages/ldbc/createLDBCSchema.gsql
 		gsql < packages/ldbc/createLDBCSampleJobs.gsql
 		gsql < packages/ldbc/runLDBCLoadJob.gsql
