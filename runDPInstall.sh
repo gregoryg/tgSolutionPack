@@ -47,38 +47,38 @@ case $choice in
 		echo ''
 		echo "Install MDM...."
 		gsql packages/entityResMDM/scripts/01-create-schema.gsql
-		gsql < packages/entityResMDM/scripts/02-load-data.gsql
-		gsql < packages/entityResMDM/scripts/03-add-queries.gsql
+		gsql packages/entityResMDM/scripts/02-load-data.gsql
+		gsql packages/entityResMDM/scripts/03-add-queries.gsql
 	    ;;
 	2)
 	    echo "Install Fraud/AML - TBD"
-		gsql < packages/fraud/scripts/01-create-schema.gsql
-		gsql < packages/fraud/scripts/02-load-data.gsql
+		gsql packages/fraud/scripts/01-create-schema.gsql
+		gsql packages/fraud/scripts/02-load-data.gsql
 	    ;;
 	3)
 		echo ''
 		echo "Install LDBC - with small sample dataset"
-		gsql < packages/ldbc/scripts/createLDBCSchema.gsql
-		gsql < packages/ldbc/scripts/createLDBCSampleJobs.gsql
-		gsql < packages/ldbc/scripts/runLDBCLoadJob.gsql
+		gsql packages/ldbc/scripts/createLDBCSchema.gsql
+		gsql packages/ldbc/scripts/createLDBCSampleJobs.gsql
+		gsql packages/ldbc/scripts/runLDBCLoadJob.gsql
 	    ;;
 	4)
 	    echo ''
 	    echo "Install TPC-DS - TBD"
-		gsql < packages/tpcds/scripts/01-create-schema.gsql
+		gsql packages/tpcds/scripts/01-create-schema.gsql
 	    ;;
 	5)
 	    echo ''
 	    echo "Install Synthea"
-		gsql < packages/synthea/scripts/createSyntheaSchema.gsql
+		gsql packages/synthea/scripts/createSyntheaSchema.gsql
 		./synthea/scripts/installLoadJobs.sh
-		gsql < packages/synthea/scripts/runSyntheaLoadJobs.gsql
+		gsql packages/synthea/scripts/runSyntheaLoadJobs.gsql
 	    ;;
 	6)
 	    echo ''
 	    echo "Install IMDB"
-	    gsql < packages/imdb/scripts/01-create-schema.gsql
-	    gsql < packages/imdb/scripts/02-load-data.gsql
+	    gsql packages/imdb/scripts/01-create-schema.gsql
+	    gsql packages/imdb/scripts/02-load-data.gsql
 	    ;;
 	7)
 	    echo ''
@@ -88,36 +88,36 @@ case $choice in
 	8)
 	    echo ''
 	    echo "Install Recommendations"
-		gsql < packages/recommendations/scripts/01-create-schema.gsql
-		gsql < packages/recommendations/scripts/02-load-data.gsql
+		gsql packages/recommendations/scripts/01-create-schema.gsql
+		gsql packages/recommendations/scripts/02-load-data.gsql
 	    ;;
 	9)
 	    echo ''
 	    echo "Install AML Sim"
-		gsql < work-in-progress/AMLSim/scripts/01-create-schema.gsql
-		gsql < work-in-progress/AMLSim/scripts/02-load-data.gsql
+		gsql work-in-progress/AMLSim/scripts/01-create-schema.gsql
+		gsql work-in-progress/AMLSim/scripts/02-load-data.gsql
 	    ;;
 	10)
 	    echo ''
 	    echo "Install Ontime Perf Graph"
-		gsql < work-in-progress/airline/scripts/01-create-schema.gsql
-		gsql < work-in-progress/airline/scripts/createAirlineLoadJobs.gsql
+		gsql work-in-progress/airline/scripts/01-create-schema.gsql
+		gsql work-in-progress/airline/scripts/createAirlineLoadJobs.gsql
 	    ;;
 	11)
 	    echo ''
 	    echo "Install Adworks Graph"
-		gsql < work-in-progress/adworks/scripts/01-create-schema.gsql
+		gsql work-in-progress/adworks/scripts/01-create-schema.gsql
 	    ;;
 
 	a)
 	    echo ''
 	    echo 'Lets load all of the schemas'
-	    gsql < packages/entityResMDM/createMDMSchema.gsql
-	    gsql < packages/fraud/scripts/createFraudSchema.gsql
-	    gsql < packages/ldbc/createLDBCSchema.gsql
-	    gsql < packages/synthea/scripts/createSyntheaSchema.gsql
-	    gsql < packages/imdb/scripts/createIMDBSchema.gsql
-	    gsql < packages/recommendations/scripts/createRecommendationsSchema.gsql
+	    gsql packages/entityResMDM/createMDMSchema.gsql
+	    gsql packages/fraud/scripts/createFraudSchema.gsql
+	    gsql packages/ldbc/createLDBCSchema.gsql
+	    gsql packages/synthea/scripts/createSyntheaSchema.gsql
+	    gsql packages/imdb/scripts/createIMDBSchema.gsql
+	    gsql packages/recommendations/scripts/createRecommendationsSchema.gsql
 	    echo ''
 	    ;;
 	mysql)
