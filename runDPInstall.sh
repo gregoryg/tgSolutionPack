@@ -66,6 +66,7 @@ case $choice in
 	    echo ''
 	    echo "Install TPC-DS - data tbd"
 		gsql packages/tpc-ds/scripts/01-create-schema.gsql
+		gsql packages/tpc-ds/scripts/02-load-data.gsql
 	    ;;
 	5)
 	    echo ''
