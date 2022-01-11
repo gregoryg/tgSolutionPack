@@ -6,13 +6,13 @@ CREATE LOADING JOB customer360_load_orders FOR GRAPH Customer360 {
   ###################################################################
   # define customer group
   ###################################################################
-  DEFINE FILENAME f_camp_ads   = "../data/customer360/data/ce_camp-ads.csv";
-  DEFINE FILENAME f_camp_promo = "../data/customer360/data/ce_camp-promos.csv";
-  DEFINE FILENAME f_solicts    = "../data/customer360/data/ce_solicits.csv";
-  DEFINE FILENAME f_respons    = "../data/customer360/data/ce_response.csv";
-  DEFINE FILENAME f_items      = "../data/customer360/data/ce_items.csv";
-  DEFINE FILENAME f_store      = "../data/customer360/data/ce_store.csv";
-  DEFINE FILENAME f_orders     = "../data/customer360/data/ce_orders.csv";
+  DEFINE FILENAME f_camp_ads   = "packages/cust360/data/customer360/data/ce_camp-ads.csv";
+  DEFINE FILENAME f_camp_promo = "packages/cust360/data/customer360/data/ce_camp-promos.csv";
+  DEFINE FILENAME f_solicts    = "packages/cust360/data/customer360/data/ce_solicits.csv";
+  DEFINE FILENAME f_respons    = "packages/cust360/data/customer360/data/ce_response.csv";
+  DEFINE FILENAME f_items      = "packages/cust360/data/customer360/data/ce_items.csv";
+  DEFINE FILENAME f_store      = "packages/cust360/data/customer360/data/ce_store.csv";
+  DEFINE FILENAME f_orders     = "packages/cust360/data/customer360/data/ce_orders.csv";
 
   DEFINE HEADER hdr_camp_ads   = "campaign_id", "campaign_name", "start_date", "end_date", "campaign_type", "ad_id", "ad_name", "ad_channel";
   DEFINE HEADER hdr_camp_promo = "campaign_id", "campaign_name", "campaign_year", "start_date", "end_date", "campaign_type", "promotion_id", "promotion_name", "promotion_channel";

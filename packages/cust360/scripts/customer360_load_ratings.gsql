@@ -6,10 +6,10 @@ CREATE LOADING JOB customer360_load_ratings FOR GRAPH Customer360 {
   ###################################################################
   # define customer group
   ###################################################################
-  DEFINE FILENAME f_movieratings  = "../data/customer360/data/ce_movie_ratings.csv";
-  DEFINE FILENAME f_bookratings   = "../data/customer360/data/ce_book_ratings.csv";
-  DEFINE FILENAME f_movies        = "../data/customer360/data/ce_movies.csv";
-  DEFINE FILENAME f_books         = "../data/customer360/data/ce_books.csv";
+  DEFINE FILENAME f_movieratings  = "packages/cust360/data/customer360/data/ce_movie_ratings.csv";
+  DEFINE FILENAME f_bookratings   = "packages/cust360/data/customer360/data/ce_book_ratings.csv";
+  DEFINE FILENAME f_movies        = "packages/cust360/data/customer360/data/ce_movies.csv";
+  DEFINE FILENAME f_books         = "packages/cust360/data/customer360/data/ce_books.csv";
 
 
   DEFINE HEADER hdr_movieratings  = "user_id","movie_id","movie_date","movie_rating";

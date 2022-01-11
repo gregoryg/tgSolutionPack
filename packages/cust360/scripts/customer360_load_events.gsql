@@ -6,13 +6,13 @@ CREATE LOADING JOB customer360_load_events FOR GRAPH Customer360 {
   ###################################################################
   # define customer group
   ###################################################################
-  DEFINE FILENAME f_urls        = "../data/customer360/data/ce_urls.csv";
-  DEFINE FILENAME f_useragent   = "../data/customer360/data/ce_useragent.csv";
-  DEFINE FILENAME f_browser     = "../data/customer360/data/ce_browser.csv";
-  DEFINE FILENAME f_events      = "../data/customer360/data/ce_events.csv";
-  DEFINE FILENAME f_sessions    = "../data/customer360/data/ce_sessions.csv";
-  DEFINE FILENAME f_ipaddr      = "../data/customer360/data/ce_ipaddr.csv";
-  DEFINE FILENAME f_device      = "../data/customer360/data/ce_devices.csv";
+  DEFINE FILENAME f_urls        = "packages/cust360/data/customer360/data/ce_urls.csv";
+  DEFINE FILENAME f_useragent   = "packages/cust360/data/customer360/data/ce_useragent.csv";
+  DEFINE FILENAME f_browser     = "packages/cust360/data/customer360/data/ce_browser.csv";
+  DEFINE FILENAME f_events      = "packages/cust360/data/customer360/data/ce_events.csv";
+  DEFINE FILENAME f_sessions    = "packages/cust360/data/customer360/data/ce_sessions.csv";
+  DEFINE FILENAME f_ipaddr      = "packages/cust360/data/customer360/data/ce_ipaddr.csv";
+  DEFINE FILENAME f_device      = "packages/cust360/data/customer360/data/ce_devices.csv";
 
 
   DEFINE HEADER hdr_urls      = "page_id", "page_location", "page_menu", "page_item", "item_id", "page_weight", "page_url", "next_page_id";
