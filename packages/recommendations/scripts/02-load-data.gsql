@@ -10,14 +10,13 @@ CREATE LOADING JOB recommendation_loading_job FOR GRAPH Recommendations {
    DEFINE FILENAME videoGenre = "./packages/recommendations/data/video_genre.csv";
    DEFINE FILENAME videoPlay = "./packages/recommendations/data/video_play.csv";
 
-   LOAD people TO VERTEX Person VALUES ($0, $1, $2, $3, $4, $5);
-   LOAD movie TO VERTEX Movie VALUES ($0, $1, $2);
-   LOAD titleBasics TO VERTEX TitleBasics VALUES ($0, $1, $2, $3, $4, $5, $6, $7, $8);
-   LOAD tag TO VERTEX Tag VALUES ($0, $1, $2, $3);
-   LOAD video TO VERTEX Video VALUES ($0, $1, $2, $3);
-   LOAD videoGenre TO VERTEX VideoGenre VALUES ($0, $1);
-   LOAD videoPlay TO VERTEX VideoPlay VALUES ($0, $1, $2, $3, $4);
-
+   LOAD people TO VERTEX Person VALUES ($0, $1, $2, $3, $4, $5) USING header="true", separator=",", EOL="\n";
+   LOAD movie TO VERTEX Movie VALUES ($0, $1, $2) USING header="true", separator=",", EOL="\n";
+   LOAD titleBasics TO VERTEX TitleBasics VALUES ($0, $1, $2, $3, $4, $5, $6, $7, $8) USING header="true", separator=",", EOL="\n";
+   LOAD tag TO VERTEX Tag VALUES ($0, $1, $2, $3) USING header="true", separator=",", EOL="\n";
+   LOAD video TO VERTEX Video VALUES ($0, $1, $2, $3) USING header="true", separator=",", EOL="\n";
+   LOAD videoGenre TO VERTEX VideoGenre VALUES ($0, $1) USING header="true", separator=",", EOL="\n";
+   LOAD videoPlay TO VERTEX VideoPlay VALUES ($0, $1, $2, $3, $4) USING header="true", separator=",", EOL="\n";
 }
 END
 

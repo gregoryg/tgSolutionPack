@@ -7,12 +7,12 @@ CREATE LOADING JOB load_IMDB_Data_job FOR GRAPH IMDB {
    DEFINE FILENAME title2principalMapData = "./packages/imdb/data/title.principals.sample.tsv";
    DEFINE FILENAME ratingData = "./packages/imdb/data/title.ratings.sample.tsv";
 
-   LOAD actorData TO VERTEX Actor VALUES ($"nconst", $"primaryName", $"birthYear", $"deathYear", $"primaryProfession", $"knownForTitles");
-   LOAD titleData TO VERTEX Movie VALUES ($"tconst", $"titleType", $"primaryTitle", $"originalTitle", $"isAdult", $"startYear", $"endYear", $"runtimeMinutes", $"genres");
-   LOAD ratingData TO VERTEX Rating VALUES ($"tconst", $"averageRating", $"numVotes");
+   LOAD actorData TO VERTEX Actor VALUES ($"nconst", $"primaryName", $"birthYear", $"deathYear", $"primaryProfession", $"knownForTitles") USING header="true", separator="\t", EOL="\n";
+   LOAD titleData TO VERTEX Movie VALUES ($"tconst", $"titleType", $"primaryTitle", $"originalTitle", $"isAdult", $"startYear", $"endYear", $"runtimeMinutes", $"genres") USING header="true", separator="\t", EOL="\n";
+   LOAD ratingData TO VERTEX Rating VALUES ($"tconst", $"averageRating", $"numVotes") USING header="true", separator="\t", EOL="\n";
 
-   LOAD title2principalMapData to EDGE isPrincipalIn($"nconst", $"tconst");
-   LOAD title2principalMapData to EDGE hasRating($"tconst", $"tconst");
+   LOAD title2principalMapData to EDGE isPrincipalIn($"nconst", $"tconst") USING header="true", separator="\t", EOL="\n";
+   LOAD title2principalMapData to EDGE hasRating($"tconst", $"tconst") USING header="true", separator="\t", EOL="\n";
 }
 END
 
