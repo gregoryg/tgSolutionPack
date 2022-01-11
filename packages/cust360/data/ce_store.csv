@@ -1,0 +1,299 @@
+store_id,store_name,store_type,shiptostore,autocenter,salon,zipcode,city,state,county_name,msa_name,lat,lng,market,region
+1,Store - 43 - Chicago-Naperville-Joliet,Small Store,No,Yes,No,60448,Arbury Hills,Illinois,Will,Chicago-Naperville-Joliet,41.5356,-87.8476,East North Central ,Midwest 
+2,Store - 46 - Chicago-Naperville-Joliet,Neighborhood Market,Yes,No,No,60513,Brookfield,Illinois,Cook,Chicago-Naperville-Joliet,41.8245,-87.847,East North Central ,Midwest 
+3,Store - 46 - Chicago-Naperville-Joliet,Super Center,Yes,Yes,Yes,60018,Chicago,Illinois,Cook,Chicago-Naperville-Joliet,41.8373,-87.6861,East North Central ,Midwest 
+4,Store - 43 - Chicago-Naperville-Joliet,Small Store,No,No,No,60422,Flossmoor,Illinois,Cook,Chicago-Naperville-Joliet,41.5391,-87.6857,East North Central ,Midwest 
+5,Store - 43 - Chicago-Naperville-Joliet,Small Store,No,No,No,60148,Highland Hills,Illinois,DuPage,Chicago-Naperville-Joliet,41.8492,-88.0045,East North Central ,Midwest 
+6,Store - 63 - St. Louis,Small Store,No,Yes,No,62058,Livingston,Illinois,Madison,St. Louis,38.9682,-89.7642,East North Central ,Midwest 
+7,Store - 46 - Chicago-Naperville-Joliet,Neighborhood Market,Yes,No,Yes,60542,North Aurora,Illinois,Kane,Chicago-Naperville-Joliet,41.8083,-88.3412,East North Central ,Midwest 
+8,Store - 63 - St. Louis,Small Store,No,No,No,62025,Poag,Illinois,Madison,St. Louis,38.797,-90.039,East North Central ,Midwest 
+9,Store - 46 - Chicago-Naperville-Joliet,Small Store,No,No,Yes,60548,Somonauk,Illinois,DeKalb,Chicago-Naperville-Joliet,41.6417,-88.6731,East North Central ,Midwest 
+10,Store - 43 - Chicago-Naperville-Joliet,Small Store,No,No,No,60556,Waterman,Illinois,DeKalb,Chicago-Naperville-Joliet,41.7683,-88.7657,East North Central ,Midwest 
+11,Store - 46 - Chicago-Naperville-Joliet,Small Store,No,No,Yes,46404,Black Oak,Indiana,Lake,Chicago-Naperville-Joliet,41.5661,-87.3936,East North Central ,Midwest 
+12,Store - 46 - Chicago-Naperville-Joliet,Small Store,No,Yes,No,47978,Collegeville,Indiana,Jasper,Chicago-Naperville-Joliet,40.9059,-87.1612,East North Central ,Midwest 
+13,Store - 47 - Fort Wayne,Small Store,No,No,No,46748,Huntertown,Indiana,Allen,Fort Wayne,41.2129,-85.1764,East North Central ,Midwest 
+14,Store - 43 - Chicago-Naperville-Joliet,Neighborhood Market,Yes,No,Yes,46356,Lowell,Indiana,Lake,Chicago-Naperville-Joliet,41.2934,-87.4183,East North Central ,Midwest 
+15,Store - 46 - Chicago-Naperville-Joliet,Super Center,Yes,Yes,Yes,46368,Portage,Indiana,Porter,Chicago-Naperville-Joliet,41.5866,-87.1792,East North Central ,Midwest 
+16,Store - 46 - Chicago-Naperville-Joliet,Small Store,No,No,No,46376,Schneider,Indiana,Lake,Chicago-Naperville-Joliet,41.1929,-87.4462,East North Central ,Midwest 
+17,Store - 73 - Omaha-Council Bluffs,Small Store,No,No,Yes,51526,Crescent,Iowa,Pottawattamie,Omaha-Council Bluffs,41.3655,-95.8581,West North Central ,Midwest 
+18,Store - 73 - Omaha-Council Bluffs,Small Store,No,No,No,51533,Emerson,Iowa,Mills,Omaha-Council Bluffs,41.018,-95.4028,West North Central ,Midwest 
+19,Store - 41 - Des Moines-West Des Moines,Super Center,Yes,Yes,Yes,50125,Spring Hill,Iowa,Warren,Des Moines-West Des Moines,41.4122,-93.6499,West North Central ,Midwest 
+20,Store - 48 - Kansas City,Small Store,No,Yes,No,66014,Centerville,Kansas,Linn,Kansas City,38.2209,-95.0141,West North Central ,Midwest 
+21,Store - 64 - Kansas City,Super Center,Yes,Yes,Yes,66101,Kansas City,Kansas,Wyandotte,Kansas City,39.1234,-94.7443,West North Central ,Midwest 
+22,Store - 48 - Kansas City,Small Store,No,No,No,66078,Princeton,Kansas,Franklin,Kansas City,38.4877,-95.2707,West North Central ,Midwest 
+23,Store - 48 - Kansas City,Super Center,Yes,Yes,Yes,66214,Shawnee,Kansas,Johnson,Kansas City,39.0158,-94.8076,West North Central ,Midwest 
+24,Store - 59 - Detroit-Warren-Livonia,Small Store,No,No,Yes,48134,Flat Rock,Michigan,Wayne,Detroit-Warren-Livonia,42.0991,-83.2715,East North Central ,Midwest 
+25,Store - 59 - Detroit-Warren-Livonia,Small Store,No,No,Yes,48362,Lake Orion,Michigan,Oakland,Detroit-Warren-Livonia,42.7827,-83.2452,East North Central ,Midwest 
+26,Store - 59 - Detroit-Warren-Livonia,Super Center,Yes,Yes,Yes,48146,Lincoln Park,Michigan,Wayne,Detroit-Warren-Livonia,42.2433,-83.181,East North Central ,Midwest 
+27,Store - 59 - Detroit-Warren-Livonia,Super Center,Yes,No,Yes,48342,Pontiac,Michigan,Oakland,Detroit-Warren-Livonia,42.6493,-83.2878,East North Central ,Midwest 
+28,Store - 59 - Detroit-Warren-Livonia,Super Center,Yes,Yes,Yes,48098,Troy,Michigan,Oakland,Detroit-Warren-Livonia,42.5817,-83.1458,East North Central ,Midwest 
+29,Store - 61 - Minneapolis-St. Paul-Bloomington,Small Store,No,No,No,55308,Becker,Minnesota,Sherburne,Minneapolis-St. Paul-Bloomington,45.3814,-93.8736,West North Central ,Midwest 
+30,Store - 61 - Minneapolis-St. Paul-Bloomington,Small Store,No,Yes,No,55025,Columbus,Minnesota,Anoka,Minneapolis-St. Paul-Bloomington,45.2686,-93.0809,West North Central ,Midwest 
+31,Store - 61 - Minneapolis-St. Paul-Bloomington,Neighborhood Market,Yes,Yes,Yes,55304,Ham Lake,Minnesota,Anoka,Minneapolis-St. Paul-Bloomington,45.2545,-93.2039,West North Central ,Midwest 
+32,Store - 61 - Minneapolis-St. Paul-Bloomington,Super Center,Yes,Yes,Yes,55345,Minnetonka,Minnesota,Hennepin,Minneapolis-St. Paul-Bloomington,44.9324,-93.4601,West North Central ,Midwest 
+33,Store - 62 - St. Cloud,Small Store,No,No,Yes,56368,Richmond,Minnesota,Stearns,St. Cloud,45.4556,-94.5154,West North Central ,Midwest 
+34,Store - 61 - Minneapolis-St. Paul-Bloomington,Super Center,Yes,Yes,Yes,55114,Saint Paul,Minnesota,Ramsey,Minneapolis-St. Paul-Bloomington,44.9477,-93.104,West North Central ,Midwest 
+35,Store - 61 - Minneapolis-St. Paul-Bloomington,Shopping Center,Yes,Yes,Yes,55378,Savage,Minnesota,Scott,Minneapolis-St. Paul-Bloomington,44.7545,-93.3632,West North Central ,Midwest 
+36,Store - 48 - Kansas City,Small Store,No,No,No,64011,Bates City,Missouri,Lafayette,Kansas City,39.0047,-94.0659,West North Central ,Midwest 
+37,Store - 48 - Kansas City,Small Store,No,No,Yes,64730,Butler,Missouri,Bates,Kansas City,38.2599,-94.3393,West North Central ,Midwest 
+38,Store - 63 - St. Louis,Small Store,No,No,No,63341,Defiance,Missouri,St. Charles,St. Louis,38.6327,-90.7846,West North Central ,Midwest 
+39,Store - 63 - St. Louis,Small Store,Yes,Yes,Yes,63121,Greendale,Missouri,St. Louis,St. Louis,38.6938,-90.3124,West North Central ,Midwest 
+40,Store - 48 - Kansas City,Super Center,Yes,Yes,Yes,64062,Lawson,Missouri,Ray,Kansas City,39.4359,-94.2154,West North Central ,Midwest 
+41,Store - 64 - Kansas City,Small Store,No,No,No,64068,Missouri City,Missouri,Clay,Kansas City,39.2399,-94.3011,West North Central ,Midwest 
+42,Store - 63 - St. Louis,Super Center,Yes,Yes,No,63110,Saint Louis,Missouri,St. Louis (city),St. Louis,38.6358,-90.2451,West North Central ,Midwest 
+43,Store - 73 - Omaha-Council Bluffs,Small Store,No,No,Yes,68064,Elk City,Nebraska,Douglas,Omaha-Council Bluffs,41.3717,-96.2678,West North Central ,Midwest 
+44,Store - 73 - Omaha-Council Bluffs,Small Store,No,No,No,68066,Wahoo,Nebraska,Saunders,Omaha-Council Bluffs,41.2153,-96.6165,West North Central ,Midwest 
+45,Store - 72 - Fargo,Small Store,No,No,No,58104,Briarwood,North Dakota,Cass,Fargo,46.7871,-96.7953,West North Central ,Midwest 
+46,Store - 72 - Fargo,Small Store,No,No,Yes,58047,Oxbow,North Dakota,Cass,Fargo,46.6675,-96.8067,West North Central ,Midwest 
+47,Store - 72 - Fargo,Shopping Center,Yes,Yes,Yes,58078,West Fargo,North Dakota,Cass,Fargo,46.8565,-96.9048,West North Central ,Midwest 
+48,Store - 52 - Cincinnati-Middletown,Small Store,No,No,Yes,45106,Bethel,Ohio,Clermont,Cincinnati-Middletown,38.9627,-84.0847,East North Central ,Midwest 
+49,Store - 84 - Columbus,Super Center,Yes,Yes,Yes,43002,Dublin,Ohio,Franklin,Columbus,40.1112,-83.1451,East North Central ,Midwest 
+50,Store - 52 - Cincinnati-Middletown,Small Store,No,No,Yes,45130,Hamersville,Ohio,Brown,Cincinnati-Middletown,38.919,-83.9854,East North Central ,Midwest 
+51,Store - 84 - Columbus,Super Center,Yes,Yes,Yes,43130,Lancaster,Ohio,Fairfield,Columbus,39.7249,-82.6049,East North Central ,Midwest 
+52,Store - 52 - Cincinnati-Middletown,Super Center,Yes,Yes,Yes,45052,North Bend,Ohio,Hamilton,Cincinnati-Middletown,39.1505,-84.7398,East North Central ,Midwest 
+53,Store - 84 - Columbus,Small Store,Yes,Yes,Yes,43130,Royalton,Ohio,Fairfield,Columbus,39.7276,-82.7666,East North Central ,Midwest 
+54,Store - 52 - Cincinnati-Middletown,Small Store,No,No,No,45245,Withamsville,Ohio,Clermont,Cincinnati-Middletown,39.0628,-84.2808,East North Central ,Midwest 
+55,Store - 91 - Sioux Falls,Small Store,No,No,No,57013,Canton,South Dakota,Lincoln,Sioux Falls,43.3033,-96.5844,West North Central ,Midwest 
+56,Store - 91 - Sioux Falls,Small Store,No,No,No,57035,Humboldt,South Dakota,Minnehaha,Sioux Falls,43.6448,-97.0743,West North Central ,Midwest 
+57,Store - 61 - Minneapolis-St. Paul-Bloomington,Small Store,No,No,No,54014,Diamond Bluff,Wisconsin,Pierce,Minneapolis-St. Paul-Bloomington,44.649,-92.6189,East North Central ,Midwest 
+58,Store - 106 - Milwaukee-Waukesha-West Allis,Small Store,No,No,No,53119,Jericho,Wisconsin,Waukesha,Milwaukee-Waukesha-West Allis,42.8783,-88.4229,East North Central ,Midwest 
+59,Store - 106 - Milwaukee-Waukesha-West Allis,Super Center,Yes,Yes,Yes,53213,Wauwatosa,Wisconsin,Milwaukee,Milwaukee-Waukesha-West Allis,43.0616,-88.0347,East North Central ,Midwest 
+60,Store - 26 - Hartford-West Hartford-East Hartford,Small Store,Yes,Yes,Yes,06002,Blue Hills,Connecticut,Hartford,Hartford-West Hartford-East Hartford,41.8134,-72.6954,New England ,Northeast 
+61,Store - 26 - Hartford-West Hartford-East Hartford,Small Store,No,No,No,06066,Rockville,Connecticut,Tolland,Hartford-West Hartford-East Hartford,41.8667,-72.4528,New England ,Northeast 
+62,Store - 26 - Hartford-West Hartford-East Hartford,Small Store,No,No,No,06076,Stafford Springs,Connecticut,Tolland,Hartford-West Hartford-East Hartford,41.9595,-72.3105,New England ,Northeast 
+63,Store - 58 - Portland-South Portland-Biddeford,Small Store,No,No,No,04105,Falmouth,Maine,Cumberland,Portland-South Portland-Biddeford,43.712,-70.2344,New England ,Northeast 
+64,Store - 58 - Portland-South Portland-Biddeford,Shopping Center,Yes,No,Yes,04073,Sanford,Maine,York,Portland-South Portland-Biddeford,43.4244,-70.7573,New England ,Northeast 
+65,Store - 55 - Boston-Cambridge-Quincy,Small Store,No,No,No,01810,Andover,Massachusetts,Essex,Boston-Cambridge-Quincy,42.6554,-71.1418,New England ,Northeast 
+66,Store - 55 - Boston-Cambridge-Quincy,Small Store,No,No,Yes,02035,Foxborough,Massachusetts,Norfolk,Boston-Cambridge-Quincy,42.0644,-71.2482,New England ,Northeast 
+67,Store - 55 - Boston-Cambridge-Quincy,Small Store,No,No,Yes,02186,Milton,Massachusetts,Norfolk,Boston-Cambridge-Quincy,42.2412,-71.0844,New England ,Northeast 
+68,Store - 54 - Springfield,Super Center,No,Yes,Yes,01086,Westfield,Massachusetts,Hampden,Springfield,42.1382,-72.7561,New England ,Northeast 
+69,Store - 55 - Boston-Cambridge-Quincy,Small Store,No,No,No,03053,Londonderry,New Hampshire,Rockingham,Boston-Cambridge-Quincy,42.8508,-71.3617,New England ,Northeast 
+70,Store - 55 - Boston-Cambridge-Quincy,Super Center,Yes,Yes,Yes,03801,Portsmouth,New Hampshire,Rockingham,Boston-Cambridge-Quincy,43.058,-70.7826,New England ,Northeast 
+71,Store - 74 - New York-Northern New Jersey-Long Island,Small Store,No,No,Yes,07711,Allenhurst,New Jersey,Monmouth,New York-Northern New Jersey-Long Island,40.2362,-74.0018,Middle Atlantic ,Northeast 
+72,Store - 81 - New York-Northern New Jersey-Long Island,Small Store,No,No,Yes,07821,Andover,New Jersey,Sussex,New York-Northern New Jersey-Long Island,40.9864,-74.7429,Middle Atlantic ,Northeast 
+73,Store - 76 - Philadelphia-Camden-Wilmington,Small Store,No,No,Yes,08010,Beverly,New Jersey,Burlington,Philadelphia-Camden-Wilmington,40.065,-74.9217,Middle Atlantic ,Northeast 
+74,Store - 74 - New York-Northern New Jersey-Long Island,Small Store,No,No,No,07006,Caldwell,New Jersey,Essex,New York-Northern New Jersey-Long Island,40.839,-74.2777,Middle Atlantic ,Northeast 
+75,Store - 76 - Philadelphia-Camden-Wilmington,Small Store,No,No,No,08010,Edgewater Park,New Jersey,Burlington,Philadelphia-Camden-Wilmington,40.0682,-74.9007,Middle Atlantic ,Northeast 
+76,Store - 75 - New York-Northern New Jersey-Long Island,Super Center,Yes,No,Yes,07024,Fort Lee,New Jersey,Bergen,New York-Northern New Jersey-Long Island,40.8507,-73.9711,Middle Atlantic ,Northeast 
+77,Store - 81 - New York-Northern New Jersey-Long Island,Small Store,No,No,Yes,07852,Ledgewood,New Jersey,Morris,New York-Northern New Jersey-Long Island,40.8812,-74.656,Middle Atlantic ,Northeast 
+78,Store - 75 - New York-Northern New Jersey-Long Island,Neighborhood Market,Yes,No,Yes,07940,Madison,New Jersey,Morris,New York-Northern New Jersey-Long Island,40.7585,-74.417,Middle Atlantic ,Northeast 
+79,Store - 74 - New York-Northern New Jersey-Long Island,Neighborhood Market,Yes,No,No,07974,New Providence,New Jersey,Union,New York-Northern New Jersey-Long Island,40.6996,-74.4037,Middle Atlantic ,Northeast 
+80,Store - 75 - New York-Northern New Jersey-Long Island,Super Center,Yes,Yes,No,07522,Paterson,New Jersey,Passaic,New York-Northern New Jersey-Long Island,40.9147,-74.1624,Middle Atlantic ,Northeast 
+81,Store - 81 - New York-Northern New Jersey-Long Island,Small Store,No,No,Yes,08831,Prospect Plains,New Jersey,Middlesex,New York-Northern New Jersey-Long Island,40.324,-74.471,Middle Atlantic ,Northeast 
+82,Store - 74 - New York-Northern New Jersey-Long Island,Small Store,No,No,No,07461,Sussex,New Jersey,Sussex,New York-Northern New Jersey-Long Island,41.2096,-74.6076,Middle Atlantic ,Northeast 
+83,Store - 74 - New York-Northern New Jersey-Long Island,Super Center,Yes,Yes,Yes,10504,Armonk,New York,Westchester,New York-Northern New Jersey-Long Island,41.132,-73.7137,Middle Atlantic ,Northeast 
+84,Store - 81 - New York-Northern New Jersey-Long Island,Small Store,Yes,Yes,Yes,11719,Brookhaven,New York,Suffolk,New York-Northern New Jersey-Long Island,40.7793,-72.9107,Middle Atlantic ,Northeast 
+85,Store - 74 - New York-Northern New Jersey-Long Island,Small Store,No,No,No,11561,East Atlantic Beach,New York,Nassau,New York-Northern New Jersey-Long Island,40.5876,-73.7092,Middle Atlantic ,Northeast 
+86,Store - 74 - New York-Northern New Jersey-Long Island,Shopping Center,No,Yes,No,11530,Garden City,New York,Nassau,New York-Northern New Jersey-Long Island,40.7266,-73.6447,Middle Atlantic ,Northeast 
+87,Store - 81 - New York-Northern New Jersey-Long Island,Super Center,Yes,Yes,Yes,10026,Manhattan,New York,New York,New York-Northern New Jersey-Long Island,40.7834,-73.9662,Middle Atlantic ,Northeast 
+88,Store - 74 - New York-Northern New Jersey-Long Island,Super Center,Yes,No,Yes,10552,Mount Vernon,New York,Westchester,New York-Northern New Jersey-Long Island,40.9136,-73.8291,Middle Atlantic ,Northeast 
+89,Store - 81 - New York-Northern New Jersey-Long Island,Super Center,Yes,Yes,Yes,10804,New Rochelle,New York,Westchester,New York-Northern New Jersey-Long Island,40.9305,-73.7836,Middle Atlantic ,Northeast 
+90,Store - 75 - New York-Northern New Jersey-Long Island,Neighborhood Market,Yes,No,Yes,11772,Patchogue,New York,Suffolk,New York-Northern New Jersey-Long Island,40.7621,-73.0185,Middle Atlantic ,Northeast 
+91,Store - 75 - New York-Northern New Jersey-Long Island,Small Store,No,No,Yes,11764,Rocky Point,New York,Suffolk,New York-Northern New Jersey-Long Island,40.9357,-72.9364,Middle Atlantic ,Northeast 
+92,Store - 74 - New York-Northern New Jersey-Long Island,Neighborhood Market,Yes,Yes,Yes,11590,Westbury,New York,Nassau,New York-Northern New Jersey-Long Island,40.7599,-73.5891,Middle Atlantic ,Northeast 
+93,Store - 29 - Philadelphia-Camden-Wilmington,Small Store,No,No,Yes,19096,Ardmore,Pennsylvania,Montgomery,Philadelphia-Camden-Wilmington,40.0032,-75.2947,Middle Atlantic ,Northeast 
+94,Store - 87 - Pittsburgh,Small Store,No,No,No,15007,Bakerstown,Pennsylvania,Allegheny,Pittsburgh,40.6528,-79.9408,Middle Atlantic ,Northeast 
+95,Store - 87 - Pittsburgh,Small Store,No,No,No,15601,Calumet,Pennsylvania,Westmoreland,Pittsburgh,40.2189,-79.4892,Middle Atlantic ,Northeast 
+96,Store - 87 - Pittsburgh,Small Store,No,No,Yes,15324,Cokeburg,Pennsylvania,Washington,Pittsburgh,40.1001,-80.0656,Middle Atlantic ,Northeast 
+97,Store - 87 - Pittsburgh,Small Store,No,No,Yes,15074,East Rochester,Pennsylvania,Beaver,Pittsburgh,40.6981,-80.2689,Middle Atlantic ,Northeast 
+98,Store - 87 - Pittsburgh,Super Center,Yes,Yes,Yes,15061,Monaca,Pennsylvania,Beaver,Pittsburgh,40.6833,-80.2736,Middle Atlantic ,Northeast 
+99,Store - 29 - Philadelphia-Camden-Wilmington,Small Store,No,No,Yes,19015,Parkside,Pennsylvania,Delaware,Philadelphia-Camden-Wilmington,39.8674,-75.378,Middle Atlantic ,Northeast 
+100,Store - 76 - Philadelphia-Camden-Wilmington,Super Center,Yes,No,Yes,19464,Pottstown,Pennsylvania,Montgomery,Philadelphia-Camden-Wilmington,40.2508,-75.6445,Middle Atlantic ,Northeast 
+101,Store - 76 - Philadelphia-Camden-Wilmington,Small Store,No,No,No,19330,Russellville,Pennsylvania,Chester,Philadelphia-Camden-Wilmington,39.8423,-75.9413,Middle Atlantic ,Northeast 
+102,Store - 29 - Philadelphia-Camden-Wilmington,Small Store,No,No,No,19372,Thorndale,Pennsylvania,Chester,Philadelphia-Camden-Wilmington,39.999,-75.7519,Middle Atlantic ,Northeast 
+103,Store - 76 - Philadelphia-Camden-Wilmington,Small Store,No,No,Yes,19087,Wayne,Pennsylvania,Delaware,Philadelphia-Camden-Wilmington,40.044,-75.3877,Middle Atlantic ,Northeast 
+104,Store - 3 - Birmingham-Hoover,Super Center,Yes,Yes,Yes,35218,Birmingham,Alabama,Jefferson,Birmingham-Hoover,33.5276,-86.7986,East South Central ,South 
+105,Store - 4 - Tuscaloosa,Small Store,No,No,Yes,35404,Cottondale,Alabama,Tuscaloosa,Tuscaloosa,33.1921,-87.4544,East South Central ,South 
+106,Store - 3 - Birmingham-Hoover,Small Store,No,No,No,35078,Harpersville,Alabama,Shelby,Birmingham-Hoover,33.3185,-86.4285,East South Central ,South 
+107,Store - 6 - Montgomery,Small Store,No,No,Yes,36749,Jones,Alabama,Autauga,Montgomery,32.584,-86.8975,East South Central ,South 
+108,Store - 6 - Montgomery,Super Center,Yes,Yes,Yes,36064,Montgomery,Alabama,Montgomery,Montgomery,32.347,-86.2663,East South Central ,South 
+109,Store - 4 - Tuscaloosa,Super Center,Yes,Yes,Yes,35475,Tuscaloosa,Alabama,Tuscaloosa,Tuscaloosa,33.2349,-87.5268,East South Central ,South 
+110,Store - 10 - Fayetteville-Springdale-Rogers,Super Center,Yes,Yes,Yes,72712,Bentonville,Arkansas,Benton,Fayetteville-Springdale-Rogers,36.3579,-94.2286,West South Central ,South 
+111,Store - 8 - Little Rock-North Little Rock-Conway,Super Center,Yes,Yes,Yes,72032,Conway,Arkansas,Faulkner,Little Rock-North Little Rock-Conway,35.0754,-92.4696,West South Central ,South 
+112,Store - 8 - Little Rock-North Little Rock-Conway,Shopping Center,Yes,Yes,Yes,72099,Jacksonville,Arkansas,Pulaski,Little Rock-North Little Rock-Conway,34.8805,-92.1303,West South Central ,South 
+113,Store - 9 - Jonesboro,Super Center,No,No,No,72467,Jonesboro,Arkansas,Craighead,Jonesboro,35.8211,-90.6793,West South Central ,South 
+114,Store - 7 - Pine Bluff,Super Center,Yes,No,Yes,71602,Pine Bluff,Arkansas,Jefferson,Pine Bluff,34.2119,-92.0174,West South Central ,South 
+115,Store - 29 - Philadelphia-Camden-Wilmington,Small Store,No,No,Yes,19701,Bear,Delaware,New Castle,Philadelphia-Camden-Wilmington,39.6188,-75.6804,South Atlantic ,South 
+116,Store - 29 - Philadelphia-Camden-Wilmington,Small Store,No,No,Yes,19706,Delaware City,Delaware,New Castle,Philadelphia-Camden-Wilmington,39.5776,-75.5985,South Atlantic ,South 
+117,Store - 29 - Philadelphia-Camden-Wilmington,Shopping Center,Yes,Yes,No,19709,Middletown,Delaware,New Castle,Philadelphia-Camden-Wilmington,39.4451,-75.7165,South Atlantic ,South 
+118,Store - 76 - Philadelphia-Camden-Wilmington,Small Store,Yes,Yes,Yes,19734,Townsend,Delaware,New Castle,Philadelphia-Camden-Wilmington,39.3968,-75.6945,South Atlantic ,South 
+119,Store - 102 - Washington-Arlington-Alexandria,Super Center,Yes,Yes,Yes,20010,Washington,District of Columbia,District of Columbia,Washington-Arlington-Alexandria,38.9047,-77.0163,South Atlantic ,South 
+120,Store - 32 - Tallahassee,Small Store,No,No,No,32344,Ashville,Florida,Jefferson,Tallahassee,30.6166,-83.6465,South Atlantic ,South 
+121,Store - 33 - Pensacola-Ferry Pass-Brent,Small Store,No,No,No,32583,Avalon Beach,Florida,Santa Rosa,Pensacola-Ferry Pass-Brent,30.5302,-87.1016,South Atlantic ,South 
+122,Store - 34 - Orlando-Kissimmee,Shopping Center,No,No,No,34711,Clermont,Florida,Lake,Orlando-Kissimmee,28.5403,-81.7296,South Atlantic ,South 
+123,Store - 35 - Miami-Fort Lauderdale-Pompano Beach,Super Center,Yes,Yes,Yes,33146,Coral Gables,Florida,Miami-Dade,Miami-Fort Lauderdale-Pompano Beach,25.7037,-80.2715,South Atlantic ,South 
+124,Store - 34 - Orlando-Kissimmee,Small Store,No,No,No,32735,Grand Island,Florida,Lake,Orlando-Kissimmee,28.8825,-81.729,South Atlantic ,South 
+125,Store - 35 - Miami-Fort Lauderdale-Pompano Beach,Super Center,Yes,Yes,Yes,33477,Jupiter,Florida,Palm Beach,Miami-Fort Lauderdale-Pompano Beach,26.9195,-80.1123,South Atlantic ,South 
+126,Store - 35 - Miami-Fort Lauderdale-Pompano Beach,Super Center,Yes,No,Yes,33140,Miami Beach,Florida,Miami-Dade,Miami-Fort Lauderdale-Pompano Beach,25.8171,-80.1396,South Atlantic ,South 
+127,Store - 30 - Jacksonville,Small Store,No,No,No,32043,Russell,Florida,Clay,Jacksonville,30.0564,-81.7473,South Atlantic ,South 
+128,Store - 35 - Miami-Fort Lauderdale-Pompano Beach,Super Center,Yes,Yes,Yes,33322,Sunrise,Florida,Broward,Miami-Fort Lauderdale-Pompano Beach,26.1547,-80.2998,South Atlantic ,South 
+129,Store - 35 - Miami-Fort Lauderdale-Pompano Beach,Super Center,Yes,Yes,Yes,33411,West Palm Beach,Florida,Palm Beach,Miami-Fort Lauderdale-Pompano Beach,26.7468,-80.1315,South Atlantic ,South 
+130,Store - 36 - Atlanta-Sandy Springs-Marietta,Shopping Center,Yes,No,No,30144,Acworth,Georgia,Cobb,Atlanta-Sandy Springs-Marietta,34.0564,-84.6688,South Atlantic ,South 
+131,Store - 38 - Athens-Clark County,Super Center,Yes,Yes,Yes,30601,Athens,Georgia,Clarke,Athens-Clark County,33.9508,-83.3689,South Atlantic ,South 
+132,Store - 36 - Atlanta-Sandy Springs-Marietta,Super Center,No,No,No,30334,Atlanta,Georgia,Fulton,Atlanta-Sandy Springs-Marietta,33.7627,-84.4231,South Atlantic ,South 
+133,Store - 36 - Atlanta-Sandy Springs-Marietta,Neighborhood Market,No,No,Yes,30132,Dallas,Georgia,Paulding,Atlanta-Sandy Springs-Marietta,33.9153,-84.8416,South Atlantic ,South 
+134,Store - 36 - Atlanta-Sandy Springs-Marietta,Small Store,No,No,Yes,30233,Jackson,Georgia,Butts,Atlanta-Sandy Springs-Marietta,33.2913,-83.968,South Atlantic ,South 
+135,Store - 36 - Atlanta-Sandy Springs-Marietta,Super Center,Yes,Yes,Yes,30060,Marietta,Georgia,Cobb,Atlanta-Sandy Springs-Marietta,33.9532,-84.542,South Atlantic ,South 
+136,Store - 36 - Atlanta-Sandy Springs-Marietta,Small Store,No,No,Yes,30349,Red Oak,Georgia,Fulton,Atlanta-Sandy Springs-Marietta,33.6248,-84.4985,South Atlantic ,South 
+137,Store - 36 - Atlanta-Sandy Springs-Marietta,Shopping Center,Yes,Yes,Yes,30253,Stockbridge,Georgia,Henry,Atlanta-Sandy Springs-Marietta,33.5265,-84.2293,South Atlantic ,South 
+138,Store - 38 - Athens-Clark County,Small Store,No,No,Yes,30677,Watkinsville,Georgia,Oconee,Athens-Clark County,33.8613,-83.4073,South Atlantic ,South 
+139,Store - 50 - Louisville/Jefferson County,Shopping Center,Yes,Yes,Yes,40004,Bardstown,Kentucky,Nelson,Louisville/Jefferson County,37.8175,-85.455,East South Central ,South 
+140,Store - 52 - Cincinnati-Middletown,Small Store,No,No,Yes,41001,Claryville,Kentucky,Campbell,Cincinnati-Middletown,38.9141,-84.4103,East South Central ,South 
+141,Store - 50 - Louisville/Jefferson County,Small Store,No,No,No,40117,Ekron,Kentucky,Meade,Louisville/Jefferson County,37.9302,-86.1765,East South Central ,South 
+142,Store - 52 - Cincinnati-Middletown,Small Store,No,No,No,41076,Highland Heights,Kentucky,Campbell,Cincinnati-Middletown,39.0355,-84.4567,East South Central ,South 
+143,Store - 51 - Lexington-Fayette,Small Store,No,No,Yes,40339,Keene,Kentucky,Jessamine,Lexington-Fayette,37.9434,-84.6419,East South Central ,South 
+144,Store - 52 - Cincinnati-Middletown,Neighborhood Market,Yes,No,Yes,41071,Newport,Kentucky,Campbell,Cincinnati-Middletown,39.0855,-84.4868,East South Central ,South 
+145,Store - 105 - Huntington-Ashland,Small Store,No,No,Yes,41183,Worthington,Kentucky,Greenup,Huntington-Ashland,38.5508,-82.7349,East South Central ,South 
+146,Store - 53 - New Orleans-Metairie-Kenner,Small Store,No,No,No,70043,Chalmette,Louisiana,St. Bernard,New Orleans-Metairie-Kenner,29.9438,-89.9657,West South Central ,South 
+147,Store - 53 - New Orleans-Metairie-Kenner,Super Center,Yes,Yes,Yes,70065,Kenner,Louisiana,Jefferson,New Orleans-Metairie-Kenner,30.0109,-90.2549,West South Central ,South 
+148,Store - 53 - New Orleans-Metairie-Kenner,Small Store,No,No,No,70040,Saint Clair,Louisiana,Plaquemines,New Orleans-Metairie-Kenner,29.8699,-89.969,West South Central ,South 
+149,Store - 53 - New Orleans-Metairie-Kenner,Small Store,No,No,No,70056,Timberlane,Louisiana,Jefferson,New Orleans-Metairie-Kenner,29.8781,-90.0302,West South Central ,South 
+150,Store - 57 - Baltimore-Towson,Super Center,Yes,Yes,Yes,21218,Baltimore,Maryland,Baltimore (city),Baltimore-Towson,39.3051,-76.6144,South Atlantic ,South 
+151,Store - 102 - Washington-Arlington-Alexandria,Small Store,Yes,Yes,Yes,20837,Beallsville,Maryland,Montgomery,Washington-Arlington-Alexandria,39.179,-77.4128,South Atlantic ,South 
+152,Store - 102 - Washington-Arlington-Alexandria,Small Store,No,No,No,21758,Brownsville,Maryland,Washington,Washington-Arlington-Alexandria,39.3782,-77.6614,South Atlantic ,South 
+153,Store - 27 - Washington-Arlington-Alexandria,Shopping Center,No,Yes,No,20742,College Park,Maryland,Prince George's,Washington-Arlington-Alexandria,38.9964,-76.9337,South Atlantic ,South 
+154,Store - 76 - Philadelphia-Camden-Wilmington,Small Store,No,No,No,21911,Farmington,Maryland,Cecil,Philadelphia-Camden-Wilmington,39.6787,-76.0322,South Atlantic ,South 
+155,Store - 56 - Washington-Arlington-Alexandria,Small Store,No,No,Yes,20901,Four Corners,Maryland,Montgomery,Washington-Arlington-Alexandria,39.0235,-77.0102,South Atlantic ,South 
+156,Store - 56 - Washington-Arlington-Alexandria,Small Store,No,No,Yes,21755,Jefferson,Maryland,Frederick,Washington-Arlington-Alexandria,39.3661,-77.5409,South Atlantic ,South 
+157,Store - 27 - Washington-Arlington-Alexandria,Small Store,No,No,Yes,21771,Mount Airy,Maryland,Carroll,Washington-Arlington-Alexandria,39.3743,-77.1535,South Atlantic ,South 
+158,Store - 27 - Washington-Arlington-Alexandria,Super Center,Yes,Yes,Yes,20640,Pisgah,Maryland,Charles,Washington-Arlington-Alexandria,38.5462,-77.1347,South Atlantic ,South 
+159,Store - 27 - Washington-Arlington-Alexandria,Small Store,No,No,No,20664,Rock Point,Maryland,Charles,Washington-Arlington-Alexandria,38.2754,-76.8428,South Atlantic ,South 
+160,Store - 102 - Washington-Arlington-Alexandria,Small Store,No,No,No,20815,Somerset,Maryland,Montgomery,Washington-Arlington-Alexandria,38.9666,-77.0963,South Atlantic ,South 
+161,Store - 65 - Memphis,Super Center,No,No,No,38632,Cockrum,Mississippi,DeSoto,Memphis,34.8029,-89.812,East South Central ,South 
+162,Store - 65 - Memphis,Small Store,Yes,Yes,Yes,38626,Dubbs,Mississippi,Tunica,Memphis,34.5684,-90.3737,East South Central ,South 
+163,Store - 67 - Gulfport-Biloxi,Super Center,Yes,Yes,Yes,39501,Gulfport,Mississippi,Harrison,Gulfport-Biloxi,30.4271,-89.0703,East South Central ,South 
+164,Store - 94 - Memphis,Small Store,No,No,No,38664,Robinsonville,Mississippi,Tunica,Memphis,34.8173,-90.3162,East South Central ,South 
+165,Store - 94 - Memphis,Super Center,Yes,Yes,Yes,38651,Southaven,Mississippi,DeSoto,Memphis,34.9514,-89.9787,East South Central ,South 
+166,Store - 71 - Raleigh-Cary,Super Center,No,No,No,27518,Cary,North Carolina,Wake,Raleigh-Cary,35.7815,-78.8162,South Atlantic ,South 
+167,Store - 70 - Greensboro-High Point,Super Center,Yes,Yes,Yes,27410,Greensboro,North Carolina,Guilford,Greensboro-High Point,36.096,-79.8275,South Atlantic ,South 
+168,Store - 69 - Winston-Salem,Small Store,No,No,No,27040,Tobaccoville,North Carolina,Forsyth,Winston-Salem,36.2257,-80.3591,South Atlantic ,South 
+169,Store - 70 - Greensboro-High Point,Small Store,No,No,No,27320,Wentworth,North Carolina,Rockingham,Greensboro-High Point,36.3914,-79.751,South Atlantic ,South 
+170,Store - 85 - Oklahoma City,Super Center,Yes,Yes,Yes,74834,Chandler,Oklahoma,Lincoln,Oklahoma City,35.7237,-96.8951,West South Central ,South 
+171,Store - 11 - Fort Smith,Small Store,No,No,No,74954,Moffett,Oklahoma,Sequoyah,Fort Smith,35.4039,-94.4554,West South Central ,South 
+172,Store - 11 - Fort Smith,Small Store,No,No,No,74959,Spiro,Oklahoma,Le Flore,Fort Smith,35.241,-94.6231,West South Central ,South 
+173,Store - 88 - Columbia,Neighborhood Market,Yes,No,No,29020,Camden,South Carolina,Kershaw,Columbia,34.2564,-80.6085,South Atlantic ,South 
+174,Store - 90 - Charleston-North Charleston,Super Center,Yes,Yes,Yes,29414,Charleston,South Carolina,Charleston,Charleston-North Charleston,32.8137,-79.9643,South Atlantic ,South 
+175,Store - 90 - Charleston-North Charleston,Small Store,No,No,Yes,29455,Johns Island,South Carolina,Charleston,Charleston-North Charleston,32.7924,-80.1081,South Atlantic ,South 
+176,Store - 39 - Augusta-Richmond County,Shopping Center,Yes,Yes,No,29860,North Augusta,South Carolina,Aiken,Augusta-Richmond County,33.5211,-81.9545,South Atlantic ,South 
+177,Store - 90 - Charleston-North Charleston,Small Store,No,No,Yes,29487,Rockville,South Carolina,Charleston,Charleston-North Charleston,32.6024,-80.1935,South Atlantic ,South 
+178,Store - 65 - Memphis,Super Center,Yes,Yes,Yes,38002,Bartlett,Tennessee,Shelby,Memphis,35.2337,-89.8195,East South Central ,South 
+179,Store - 93 - Chattanooga,Super Center,Yes,Yes,Yes,37415,Chattanooga,Tennessee,Hamilton,Chattanooga,35.0657,-85.2488,East South Central ,South 
+180,Store - 92 - Nashville-Davidson-Murfreesboro-Franklin,Super Center,No,No,No,37069,Franklin,Tennessee,Williamson,Nashville-Davidson-Murfreesboro-Franklin,35.9215,-86.8522,East South Central ,South 
+181,Store - 94 - Memphis,Small Store,No,No,Yes,38036,Gallaway,Tennessee,Fayette,Memphis,35.3279,-89.6068,East South Central ,South 
+182,Store - 92 - Nashville-Davidson-Murfreesboro-Franklin,Neighborhood Market,Yes,No,Yes,37072,Goodlettsville,Tennessee,Davidson,Nashville-Davidson-Murfreesboro-Franklin,36.3323,-86.7032,East South Central ,South 
+183,Store - 94 - Memphis,Super Center,Yes,Yes,Yes,38122,Memphis,Tennessee,Shelby,Memphis,35.1047,-89.9773,East South Central ,South 
+184,Store - 93 - Chattanooga,Small Store,No,No,No,37421,Shepherd,Tennessee,Hamilton,Chattanooga,35.039,-85.1919,East South Central ,South 
+185,Store - 94 - Memphis,Small Store,No,No,No,38068,Williston,Tennessee,Fayette,Memphis,35.1583,-89.3754,East South Central ,South 
+186,Store - 98 - Dallas-Fort Worth-Arlington,Neighborhood Market,Yes,Yes,Yes,75254,Addison,Texas,Dallas,Dallas-Fort Worth-Arlington,32.9587,-96.8356,West South Central ,South 
+187,Store - 95 - Dallas-Fort Worth-Arlington,Small Store,No,No,No,76001,Bisbee,Texas,Tarrant,Dallas-Fort Worth-Arlington,32.609,-97.1842,West South Central ,South 
+188,Store - 95 - Dallas-Fort Worth-Arlington,Small Store,No,No,No,76426,Bridgeport,Texas,Wise,Dallas-Fort Worth-Arlington,33.2094,-97.7717,West South Central ,South 
+189,Store - 95 - Dallas-Fort Worth-Arlington,Small Store,No,No,No,75159,Combine,Texas,Kaufman,Dallas-Fort Worth-Arlington,32.591,-96.5202,West South Central ,South 
+190,Store - 95 - Dallas-Fort Worth-Arlington,Super Center,Yes,Yes,Yes,75287,Dallas,Texas,Dallas,Dallas-Fort Worth-Arlington,32.7938,-96.7659,West South Central ,South 
+191,Store - 95 - Dallas-Fort Worth-Arlington,Neighborhood Market,Yes,No,Yes,75087,Fate,Texas,Rockwall,Dallas-Fort Worth-Arlington,32.9401,-96.3864,West South Central ,South 
+192,Store - 95 - Dallas-Fort Worth-Arlington,Super Center,Yes,Yes,Yes,75034,Frisco,Texas,Collin,Dallas-Fort Worth-Arlington,33.1551,-96.8219,West South Central ,South 
+193,Store - 99 - Houston-Sugar Land-Baytown,Super Center,Yes,Yes,Yes,77551,Galveston,Texas,Galveston,Houston-Sugar Land-Baytown,29.2487,-94.891,West South Central ,South 
+194,Store - 95 - Dallas-Fort Worth-Arlington,Small Store,No,No,No,76135,Lakeside,Texas,Tarrant,Dallas-Fort Worth-Arlington,32.822,-97.4892,West South Central ,South 
+195,Store - 99 - Houston-Sugar Land-Baytown,Small Store,No,No,No,77354,Magnolia,Texas,Montgomery,Houston-Sugar Land-Baytown,30.2117,-95.7419,West South Central ,South 
+196,Store - 99 - Houston-Sugar Land-Baytown,Small Store,No,No,No,77461,Needville,Texas,Fort Bend,Houston-Sugar Land-Baytown,29.3957,-95.8387,West South Central ,South 
+197,Store - 95 - Dallas-Fort Worth-Arlington,Super Center,Yes,Yes,Yes,75152,Palmer,Texas,Ellis,Dallas-Fort Worth-Arlington,32.425,-96.6732,West South Central ,South 
+198,Store - 98 - Dallas-Fort Worth-Arlington,Small Store,Yes,Yes,Yes,76020,Pelican Bay,Texas,Tarrant,Dallas-Fort Worth-Arlington,32.9228,-97.519,West South Central ,South 
+199,Store - 96 - Austin-Round Rock,Super Center,Yes,Yes,Yes,78681,Round Rock,Texas,Williamson,Austin-Round Rock,30.5253,-97.6659,West South Central ,South 
+200,Store - 98 - Dallas-Fort Worth-Arlington,Small Store,No,No,No,75126,Talty,Texas,Kaufman,Dallas-Fort Worth-Arlington,32.6948,-96.3981,West South Central ,South 
+201,Store - 96 - Austin-Round Rock,Small Store,No,No,No,78676,Woodcreek,Texas,Hays,Austin-Round Rock,30.0265,-98.1113,West South Central ,South 
+202,Store - 27 - Washington-Arlington-Alexandria,Super Center,Yes,Yes,Yes,22302,Alexandria,Virginia,Alexandria (city),Washington-Arlington-Alexandria,38.8184,-77.0861,South Atlantic ,South 
+203,Store - 56 - Washington-Arlington-Alexandria,Small Store,No,No,No,20147,Belmont,Virginia,Loudoun,Washington-Arlington-Alexandria,39.0651,-77.4963,South Atlantic ,South 
+204,Store - 56 - Washington-Arlington-Alexandria,Small Store,No,No,Yes,20136,Bristow,Virginia,Prince William,Washington-Arlington-Alexandria,38.7229,-77.5361,South Atlantic ,South 
+205,Store - 56 - Washington-Arlington-Alexandria,Shopping Center,Yes,Yes,Yes,22030,Fairfax,Virginia,Fairfax (city),Washington-Arlington-Alexandria,38.8531,-77.2998,South Atlantic ,South 
+206,Store - 27 - Washington-Arlington-Alexandria,Shopping Center,No,No,Yes,20170,Herndon,Virginia,Fairfax,Washington-Arlington-Alexandria,38.9699,-77.3867,South Atlantic ,South 
+207,Store - 27 - Washington-Arlington-Alexandria,Small Store,No,No,Yes,22151,Kings Park,Virginia,Fairfax,Washington-Arlington-Alexandria,38.8026,-77.2396,South Atlantic ,South 
+208,Store - 102 - Washington-Arlington-Alexandria,Small Store,No,No,Yes,22734,Remington,Virginia,Fauquier,Washington-Arlington-Alexandria,38.5346,-77.8082,South Atlantic ,South 
+209,Store - 102 - Washington-Arlington-Alexandria,Small Store,No,No,Yes,22630,Shenandoah Shores,Virginia,Warren,Washington-Arlington-Alexandria,38.9621,-78.1414,South Atlantic ,South 
+210,Store - 104 - Charleston,Small Store,No,No,Yes,25208,Bald Knob,West Virginia,Boone,Charleston,37.8709,-81.6357,South Atlantic ,South 
+211,Store - 105 - Huntington-Ashland,Small Store,No,No,No,25514,Fort Gay,West Virginia,Wayne,Huntington-Ashland,38.1203,-82.5952,South Atlantic ,South 
+212,Store - 104 - Charleston,Small Store,Yes,Yes,No,25306,Rand,West Virginia,Kanawha,Charleston,38.2817,-81.5654,South Atlantic ,South 
+213,Store - 56 - Washington-Arlington-Alexandria,Super Center,Yes,Yes,Yes,25438,Ranson,West Virginia,Jefferson,Washington-Arlington-Alexandria,39.325,-77.8667,South Atlantic ,South 
+214,Store - 104 - Charleston,Small Store,Yes,Yes,No,25204,Twilight,West Virginia,Boone,Charleston,37.9252,-81.6177,South Atlantic ,South 
+215,Store - 86 - Portland-Vancouver-Beaverton,Small Store,Yes,Yes,No,98662,Barberton,Washington,Clark,Portland-Vancouver-Beaverton,45.7136,-122.6114,Pacific ,West 
+216,Store - 86 - Portland-Vancouver-Beaverton,Small Store,Yes,Yes,No,98651,Hood,Washington,Skamania,Portland-Vancouver-Beaverton,45.7248,-121.5581,Pacific ,West 
+217,Store - 86 - Portland-Vancouver-Beaverton,Small Store,Yes,Yes,No,98682,Orchards,Washington,Clark,Portland-Vancouver-Beaverton,45.6888,-122.5305,Pacific ,West 
+218,Store - 86 - Portland-Vancouver-Beaverton,Small Store,Yes,Yes,Yes,98665,Walnut Grove,Washington,Clark,Portland-Vancouver-Beaverton,45.6769,-122.6072,Pacific ,West 
+219,Store - 2 - Anchorage,Super Center,Yes,Yes,Yes,99518,Anchorage,Alaska,Anchorage,Anchorage,61.1508,-149.1091,Pacific ,West 
+220,Store - 1 - Fairbanks,Small Store,Yes,Yes,No,99701,Coldfoot,Alaska,Yukon-Koyukuk,Fairbanks,67.2475,-150.1079,Pacific ,West 
+221,Store - 2 - Anchorage,Small Store,No,No,No,99577,Eagle River,Alaska,Anchorage,Anchorage,61.3214,-149.5678,Pacific ,West 
+222,Store - 1 - Fairbanks,Small Store,No,No,No,99790,Livengood,Alaska,Yukon-Koyukuk,Fairbanks,65.4817,-148.4171,Pacific ,West 
+223,Store - 2 - Anchorage,Small Store,No,No,No,99519,Prudhoe Bay,Alaska,North Slope,Anchorage,70.3128,-148.6957,Pacific ,West 
+224,Store - 14 - Phoenix-Mesa-Scottsdale,Small Store,No,No,No,85320,Aguila,Arizona,Maricopa,Phoenix-Mesa-Scottsdale,33.9376,-113.1665,Mountain ,West 
+225,Store - 13 - Tucson,Small Store,Yes,Yes,Yes,85634,Ali Chukson,Arizona,Pima,Tucson,31.9115,-111.8016,Mountain ,West 
+226,Store - 13 - Tucson,Small Store,No,No,No,85601,Arivaca,Arizona,Pima,Tucson,31.575,-111.2926,Mountain ,West 
+227,Store - 13 - Tucson,Small Store,No,No,No,85704,Casas Adobes,Arizona,Pima,Tucson,32.3423,-111.0112,Mountain ,West 
+228,Store - 14 - Phoenix-Mesa-Scottsdale,Super Center,Yes,Yes,Yes,85248,Chandler,Arizona,Maricopa,Phoenix-Mesa-Scottsdale,33.2828,-111.8517,Mountain ,West 
+229,Store - 13 - Tucson,Small Store,No,No,No,85743,Cortaro,Arizona,Pima,Tucson,32.3562,-111.0884,Mountain ,West 
+230,Store - 14 - Phoenix-Mesa-Scottsdale,Super Center,Yes,Yes,Yes,85301,Glendale,Arizona,Maricopa,Phoenix-Mesa-Scottsdale,33.5797,-112.2246,Mountain ,West 
+231,Store - 14 - Phoenix-Mesa-Scottsdale,Small Store,No,Yes,No,85340,Litchfield Park,Arizona,Maricopa,Phoenix-Mesa-Scottsdale,33.5024,-112.3586,Mountain ,West 
+232,Store - 14 - Phoenix-Mesa-Scottsdale,Super Center,Yes,Yes,Yes,85008,Phoenix,Arizona,Maricopa,Phoenix-Mesa-Scottsdale,33.5722,-112.0891,Mountain ,West 
+233,Store - 14 - Phoenix-Mesa-Scottsdale,Small Store,No,No,No,85147,Sacaton,Arizona,Pinal,Phoenix-Mesa-Scottsdale,33.0793,-111.7683,Mountain ,West 
+234,Store - 12 - Yuma,Neighborhood Market,No,No,No,85350,Somerton,Arizona,Yuma,Yuma,32.6009,-114.699,Mountain ,West 
+235,Store - 14 - Phoenix-Mesa-Scottsdale,Small Store,No,No,No,85375,Sun City West,Arizona,Maricopa,Phoenix-Mesa-Scottsdale,33.6694,-112.3575,Mountain ,West 
+236,Store - 17 - Riverside-San Bernardino-Ontario,Shopping Center,Yes,Yes,No,92301,Adelanto,California,San Bernardino,Riverside-San Bernardino-Ontario,34.5868,-117.4411,Pacific ,West 
+237,Store - 15 - Los Angeles-Long Beach-Santa Ana,Small Store,No,No,No,90249,Alondra Park,California,Los Angeles,Los Angeles-Long Beach-Santa Ana,33.8885,-118.335,Pacific ,West 
+238,Store - 18 - Bakersfield,Super Center,Yes,Yes,Yes,93306,Bakersfield,California,Kern,Bakersfield,35.3528,-119.0354,Pacific ,West 
+239,Store - 20 - San Francisco-Oakland-Fremont,Super Center,Yes,Yes,Yes,94513,Brentwood,California,Contra Costa,San Francisco-Oakland-Fremont,37.9356,-121.719,Pacific ,West 
+240,Store - 15 - Los Angeles-Long Beach-Santa Ana,Shopping Center,Yes,Yes,Yes,91302,Calabasas,California,Los Angeles,Los Angeles-Long Beach-Santa Ana,34.1375,-118.6689,Pacific ,West 
+241,Store - 16 - San Diego-Carlsbad-San Marcos,Super Center,Yes,Yes,Yes,92008,Carlsbad,California,San Diego,San Diego-Carlsbad-San Marcos,33.1246,-117.2836,Pacific ,West 
+242,Store - 17 - Riverside-San Bernardino-Ontario,Super Center,Yes,Yes,Yes,92236,Coachella,California,Riverside,Riverside-San Bernardino-Ontario,33.691,-116.1451,Pacific ,West 
+243,Store - 15 - Los Angeles-Long Beach-Santa Ana,Super Center,Yes,Yes,Yes,92626,Costa Mesa,California,Orange,Los Angeles-Long Beach-Santa Ana,33.6667,-117.9135,Pacific ,West 
+244,Store - 22 - Sacramento-Arden-Arcade-Roseville,Small Store,No,No,No,95682,El Dorado Hills,California,El Dorado,Sacramento-Arden-Arcade-Roseville,38.6723,-121.047,Pacific ,West 
+245,Store - 22 - Sacramento-Arden-Arcade-Roseville,Super Center,Yes,Yes,Yes,95630,Folsom,California,Sacramento,Sacramento-Arden-Arcade-Roseville,38.6751,-121.1476,Pacific ,West 
+246,Store - 20 - San Francisco-Oakland-Fremont,Super Center,Yes,Yes,Yes,94536,Fremont,California,Alameda,San Francisco-Oakland-Fremont,37.5256,-121.987,Pacific ,West 
+247,Store - 20 - San Francisco-Oakland-Fremont,Shopping Center,No,No,Yes,94019,Half Moon Bay,California,San Mateo,San Francisco-Oakland-Fremont,37.4687,-122.4383,Pacific ,West 
+248,Store - 15 - Los Angeles-Long Beach-Santa Ana,Small Store,No,No,No,90028,Hollywood,California,Los Angeles,Los Angeles-Long Beach-Santa Ana,34.0983,-118.3267,Pacific ,West 
+249,Store - 15 - Los Angeles-Long Beach-Santa Ana,Super Center,Yes,Yes,Yes,90715,Lakewood,California,Los Angeles,Los Angeles-Long Beach-Santa Ana,33.8471,-118.1222,Pacific ,West 
+250,Store - 15 - Los Angeles-Long Beach-Santa Ana,Super Center,Yes,Yes,Yes,90822,Long Beach,California,Los Angeles,Los Angeles-Long Beach-Santa Ana,33.8059,-118.161,Pacific ,West 
+251,Store - 15 - Los Angeles-Long Beach-Santa Ana,Shopping Center,No,Yes,No,90270,Maywood,California,Los Angeles,Los Angeles-Long Beach-Santa Ana,33.9885,-118.1877,Pacific ,West 
+252,Store - 17 - Riverside-San Bernardino-Ontario,Small Store,No,No,No,92225,Mesa Verde,California,Riverside,Riverside-San Bernardino-Ontario,33.5958,-114.7319,Pacific ,West 
+253,Store - 20 - San Francisco-Oakland-Fremont,Super Center,Yes,Yes,Yes,94621,Oakland,California,Alameda,San Francisco-Oakland-Fremont,37.7903,-122.2165,Pacific ,West 
+254,Store - 16 - San Diego-Carlsbad-San Marcos,Super Center,Yes,Yes,Yes,92058,Oceanside,California,San Diego,San Diego-Carlsbad-San Marcos,33.2247,-117.3083,Pacific ,West 
+255,Store - 20 - San Francisco-Oakland-Fremont,Neighborhood Market,Yes,No,Yes,94065,Redwood City,California,San Mateo,San Francisco-Oakland-Fremont,37.5026,-122.2251,Pacific ,West 
+256,Store - 22 - Sacramento-Arden-Arcade-Roseville,Super Center,Yes,Yes,Yes,95661,Roseville,California,Placer,Sacramento-Arden-Arcade-Roseville,38.7683,-121.3164,Pacific ,West 
+257,Store - 20 - San Francisco-Oakland-Fremont,Shopping Center,Yes,Yes,Yes,94070,San Carlos,California,San Mateo,San Francisco-Oakland-Fremont,37.4982,-122.268,Pacific ,West 
+258,Store - 22 - Sacramento-Arden-Arcade-Roseville,Small Store,No,No,No,95681,Sheridan,California,Placer,Sacramento-Arden-Arcade-Roseville,38.969,-121.3559,Pacific ,West 
+259,Store - 21 - San Jose-Sunnyvale-Santa Clara,Small Store,No,Yes,No,94305,Stanford,California,Santa Clara,San Jose-Sunnyvale-Santa Clara,37.4252,-122.1674,Pacific ,West 
+260,Store - 21 - San Jose-Sunnyvale-Santa Clara,Super Center,Yes,Yes,Yes,95002,Sunnyvale,California,Santa Clara,San Jose-Sunnyvale-Santa Clara,37.3846,-122.0261,Pacific ,West 
+261,Store - 15 - Los Angeles-Long Beach-Santa Ana,Super Center,Yes,Yes,Yes,90277,Torrance,California,Los Angeles,Los Angeles-Long Beach-Santa Ana,33.8346,-118.3417,Pacific ,West 
+262,Store - 16 - San Diego-Carlsbad-San Marcos,Small Store,No,No,No,92082,Valley Center,California,San Diego,San Diego-Carlsbad-San Marcos,33.2331,-117.0158,Pacific ,West 
+263,Store - 15 - Los Angeles-Long Beach-Santa Ana,Small Store,No,No,No,90044,Westmont,California,Los Angeles,Los Angeles-Long Beach-Santa Ana,33.9417,-118.3018,Pacific ,West 
+264,Store - 23 - Denver-Aurora,Super Center,Yes,Yes,Yes,80124,Acres Green,Colorado,Douglas,Denver-Aurora,39.5558,-104.8957,Mountain ,West 
+265,Store - 24 - Colorado Springs,Small Store,Yes,Yes,Yes,80908,Black Forest,Colorado,El Paso,Colorado Springs,39.0608,-104.6753,Mountain ,West 
+266,Store - 24 - Colorado Springs,Small Store,No,No,No,80808,Calhan,Colorado,El Paso,Colorado Springs,39.0344,-104.2992,Mountain ,West 
+267,Store - 23 - Denver-Aurora,Super Center,Yes,Yes,Yes,80264,Denver,Colorado,Denver,Denver-Aurora,39.7621,-104.8759,Mountain ,West 
+268,Store - 25 - Boulder,Small Store,No,No,No,80025,Eldorado Springs,Colorado,Boulder,Boulder,39.9367,-105.2625,Mountain ,West 
+269,Store - 23 - Denver-Aurora,Small Store,No,Yes,No,80440,Garo,Colorado,Park,Denver-Aurora,39.1078,-105.8903,Mountain ,West 
+270,Store - 25 - Boulder,Small Store,No,Yes,No,80026,Leyner,Colorado,Boulder,Boulder,40.0511,-105.1073,Mountain ,West 
+271,Store - 25 - Boulder,Small Store,No,No,No,80481,Ward,Colorado,Boulder,Boulder,40.0726,-105.5136,Mountain ,West 
+272,Store - 40 - Honolulu,Super Center,Yes,Yes,Yes,96859,Honolulu,Hawaii,Honolulu,Honolulu,21.3293,-157.846,Pacific ,West 
+273,Store - 40 - Honolulu,Small Store,No,Yes,No,96701,Pearl City,Hawaii,Honolulu,Honolulu,21.4031,-157.9566,Pacific ,West 
+274,Store - 42 - Idaho Falls,Neighborhood Market,Yes,Yes,Yes,83431,Lewisville,Idaho,Jefferson,Idaho Falls,43.6952,-112.0135,Mountain ,West 
+275,Store - 42 - Idaho Falls,Small Store,No,No,No,83449,Swan Valley,Idaho,Bonneville,Idaho Falls,43.4445,-111.3288,Mountain ,West 
+276,Store - 68 - Billings,Super Center,Yes,Yes,Yes,59106,Billings,Montana,Yellowstone,Billings,45.7892,-108.5498,Mountain ,West 
+277,Store - 68 - Billings,Small Store,No,No,No,59041,Joliet,Montana,Carbon,Billings,45.4845,-108.9721,Mountain ,West 
+278,Store - 80 - Las Vegas-Paradise,Neighborhood Market,Yes,No,Yes,89046,Boulder City,Nevada,Clark,Las Vegas-Paradise,35.8407,-114.9256,Mountain ,West 
+279,Store - 80 - Las Vegas-Paradise,Super Center,Yes,Yes,Yes,89032,North Las Vegas,Nevada,Clark,Las Vegas-Paradise,36.288,-115.0901,Mountain ,West 
+280,Store - 80 - Las Vegas-Paradise,Small Store,No,No,No,89122,Whitney,Nevada,Clark,Las Vegas-Paradise,36.1005,-115.038,Mountain ,West 
+281,Store - 78 - Albuquerque,Super Center,Yes,Yes,Yes,87121,Albuquerque,New Mexico,Bernalillo,Albuquerque,35.1055,-106.6476,Mountain ,West 
+282,Store - 79 - Santa Fe,Small Store,No,No,No,87015,Cedar Grove,New Mexico,Santa Fe,Santa Fe,35.1679,-106.1616,Mountain ,West 
+283,Store - 79 - Santa Fe,Small Store,Yes,Yes,Yes,87506,Jaconita,New Mexico,Santa Fe,Santa Fe,35.8857,-106.0611,Mountain ,West 
+284,Store - 79 - Santa Fe,Neighborhood Market,Yes,No,Yes,87567,Santa Cruz,New Mexico,Santa Fe,Santa Fe,35.9939,-106.036,Mountain ,West 
+285,Store - 78 - Albuquerque,Small Store,No,Yes,No,87036,Willard,New Mexico,Torrance,Albuquerque,34.5949,-106.0317,Mountain ,West 
+286,Store - 86 - Portland-Vancouver-Beaverton,Small Store,No,No,No,97045,Beaver Creek,Oregon,Clackamas,Portland-Vancouver-Beaverton,45.2757,-122.5136,Pacific ,West 
+287,Store - 86 - Portland-Vancouver-Beaverton,Small Store,No,No,No,97119,Gaston,Oregon,Washington,Portland-Vancouver-Beaverton,45.4357,-123.1435,Pacific ,West 
+288,Store - 86 - Portland-Vancouver-Beaverton,Super Center,Yes,Yes,Yes,97227,Portland,Oregon,Multnomah,Portland-Vancouver-Beaverton,45.5372,-122.65,Pacific ,West 
+289,Store - 86 - Portland-Vancouver-Beaverton,Neighborhood Market,No,No,No,97055,Sandy,Oregon,Clackamas,Portland-Vancouver-Beaverton,45.3986,-122.269,Pacific ,West 
+290,Store - 100 - Provo-Orem,Shopping Center,No,No,No,84013,Eagle Mountain,Utah,Utah,Provo-Orem,40.3137,-112.0114,Mountain ,West 
+291,Store - 101 - Salt Lake City,Small Store,No,Yes,No,84029,Grantsville,Utah,Tooele,Salt Lake City,40.6148,-112.4777,Mountain ,West 
+292,Store - 101 - Salt Lake City,Neighborhood Market,Yes,Yes,Yes,84060,Park City,Utah,Summit,Salt Lake City,40.6459,-111.5038,Mountain ,West 
+293,Store - 100 - Provo-Orem,Super Center,Yes,Yes,Yes,84604,Provo,Utah,Utah,Provo-Orem,40.2458,-111.6457,Mountain ,West 
+294,Store - 101 - Salt Lake City,Super Center,Yes,Yes,Yes,84116,Salt Lake City,Utah,Salt Lake,Salt Lake City,40.7774,-111.9301,Mountain ,West 
+295,Store - 101 - Salt Lake City,Shopping Center,Yes,Yes,No,84074,Tooele,Utah,Tooele,Salt Lake City,40.5394,-112.3082,Mountain ,West 
+777,Website,Website,Yes,No,No,99999,Website,Website,Website,Website,0,0,Website,Website
+888,MobileApp,MobileApp,Yes,No,No,99999,MobileApp,MobileApp,MobileApp,MobileApp,0,0,MobileApp,MobileApp
+999,Partner,Partner,No,No,No,99999,Partner,Partner,Partner,Partner,0,0,Partner,Partner

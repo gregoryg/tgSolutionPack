@@ -1,0 +1,999 @@
+campaign_id,campaign_name,campaign_year,start_date,end_date,campaign_type,promotion_id,promotion_name,promotion_channel
+2,New Year's Day - Campaign,2019,2019-01-01,2019-01-05,UpSell,2,Promo - Meal Solutions Grains & Pasta,MobileApp
+3,Martin Luther King Jr. Day - Campaign,2019,2019-01-18,2019-01-22,Cross-Sell,3,Promo - Bikes,SMS
+3,Martin Luther King Jr. Day - Campaign,2019,2019-01-18,2019-01-22,Cross-Sell,4,Promo - Bikes,Facebook
+4,Martin Luther King Jr. Day - Campaign,2019,2019-01-19,2019-01-23,Acquisition,5,Promo - Sports,WebSite
+4,Martin Luther King Jr. Day - Campaign,2019,2019-01-19,2019-01-23,Acquisition,6,Promo - Home Health Care,GameApp
+4,Martin Luther King Jr. Day - Campaign,2019,2019-01-19,2019-01-23,Acquisition,7,Promo - Bikes,Email
+5,Martin Luther King Jr. Day - Campaign,2019,2019-01-20,2019-01-24,UpSell,8,Promo - Snacks Cookies & Chips,SMS
+5,Martin Luther King Jr. Day - Campaign,2019,2019-01-20,2019-01-24,UpSell,9,Promo - Sports,WebSite
+5,Martin Luther King Jr. Day - Campaign,2019,2019-01-20,2019-01-24,UpSell,10,Promo - Superfoods & Cleanses,Facebook
+6,Martin Luther King Jr. Day - Campaign,2019,2019-01-21,2019-01-25,Cross-Sell,11,Promo - Pain Relievers,Email
+6,Martin Luther King Jr. Day - Campaign,2019,2019-01-21,2019-01-25,Cross-Sell,12,Promo - Storage & Organization,Email
+7,Home Improvement  - Campaign,2019,2019-02-12,2019-02-16,Acquisition,13,Promo - Sports,Facebook
+7,Home Improvement  - Campaign,2019,2019-02-12,2019-02-16,Acquisition,14,Promo - Meal Solutions Grains & Pasta,Email
+7,Home Improvement  - Campaign,2019,2019-02-12,2019-02-16,Acquisition,15,Promo - Cleaning Supplies,SMS
+8,Washington's Birthday - Campaign,2019,2019-02-15,2019-02-19,UpSell,16,Promo - Laxatives,MobileApp
+9,Washington's Birthday - Campaign,2019,2019-02-16,2019-02-20,Other,17,Promo - Outdoor Play,Email
+9,Washington's Birthday - Campaign,2019,2019-02-16,2019-02-20,Other,18,Promo - Deodorants & Antiperspirants,Facebook
+9,Washington's Birthday - Campaign,2019,2019-02-16,2019-02-20,Other,19,Promo - Sports,GameApp
+10,Washington's Birthday - Campaign,2019,2019-02-17,2019-02-21,Other,20,Promo - Lip Care,WebSite
+10,Washington's Birthday - Campaign,2019,2019-02-17,2019-02-21,Other,21,Promo - Diapering,WebSite
+11,Washington's Birthday - Campaign,2019,2019-02-18,2019-02-22,Retention,22,Promo - Feeding,Phone
+12,Health  - Campaign,2019,2019-03-07,2019-03-11,Special,23,Promo - Incontinence,TikTok
+12,Health  - Campaign,2019,2019-03-07,2019-03-11,Special,24,Promo - Bikes,Phone
+13,Sports & Outdoors  - Campaign,2019,2019-03-08,2019-03-12,UpSell,25,Promo - Bikes,TikTok
+13,Sports & Outdoors  - Campaign,2019,2019-03-08,2019-03-12,UpSell,26,Promo - Sports,TikTok
+13,Sports & Outdoors  - Campaign,2019,2019-03-08,2019-03-12,UpSell,27,Promo - Sports,Mailer
+14,Health  - Campaign,2019,2019-03-12,2019-03-16,Other,28,Promo - Outdoor Sports,Facebook
+14,Health  - Campaign,2019,2019-03-12,2019-03-16,Other,29,Promo - Sports,Email
+14,Health  - Campaign,2019,2019-03-12,2019-03-16,Other,30,Promo - Bath & Body,Twitter
+15,Health  - Campaign,2019,2019-03-25,2019-03-29,UpSell,31,Promo - Bath & Body,Facebook
+15,Health  - Campaign,2019,2019-03-25,2019-03-29,UpSell,32,Promo - Protein & Fitness,WebSite
+15,Health  - Campaign,2019,2019-03-25,2019-03-29,UpSell,33,Promo - Sports,Email
+16,Patio & Garden  - Campaign,2019,2019-04-01,2019-04-05,Other,34,Promo - Snacks Cookies & Chips,GameApp
+16,Patio & Garden  - Campaign,2019,2019-04-01,2019-04-05,Other,35,Promo - Sports Fan Shop,Facebook
+16,Patio & Garden  - Campaign,2019,2019-04-01,2019-04-05,Other,36,Promo - Home Health Care,MobileApp
+17,Food  - Campaign,2019,2019-04-19,2019-04-23,UpSell,37,Promo - Fresh Cut Flowers,WebSite
+18,Clothing  - Campaign,2019,2019-04-24,2019-04-28,Special,38,Promo - Outdoor Play,GameApp
+18,Clothing  - Campaign,2019,2019-04-24,2019-04-28,Special,39,Promo - Home Health Care,MobileApp
+18,Clothing  - Campaign,2019,2019-04-24,2019-04-28,Special,40,Promo - Outdoor Sports,Facebook
+19,Beauty  - Campaign,2019,2019-05-01,2019-05-05,Retention,41,Promo - Games & Puzzles,SMS
+19,Beauty  - Campaign,2019,2019-05-01,2019-05-05,Retention,42,Promo - Nursery & Decor,SMS
+20,Toys  - Campaign,2019,2019-05-05,2019-05-09,UpSell,43,Promo - Pest Control,TikTok
+20,Toys  - Campaign,2019,2019-05-05,2019-05-09,UpSell,44,Promo - Snacks Cookies & Chips,Facebook
+21,Health  - Campaign,2019,2019-05-16,2019-05-20,Retention,45,Promo - Home Health Care,GameApp
+21,Health  - Campaign,2019,2019-05-16,2019-05-20,Retention,46,Promo - Baby Activities & Gear,Email
+21,Health  - Campaign,2019,2019-05-16,2019-05-20,Retention,47,Promo - Condiments Sauces & Spices,WebSite
+22,Health  - Campaign,2019,2019-05-23,2019-05-27,Cross-Sell,48,Promo - Superfoods & Cleanses,TikTok
+22,Health  - Campaign,2019,2019-05-23,2019-05-27,Cross-Sell,49,Promo - Condiments Sauces & Spices,SMS
+22,Health  - Campaign,2019,2019-05-23,2019-05-27,Cross-Sell,50,Promo - Light Bulbs,Mailer
+23,Memorial Day - Campaign,2019,2019-05-24,2019-05-28,Other,51,Promo - Decor,Mailer
+24,Memorial Day - Campaign,2019,2019-05-25,2019-05-29,Acquisition,52,Promo - Sports,Phone
+25,Memorial Day - Campaign,2019,2019-05-26,2019-05-30,UpSell,53,Promo - Bags & Accessories,GameApp
+25,Memorial Day - Campaign,2019,2019-05-26,2019-05-30,UpSell,54,Promo - Pest Control,SMS
+26,Memorial Day - Campaign,2019,2019-05-27,2019-05-31,Acquisition,55,Promo - Pest Control,Mailer
+27,Food  - Campaign,2019,2019-06-16,2019-06-20,UpSell,56,Promo - Snacks Cookies & Chips,Phone
+27,Food  - Campaign,2019,2019-06-16,2019-06-20,UpSell,57,Promo - Acid Reflux,SMS
+27,Food  - Campaign,2019,2019-06-16,2019-06-20,UpSell,58,Promo - Cleaning Supplies,TikTok
+28,Home Improvement  - Campaign,2019,2019-06-19,2019-06-23,Other,59,Promo - Eye Care,SMS
+29,Independence Day - Campaign,2019,2019-07-04,2019-07-08,Cross-Sell,60,Promo - Bikes,Facebook
+30,Independence Day - Campaign,2019,2019-07-05,2019-07-09,Other,61,Promo - Condiments Sauces & Spices,Email
+30,Independence Day - Campaign,2019,2019-07-05,2019-07-09,Other,62,Promo - Medicine Cabinet,WebSite
+30,Independence Day - Campaign,2019,2019-07-05,2019-07-09,Other,63,Promo - Bath & Body,Facebook
+31,Independence Day - Campaign,2019,2019-07-06,2019-07-10,UpSell,64,Promo - Bikes,Twitter
+32,Independence Day - Campaign,2019,2019-07-07,2019-07-11,UpSell,65,Promo - Bikes,WebSite
+32,Independence Day - Campaign,2019,2019-07-07,2019-07-11,UpSell,66,Promo - Bikes,Facebook
+32,Independence Day - Campaign,2019,2019-07-07,2019-07-11,UpSell,67,Promo - Bikes,TikTok
+33,Home  - Campaign,2019,2019-07-11,2019-07-15,UpSell,68,Promo - Here for Every Beauty,SMS
+33,Home  - Campaign,2019,2019-07-11,2019-07-15,UpSell,69,Promo - Paper & Plastic,SMS
+34,Household Essentials  - Campaign,2019,2019-07-19,2019-07-23,Other,70,Promo - Outdoor Play,Email
+34,Household Essentials  - Campaign,2019,2019-07-19,2019-07-23,Other,71,Promo - Bikes,GameApp
+35,Food  - Campaign,2019,2019-08-14,2019-08-18,Other,72,Promo - Fresh Food,Twitter
+35,Food  - Campaign,2019,2019-08-14,2019-08-18,Other,73,Promo - Coffee,Mailer
+35,Food  - Campaign,2019,2019-08-14,2019-08-18,Other,74,Promo - Outdoor Play,TikTok
+36,Toys  - Campaign,2019,2019-08-21,2019-08-25,UpSell,75,Promo - Coffee,Phone
+36,Toys  - Campaign,2019,2019-08-21,2019-08-25,UpSell,76,Promo - Air Fresheners,SMS
+36,Toys  - Campaign,2019,2019-08-21,2019-08-25,UpSell,77,Promo - Feeding,Email
+37,Household Essentials  - Campaign,2019,2019-08-24,2019-08-28,Retention,78,Promo - Sun Care,Facebook
+37,Household Essentials  - Campaign,2019,2019-08-24,2019-08-28,Retention,79,Promo - Batteries,Phone
+38,Labor Day - Campaign,2019,2019-08-30,2019-09-03,Other,80,Promo - Meal Solutions Grains & Pasta,GameApp
+38,Labor Day - Campaign,2019,2019-08-30,2019-09-03,Other,81,Promo - Light Bulbs,Email
+38,Labor Day - Campaign,2019,2019-08-30,2019-09-03,Other,82,Promo - Sun Care,GameApp
+39,Labor Day - Campaign,2019,2019-08-31,2019-09-04,Other,83,Promo - Health & Safety,WebSite
+39,Labor Day - Campaign,2019,2019-08-31,2019-09-04,Other,84,Promo - Sports,Facebook
+40,Labor Day - Campaign,2019,2019-09-01,2019-09-05,Other,85,Promo - Probiotics,SMS
+40,Labor Day - Campaign,2019,2019-09-01,2019-09-05,Other,86,Promo - Games & Puzzles,Email
+41,Labor Day - Campaign,2019,2019-09-02,2019-09-06,Special,87,Promo - Sports,Mailer
+41,Labor Day - Campaign,2019,2019-09-02,2019-09-06,Special,88,Promo - Sports,Twitter
+42,Health  - Campaign,2019,2019-09-09,2019-09-13,Other,89,Promo - Premium Bath & Body,Mailer
+42,Health  - Campaign,2019,2019-09-09,2019-09-13,Other,90,Promo - Diabetes Care,Email
+42,Health  - Campaign,2019,2019-09-09,2019-09-13,Other,91,Promo - Bikes,SMS
+43,Columbus Day - Campaign,2019,2019-10-11,2019-10-15,UpSell,92,Promo - Hair Care,Facebook
+43,Columbus Day - Campaign,2019,2019-10-11,2019-10-15,UpSell,93,Promo - Pest Control,MobileApp
+44,Columbus Day - Campaign,2019,2019-10-12,2019-10-16,Retention,94,Promo - Bikes,Mailer
+44,Columbus Day - Campaign,2019,2019-10-12,2019-10-16,Retention,95,Promo - Outdoor Sports,Phone
+44,Columbus Day - Campaign,2019,2019-10-12,2019-10-16,Retention,96,Promo - Shaving,MobileApp
+45,Columbus Day - Campaign,2019,2019-10-13,2019-10-17,Cross-Sell,97,Promo - Sports,Mailer
+45,Columbus Day - Campaign,2019,2019-10-13,2019-10-17,Cross-Sell,98,Promo - Sports,Mailer
+45,Columbus Day - Campaign,2019,2019-10-13,2019-10-17,Cross-Sell,99,Promo - Lip Care,WebSite
+46,Columbus Day - Campaign,2019,2019-10-14,2019-10-18,Acquisition,100,Promo - Light Bulbs,Twitter
+46,Columbus Day - Campaign,2019,2019-10-14,2019-10-18,Acquisition,101,Promo - Bikes,WebSite
+46,Columbus Day - Campaign,2019,2019-10-14,2019-10-18,Acquisition,102,Promo - Light Bulbs,WebSite
+47,Toys  - Campaign,2019,2019-10-17,2019-10-21,UpSell,103,Promo - Shaving,GameApp
+48,Health  - Campaign,2019,2019-10-25,2019-10-29,Cross-Sell,104,Promo - Light Bulbs,GameApp
+48,Health  - Campaign,2019,2019-10-25,2019-10-29,Cross-Sell,105,Promo - Baby Activities & Gear,Phone
+48,Health  - Campaign,2019,2019-10-25,2019-10-29,Cross-Sell,106,Promo - Bikes,Email
+49,Veterans Day - Campaign,2019,2019-11-08,2019-11-12,UpSell,107,Promo - Outdoor Play,WebSite
+49,Veterans Day - Campaign,2019,2019-11-08,2019-11-12,UpSell,108,Promo - Baking,GameApp
+50,Veterans Day - Campaign,2019,2019-11-09,2019-11-13,Special,109,Promo - Bikes,WebSite
+50,Veterans Day - Campaign,2019,2019-11-09,2019-11-13,Special,110,Promo - Fresh Cut Flowers,Twitter
+50,Veterans Day - Campaign,2019,2019-11-09,2019-11-13,Special,111,Promo - Bikes,Twitter
+51,Veterans Day - Campaign,2019,2019-11-10,2019-11-14,Special,112,Promo - Vitamins & Supplements,SMS
+51,Veterans Day - Campaign,2019,2019-11-10,2019-11-14,Special,113,Promo - Bikes,WebSite
+51,Veterans Day - Campaign,2019,2019-11-10,2019-11-14,Special,114,Promo - Foot Care,GameApp
+52,Veterans Day - Campaign,2019,2019-11-11,2019-11-15,Retention,115,Promo - Gluten-Free Foods,WebSite
+52,Veterans Day - Campaign,2019,2019-11-11,2019-11-15,Retention,116,Promo - Vitamins & Supplements,TikTok
+53,Personal Care  - Campaign,2019,2019-11-12,2019-11-16,Acquisition,117,Promo - Hair Care,WebSite
+53,Personal Care  - Campaign,2019,2019-11-12,2019-11-16,Acquisition,118,Promo - Bikes,MobileApp
+53,Personal Care  - Campaign,2019,2019-11-12,2019-11-16,Acquisition,119,Promo - Beverages,TikTok
+54,Beauty  - Campaign,2019,2019-11-20,2019-11-24,Acquisition,120,Promo - Shoe Care & Repair,Phone
+54,Beauty  - Campaign,2019,2019-11-20,2019-11-24,Acquisition,121,Promo - Exercise & Fitness,Facebook
+54,Beauty  - Campaign,2019,2019-11-20,2019-11-24,Acquisition,122,Promo - Organic Foods,TikTok
+55,Thanksgiving - Campaign,2019,2019-11-26,2019-11-30,Acquisition,123,Promo - Games & Puzzles,WebSite
+56,Thanksgiving - Campaign,2019,2019-11-27,2019-12-01,Retention,124,Promo - Home Health Care,WebSite
+57,Thanksgiving - Campaign,2019,2019-11-28,2019-12-02,Other,125,Promo - Beverages,Mailer
+58,Black Friday - Campaign,2019,2019-11-29,2019-12-03,UpSell,126,Promo - Foot Care,MobileApp
+58,Black Friday - Campaign,2019,2019-11-29,2019-12-03,UpSell,127,Promo - Bath & Body,MobileApp
+58,Black Friday - Campaign,2019,2019-11-29,2019-12-03,UpSell,128,Promo - Mens Clothing,WebSite
+59,Black Friday - Campaign,2019,2019-11-30,2019-12-04,Retention,129,Promo - Bikes,Mailer
+59,Black Friday - Campaign,2019,2019-11-30,2019-12-04,Retention,130,Promo - Bikes,Twitter
+59,Black Friday - Campaign,2019,2019-11-30,2019-12-04,Retention,131,Promo - Pain Relievers,GameApp
+60,Black Friday - Campaign,2019,2019-12-01,2019-12-05,Retention,132,Promo - Sun Care,GameApp
+60,Black Friday - Campaign,2019,2019-12-01,2019-12-05,Retention,133,Promo - Bikes,Phone
+60,Black Friday - Campaign,2019,2019-12-01,2019-12-05,Retention,134,Promo - Condiments Sauces & Spices,GameApp
+61,Cyber Monday - Campaign,2019,2019-12-02,2019-12-06,Retention,135,Promo - Outdoor Sports,TikTok
+61,Cyber Monday - Campaign,2019,2019-12-02,2019-12-06,Retention,136,Promo - Bikes,Facebook
+62,Health  - Campaign,2019,2019-12-17,2019-12-21,Retention,137,Promo - Strollers,Phone
+63,Books  - Campaign,2019,2019-12-20,2019-12-24,UpSell,138,Promo - Sports,MobileApp
+63,Books  - Campaign,2019,2019-12-20,2019-12-24,UpSell,139,Promo - Sports,WebSite
+64, - Campaign,2019,2019-12-23,2019-12-27,Special,140,Promo - Outdoor Sports,MobileApp
+65,Christmas Eve - Campaign,2019,2019-12-24,2019-12-28,Cross-Sell,141,Promo - Bathroom,Phone
+65,Christmas Eve - Campaign,2019,2019-12-24,2019-12-28,Cross-Sell,142,Promo - Sports,MobileApp
+66,Christmas Day - Campaign,2019,2019-12-25,2019-12-29,Retention,143,Promo - Vitamins & Supplements,Phone
+66,Christmas Day - Campaign,2019,2019-12-25,2019-12-29,Retention,144,Promo - Premium Fragrance,Twitter
+66,Christmas Day - Campaign,2019,2019-12-25,2019-12-29,Retention,145,Promo - Sports,TikTok
+67,Christmas Day - Campaign,2019,2019-12-26,2019-12-30,Other,146,Promo - Vitamins & Supplements,GameApp
+68,Christmas Day - Campaign,2019,2019-12-27,2019-12-31,Other,147,Promo - Games & Puzzles,Facebook
+68,Christmas Day - Campaign,2019,2019-12-27,2019-12-31,Other,148,Promo - Meal Solutions Grains & Pasta,WebSite
+68,Christmas Day - Campaign,2019,2019-12-27,2019-12-31,Other,149,Promo - Superfoods & Cleanses,Phone
+69,New Years Eve - Campaign,2019,2019-12-31,2020-01-04,Acquisition,150,Promo - Premium Bath & Body,Facebook
+69,New Years Eve - Campaign,2019,2019-12-31,2020-01-04,Acquisition,151,Promo - Pest Control,SMS
+69,New Years Eve - Campaign,2019,2019-12-31,2020-01-04,Acquisition,152,Promo - Sports,Facebook
+70,New Year's Day - Campaign,2020,2020-01-01,2020-01-05,Other,153,Promo - Paper & Plastic,Phone
+70,New Year's Day - Campaign,2020,2020-01-01,2020-01-05,Other,154,Promo - Bath & Body,WebSite
+71,Household Essentials  - Campaign,2020,2020-01-06,2020-01-10,UpSell,155,Promo - Cold Cough and Flu,TikTok
+71,Household Essentials  - Campaign,2020,2020-01-06,2020-01-10,UpSell,156,Promo - Sports,MobileApp
+71,Household Essentials  - Campaign,2020,2020-01-06,2020-01-10,UpSell,157,Promo - Coffee,SMS
+72,Health  - Campaign,2020,2020-01-14,2020-01-18,Other,158,Promo - Breakfast & Cereal,TikTok
+73,Martin Luther King Jr. Day - Campaign,2020,2020-01-17,2020-01-21,Other,159,Promo - Sports,Mailer
+74,Martin Luther King Jr. Day - Campaign,2020,2020-01-18,2020-01-22,UpSell,160,Promo - Beverages,Twitter
+74,Martin Luther King Jr. Day - Campaign,2020,2020-01-18,2020-01-22,UpSell,161,Promo - Mens Clothing,Mailer
+74,Martin Luther King Jr. Day - Campaign,2020,2020-01-18,2020-01-22,UpSell,162,Promo - Feeding,Mailer
+75,Martin Luther King Jr. Day - Campaign,2020,2020-01-19,2020-01-23,Special,163,Promo - Shop Toys by Price,SMS
+76,Martin Luther King Jr. Day - Campaign,2020,2020-01-20,2020-01-24,Special,164,Promo - Shoe Care & Repair,SMS
+76,Martin Luther King Jr. Day - Campaign,2020,2020-01-20,2020-01-24,Special,165,Promo - Fiber Supplements,Facebook
+76,Martin Luther King Jr. Day - Campaign,2020,2020-01-20,2020-01-24,Special,166,Promo - Nursery & Decor,SMS
+77,Toys  - Campaign,2020,2020-02-07,2020-02-11,Other,167,Promo - Strollers,SMS
+78,Washington's Birthday - Campaign,2020,2020-02-14,2020-02-18,UpSell,168,Promo - Sports,Facebook
+78,Washington's Birthday - Campaign,2020,2020-02-14,2020-02-18,UpSell,169,Promo - Outdoor Sports,GameApp
+79,Washington's Birthday - Campaign,2020,2020-02-15,2020-02-19,Other,170,Promo - Shoe Care & Repair,TikTok
+79,Washington's Birthday - Campaign,2020,2020-02-15,2020-02-19,Other,171,Promo - Feeding,GameApp
+79,Washington's Birthday - Campaign,2020,2020-02-15,2020-02-19,Other,172,Promo - Bikes,MobileApp
+80,Washington's Birthday - Campaign,2020,2020-02-16,2020-02-20,Acquisition,173,Promo - Exercise & Fitness,GameApp
+80,Washington's Birthday - Campaign,2020,2020-02-16,2020-02-20,Acquisition,174,Promo - Teens Rooms,TikTok
+80,Washington's Birthday - Campaign,2020,2020-02-16,2020-02-20,Acquisition,175,Promo - Nursery & Decor,Facebook
+81,Washington's Birthday - Campaign,2020,2020-02-17,2020-02-21,Retention,176,Promo - Baking,Mailer
+81,Washington's Birthday - Campaign,2020,2020-02-17,2020-02-21,Retention,177,Promo - Chocolate Candy & Gum,Email
+81,Washington's Birthday - Campaign,2020,2020-02-17,2020-02-21,Retention,178,Promo - Bath & Body,GameApp
+82,Beauty  - Campaign,2020,2020-02-18,2020-02-22,Cross-Sell,179,Promo - Here for Every Beauty,Email
+83,Patio & Garden  - Campaign,2020,2020-03-29,2020-04-02,Cross-Sell,180,Promo - Foot Care,SMS
+83,Patio & Garden  - Campaign,2020,2020-03-29,2020-04-02,Cross-Sell,181,Promo - Sports,Twitter
+83,Patio & Garden  - Campaign,2020,2020-03-29,2020-04-02,Cross-Sell,182,Promo - Sports,MobileApp
+84,Food  - Campaign,2020,2020-05-01,2020-05-05,Acquisition,183,Promo - Shoe Care & Repair,Email
+84,Food  - Campaign,2020,2020-05-01,2020-05-05,Acquisition,184,Promo - Chocolate Candy & Gum,Mailer
+85,Clothing  - Campaign,2020,2020-05-11,2020-05-15,Acquisition,185,Promo - Outdoor Sports,Email
+85,Clothing  - Campaign,2020,2020-05-11,2020-05-15,Acquisition,186,Promo - Sports,Email
+86,Household Essentials  - Campaign,2020,2020-05-13,2020-05-17,Retention,187,Promo - Organic Foods,TikTok
+86,Household Essentials  - Campaign,2020,2020-05-13,2020-05-17,Retention,188,Promo - Oral Care,TikTok
+87,Food  - Campaign,2020,2020-05-20,2020-05-24,Special,189,Promo - Here for Every Beauty,Mailer
+88,Memorial Day - Campaign,2020,2020-05-22,2020-05-26,Special,190,Promo - Vitamins & Supplements,WebSite
+88,Memorial Day - Campaign,2020,2020-05-22,2020-05-26,Special,191,Promo - Sports,Phone
+88,Memorial Day - Campaign,2020,2020-05-22,2020-05-26,Special,192,Promo - Diapering,GameApp
+89,Memorial Day - Campaign,2020,2020-05-23,2020-05-27,Other,193,Promo - Feeding,WebSite
+89,Memorial Day - Campaign,2020,2020-05-23,2020-05-27,Other,194,Promo - Foot Care,Email
+90,Memorial Day - Campaign,2020,2020-05-24,2020-05-28,Cross-Sell,195,Promo - Batteries,GameApp
+90,Memorial Day - Campaign,2020,2020-05-24,2020-05-28,Cross-Sell,196,Promo - Outdoor Sports,WebSite
+91,Memorial Day - Campaign,2020,2020-05-25,2020-05-29,Special,197,Promo - Diapering,MobileApp
+91,Memorial Day - Campaign,2020,2020-05-25,2020-05-29,Special,198,Promo - Vitamins & Supplements,Phone
+91,Memorial Day - Campaign,2020,2020-05-25,2020-05-29,Special,199,Promo - Snacks Cookies & Chips,Facebook
+92,Sports & Outdoors  - Campaign,2020,2020-05-30,2020-06-03,Special,200,Promo - Toddlers Room,Facebook
+93,Toys  - Campaign,2020,2020-06-01,2020-06-05,Cross-Sell,201,Promo - Outdoor Sports,MobileApp
+93,Toys  - Campaign,2020,2020-06-01,2020-06-05,Cross-Sell,202,Promo - Shop Toys by Price,TikTok
+94,Independence Day - Campaign,2020,2020-07-02,2020-07-06,UpSell,203,Promo - Sports,MobileApp
+95,Independence Day (Observed) - Campaign,2020,2020-07-03,2020-07-07,Cross-Sell,204,Promo - Sports,Facebook
+95,Independence Day (Observed) - Campaign,2020,2020-07-03,2020-07-07,Cross-Sell,205,Promo - Eye Care,Phone
+95,Independence Day (Observed) - Campaign,2020,2020-07-03,2020-07-07,Cross-Sell,206,Promo - Eye Care,WebSite
+96,Independence Day - Campaign,2020,2020-07-04,2020-07-08,Cross-Sell,207,Promo - Sports,MobileApp
+96,Independence Day - Campaign,2020,2020-07-04,2020-07-08,Cross-Sell,208,Promo - Air Fresheners,WebSite
+97,Independence Day - Campaign,2020,2020-07-05,2020-07-09,Other,209,Promo - Bikes,Facebook
+97,Independence Day - Campaign,2020,2020-07-05,2020-07-09,Other,210,Promo - Bikes,Email
+97,Independence Day - Campaign,2020,2020-07-05,2020-07-09,Other,211,Promo - Snacks Cookies & Chips,Facebook
+98,Home Improvement  - Campaign,2020,2020-07-06,2020-07-10,Retention,212,Promo - Hair Care,MobileApp
+98,Home Improvement  - Campaign,2020,2020-07-06,2020-07-10,Retention,213,Promo - Feminine Care,Email
+98,Home Improvement  - Campaign,2020,2020-07-06,2020-07-10,Retention,214,Promo - Premium Beauty,GameApp
+99,Household Essentials  - Campaign,2020,2020-07-18,2020-07-22,Special,215,Promo - Vitamins & Supplements,MobileApp
+99,Household Essentials  - Campaign,2020,2020-07-18,2020-07-22,Special,216,Promo - Ear Care,Facebook
+100,Health  - Campaign,2020,2020-07-24,2020-07-28,Special,217,Promo - Home Health Care,TikTok
+100,Health  - Campaign,2020,2020-07-24,2020-07-28,Special,218,Promo - Shop Toys by Age,Mailer
+101,Home Improvement  - Campaign,2020,2020-08-15,2020-08-19,Special,219,Promo - Sports,WebSite
+101,Home Improvement  - Campaign,2020,2020-08-15,2020-08-19,Special,220,Promo - Sports,Facebook
+102,Health  - Campaign,2020,2020-08-17,2020-08-21,Other,221,Promo - Sports,Email
+102,Health  - Campaign,2020,2020-08-17,2020-08-21,Other,222,Promo - Beverages,Phone
+103,Premium Beauty  - Campaign,2020,2020-08-27,2020-08-31,UpSell,223,Promo - Sports,SMS
+103,Premium Beauty  - Campaign,2020,2020-08-27,2020-08-31,UpSell,224,Promo - Health & Safety,WebSite
+103,Premium Beauty  - Campaign,2020,2020-08-27,2020-08-31,UpSell,225,Promo - Sports,TikTok
+104,Health  - Campaign,2020,2020-09-03,2020-09-07,Acquisition,226,Promo - Meal Solutions Grains & Pasta,Twitter
+105,Labor Day - Campaign,2020,2020-09-04,2020-09-08,UpSell,227,Promo - Vitamins & Supplements,TikTok
+105,Labor Day - Campaign,2020,2020-09-04,2020-09-08,UpSell,228,Promo - Protein & Fitness,Twitter
+105,Labor Day - Campaign,2020,2020-09-04,2020-09-08,UpSell,229,Promo - Sports,Mailer
+106,Labor Day - Campaign,2020,2020-09-05,2020-09-09,UpSell,230,Promo - Sleep & Snoring Aids,WebSite
+106,Labor Day - Campaign,2020,2020-09-05,2020-09-09,UpSell,231,Promo - Bath & Body,Email
+107,Labor Day - Campaign,2020,2020-09-06,2020-09-10,UpSell,232,Promo - Cold Cough and Flu,GameApp
+107,Labor Day - Campaign,2020,2020-09-06,2020-09-10,UpSell,233,Promo - Snacks Cookies & Chips,TikTok
+107,Labor Day - Campaign,2020,2020-09-06,2020-09-10,UpSell,234,Promo - Home Health Care,Facebook
+108,Labor Day - Campaign,2020,2020-09-07,2020-09-11,Retention,235,Promo - Beverages,MobileApp
+109,Home Improvement  - Campaign,2020,2020-09-08,2020-09-12,UpSell,236,Promo - Feeding,Phone
+109,Home Improvement  - Campaign,2020,2020-09-08,2020-09-12,UpSell,237,Promo - Foot Care,GameApp
+109,Home Improvement  - Campaign,2020,2020-09-08,2020-09-12,UpSell,238,Promo - Home Health Care,GameApp
+110,Patio & Garden  - Campaign,2020,2020-09-10,2020-09-14,Other,239,Promo - Sports,MobileApp
+110,Patio & Garden  - Campaign,2020,2020-09-10,2020-09-14,Other,240,Promo - Bikes,Email
+110,Patio & Garden  - Campaign,2020,2020-09-10,2020-09-14,Other,241,Promo - Meal Solutions Grains & Pasta,Facebook
+111,Household Essentials  - Campaign,2020,2020-09-12,2020-09-16,Acquisition,242,Promo - Exercise & Fitness,SMS
+112,Health  - Campaign,2020,2020-09-23,2020-09-27,Acquisition,243,Promo - Sports,Mailer
+112,Health  - Campaign,2020,2020-09-23,2020-09-27,Acquisition,244,Promo - Protein & Fitness,Email
+113,Columbus Day - Campaign,2020,2020-10-09,2020-10-13,Special,245,Promo - Shop Toys by Price,Email
+113,Columbus Day - Campaign,2020,2020-10-09,2020-10-13,Special,246,Promo - Tools,TikTok
+113,Columbus Day - Campaign,2020,2020-10-09,2020-10-13,Special,247,Promo - Condiments Sauces & Spices,MobileApp
+114,Columbus Day - Campaign,2020,2020-10-10,2020-10-14,UpSell,248,Promo - Shaving,Facebook
+114,Columbus Day - Campaign,2020,2020-10-10,2020-10-14,UpSell,249,Promo - Womens Plus,Phone
+115,Columbus Day - Campaign,2020,2020-10-11,2020-10-15,Acquisition,250,Promo - Bikes,SMS
+115,Columbus Day - Campaign,2020,2020-10-11,2020-10-15,Acquisition,251,Promo - Sports,Phone
+116,Columbus Day - Campaign,2020,2020-10-12,2020-10-16,Special,252,Promo - Feeding,SMS
+116,Columbus Day - Campaign,2020,2020-10-12,2020-10-16,Special,253,Promo - Outdoor Sports,SMS
+116,Columbus Day - Campaign,2020,2020-10-12,2020-10-16,Special,254,Promo - Here for Every Beauty,TikTok
+117,Food  - Campaign,2020,2020-10-15,2020-10-19,Acquisition,255,Promo - Bikes,GameApp
+117,Food  - Campaign,2020,2020-10-15,2020-10-19,Acquisition,256,Promo - Sports,Facebook
+117,Food  - Campaign,2020,2020-10-15,2020-10-19,Acquisition,257,Promo - Baby & Toddler Toys,MobileApp
+118,Clothing  - Campaign,2020,2020-10-28,2020-11-01,UpSell,258,Promo - Eye Care,WebSite
+118,Clothing  - Campaign,2020,2020-10-28,2020-11-01,UpSell,259,Promo - Pain Relievers,Phone
+119,Toys  - Campaign,2020,2020-11-04,2020-11-08,UpSell,260,Promo - Condiments Sauces & Spices,MobileApp
+119,Toys  - Campaign,2020,2020-11-04,2020-11-08,UpSell,261,Promo - Chocolate Candy & Gum,SMS
+120,Books  - Campaign,2020,2020-11-06,2020-11-10,Other,262,Promo - Outdoor Play,MobileApp
+121,Books  - Campaign,2020,2020-11-07,2020-11-11,Retention,263,Promo - Breakfast & Cereal,Facebook
+121,Books  - Campaign,2020,2020-11-07,2020-11-11,Retention,264,Promo - Bikes,SMS
+122,Veterans Day - Campaign,2020,2020-11-11,2020-11-15,Retention,265,Promo - Outdoor Sports,TikTok
+123,Veterans Day - Campaign,2020,2020-11-12,2020-11-16,Acquisition,266,Promo - Oral Care,Email
+123,Veterans Day - Campaign,2020,2020-11-12,2020-11-16,Acquisition,267,Promo - Fresh Food,WebSite
+123,Veterans Day - Campaign,2020,2020-11-12,2020-11-16,Acquisition,268,Promo - Bikes,Twitter
+124,Veterans Day - Campaign,2020,2020-11-13,2020-11-17,UpSell,269,Promo - Baby Activities & Gear,TikTok
+124,Veterans Day - Campaign,2020,2020-11-13,2020-11-17,UpSell,270,Promo - Foot Care,Phone
+124,Veterans Day - Campaign,2020,2020-11-13,2020-11-17,UpSell,271,Promo - Meal Solutions Grains & Pasta,MobileApp
+125,Veterans Day - Campaign,2020,2020-11-14,2020-11-18,Special,272,Promo - Sports,Twitter
+125,Veterans Day - Campaign,2020,2020-11-14,2020-11-18,Special,273,Promo - Toddlers Room,Mailer
+125,Veterans Day - Campaign,2020,2020-11-14,2020-11-18,Special,274,Promo - Light Bulbs,GameApp
+126,Veterans Day - Campaign,2020,2020-11-15,2020-11-19,Other,275,Promo - Sports,WebSite
+126,Veterans Day - Campaign,2020,2020-11-15,2020-11-19,Other,276,Promo - Light Bulbs,Facebook
+127,Health  - Campaign,2020,2020-11-16,2020-11-20,Special,277,Promo - Feeding,Facebook
+128,Thanksgiving - Campaign,2020,2020-11-24,2020-11-28,UpSell,278,Promo - Shoe Care & Repair,WebSite
+128,Thanksgiving - Campaign,2020,2020-11-24,2020-11-28,UpSell,279,Promo - Bath & Body,Facebook
+128,Thanksgiving - Campaign,2020,2020-11-24,2020-11-28,UpSell,280,Promo - Hot Tubs & Saunas,SMS
+129,Thanksgiving - Campaign,2020,2020-11-25,2020-11-29,Other,281,Promo - Shaving,SMS
+129,Thanksgiving - Campaign,2020,2020-11-25,2020-11-29,Other,282,Promo - Meal Solutions Grains & Pasta,Mailer
+130,Thanksgiving - Campaign,2020,2020-11-26,2020-11-30,Retention,283,Promo - Vitamins & Supplements,Mailer
+131,Health  - Campaign,2020,2020-11-27,2020-12-01,Acquisition,284,Promo - Oral Care,TikTok
+131,Health  - Campaign,2020,2020-11-27,2020-12-01,Acquisition,285,Promo - Fresh Food,WebSite
+131,Health  - Campaign,2020,2020-11-27,2020-12-01,Acquisition,286,Promo - Foot Care,Phone
+132,Auto & Tires  - Campaign,2020,2020-12-04,2020-12-08,Cross-Sell,287,Promo - Keto Diet,WebSite
+132,Auto & Tires  - Campaign,2020,2020-12-04,2020-12-08,Cross-Sell,288,Promo - Sports,Facebook
+132,Auto & Tires  - Campaign,2020,2020-12-04,2020-12-08,Cross-Sell,289,Promo - Health & Safety,GameApp
+133,Health  - Campaign,2020,2020-12-14,2020-12-18,Special,290,Promo - Snacks Cookies & Chips,GameApp
+133,Health  - Campaign,2020,2020-12-14,2020-12-18,Special,291,Promo - Foot Care,GameApp
+133,Health  - Campaign,2020,2020-12-14,2020-12-18,Special,292,Promo - Toddlers Room,GameApp
+134,Clothing  - Campaign,2020,2020-12-16,2020-12-20,Acquisition,293,Promo - Sleep & Snoring Aids,TikTok
+134,Clothing  - Campaign,2020,2020-12-16,2020-12-20,Acquisition,294,Promo - Car Seats,WebSite
+134,Clothing  - Campaign,2020,2020-12-16,2020-12-20,Acquisition,295,Promo - Tools,Phone
+135,Christmas Eve - Campaign,2020,2020-12-24,2020-12-28,UpSell,296,Promo - Bikes,Email
+135,Christmas Eve - Campaign,2020,2020-12-24,2020-12-28,UpSell,297,Promo - Acid Reflux,GameApp
+136,Christmas Day - Campaign,2020,2020-12-25,2020-12-29,Cross-Sell,298,Promo - Light Bulbs,Facebook
+136,Christmas Day - Campaign,2020,2020-12-25,2020-12-29,Cross-Sell,299,Promo - Vitamins & Supplements,Email
+137,Christmas Day - Campaign,2020,2020-12-26,2020-12-30,Other,300,Promo - Sports,Email
+138,Christmas Day - Campaign,2020,2020-12-27,2020-12-31,Acquisition,301,Promo - Hair Care,Twitter
+138,Christmas Day - Campaign,2020,2020-12-27,2020-12-31,Acquisition,302,Promo - Foot Care,Facebook
+139,New Years Eve - Campaign,2020,2020-12-31,2021-01-04,Other,303,Promo - Probiotics,Email
+139,New Years Eve - Campaign,2020,2020-12-31,2021-01-04,Other,304,Promo - Weight Management,Phone
+139,New Years Eve - Campaign,2020,2020-12-31,2021-01-04,Other,305,Promo - Nursery & Decor,Phone
+140,New Year's Day - Campaign,2021,2021-01-01,2021-01-05,Other,306,Promo - Snacks Cookies & Chips,Email
+140,New Year's Day - Campaign,2021,2021-01-01,2021-01-05,Other,307,Promo - Vitamins & Supplements,WebSite
+140,New Year's Day - Campaign,2021,2021-01-01,2021-01-05,Other,308,Promo - Paper & Plastic,Phone
+141,Beauty  - Campaign,2021,2021-01-05,2021-01-09,Retention,309,Promo - Light Bulbs,GameApp
+141,Beauty  - Campaign,2021,2021-01-05,2021-01-09,Retention,310,Promo - Shoe Care & Repair,WebSite
+141,Beauty  - Campaign,2021,2021-01-05,2021-01-09,Retention,311,Promo - Premium Bath & Body,GameApp
+142,Martin Luther King Jr. Day - Campaign,2021,2021-01-15,2021-01-19,Acquisition,312,Promo - Beverages,GameApp
+143,Martin Luther King Jr. Day - Campaign,2021,2021-01-16,2021-01-20,Special,313,Promo - Nursery & Decor,SMS
+143,Martin Luther King Jr. Day - Campaign,2021,2021-01-16,2021-01-20,Special,314,Promo - Laundry,MobileApp
+143,Martin Luther King Jr. Day - Campaign,2021,2021-01-16,2021-01-20,Special,315,Promo - Bikes,GameApp
+144,Martin Luther King Jr. Day - Campaign,2021,2021-01-17,2021-01-21,UpSell,316,Promo - Outdoor Sports,Facebook
+144,Martin Luther King Jr. Day - Campaign,2021,2021-01-17,2021-01-21,UpSell,317,Promo - Snacks Cookies & Chips,Phone
+145,Martin Luther King Jr. Day - Campaign,2021,2021-01-18,2021-01-22,Retention,318,Promo - iPad & Tablets,TikTok
+145,Martin Luther King Jr. Day - Campaign,2021,2021-01-18,2021-01-22,Retention,319,Promo - Cleaning Supplies,SMS
+145,Martin Luther King Jr. Day - Campaign,2021,2021-01-18,2021-01-22,Retention,320,Promo - Sports,MobileApp
+146,Auto & Tires  - Campaign,2021,2021-01-21,2021-01-25,Cross-Sell,321,Promo - Sports,TikTok
+146,Auto & Tires  - Campaign,2021,2021-01-21,2021-01-25,Cross-Sell,322,Promo - Toddlers Room,TikTok
+146,Auto & Tires  - Campaign,2021,2021-01-21,2021-01-25,Cross-Sell,323,Promo - Bikes,Mailer
+147,Washington's Birthday - Campaign,2021,2021-02-12,2021-02-16,Cross-Sell,324,Promo - Oral Care,SMS
+147,Washington's Birthday - Campaign,2021,2021-02-12,2021-02-16,Cross-Sell,325,Promo - Condiments Sauces & Spices,Facebook
+148,Washington's Birthday - Campaign,2021,2021-02-13,2021-02-17,Cross-Sell,326,Promo - Home Safety,Mailer
+148,Washington's Birthday - Campaign,2021,2021-02-13,2021-02-17,Cross-Sell,327,Promo - Feeding,SMS
+149,Washington's Birthday - Campaign,2021,2021-02-14,2021-02-18,Cross-Sell,328,Promo - Protein & Fitness,Mailer
+150,Washington's Birthday - Campaign,2021,2021-02-15,2021-02-19,UpSell,329,Promo - Oral Care,SMS
+151,Auto & Tires  - Campaign,2021,2021-03-05,2021-03-09,Acquisition,330,Promo - Sun Care,Email
+151,Auto & Tires  - Campaign,2021,2021-03-05,2021-03-09,Acquisition,331,Promo - Premium Beauty Tech & Skin Devices,Facebook
+152,Toys  - Campaign,2021,2021-03-10,2021-03-14,Other,332,Promo - Bikes,Email
+152,Toys  - Campaign,2021,2021-03-10,2021-03-14,Other,333,Promo - Lip Care,GameApp
+153,Baby  - Campaign,2021,2021-04-06,2021-04-10,Cross-Sell,334,Promo - Here for Every Beauty,Mailer
+153,Baby  - Campaign,2021,2021-04-06,2021-04-10,Cross-Sell,335,Promo - Bikes,Email
+154,Personal Care  - Campaign,2021,2021-04-07,2021-04-11,Special,336,Promo - Pain Relievers,GameApp
+154,Personal Care  - Campaign,2021,2021-04-07,2021-04-11,Special,337,Promo - Chocolate Candy & Gum,MobileApp
+155,Health  - Campaign,2021,2021-04-30,2021-05-04,Retention,338,Promo - Bath & Body,Twitter
+155,Health  - Campaign,2021,2021-04-30,2021-05-04,Retention,339,Promo - Bikes,SMS
+156,Personal Care  - Campaign,2021,2021-05-19,2021-05-23,UpSell,340,Promo - Sports,TikTok
+156,Personal Care  - Campaign,2021,2021-05-19,2021-05-23,UpSell,341,Promo - Bikes,SMS
+157,Personal Care  - Campaign,2021,2021-05-23,2021-05-27,Acquisition,342,Promo - Pest Control,Email
+157,Personal Care  - Campaign,2021,2021-05-23,2021-05-27,Acquisition,343,Promo - Diabetes Care,Twitter
+158,Memorial Day - Campaign,2021,2021-05-28,2021-06-01,Special,344,Promo - Bath & Body,MobileApp
+158,Memorial Day - Campaign,2021,2021-05-28,2021-06-01,Special,345,Promo - Vitamins & Supplements,SMS
+159,Memorial Day - Campaign,2021,2021-05-29,2021-06-02,Other,346,Promo - Recreation,SMS
+159,Memorial Day - Campaign,2021,2021-05-29,2021-06-02,Other,347,Promo - Sports,MobileApp
+160,Memorial Day - Campaign,2021,2021-05-30,2021-06-03,Acquisition,348,Promo - Bikes,Email
+160,Memorial Day - Campaign,2021,2021-05-30,2021-06-03,Acquisition,349,Promo - Bath & Body,MobileApp
+160,Memorial Day - Campaign,2021,2021-05-30,2021-06-03,Acquisition,350,Promo - Diapering,Twitter
+161,Memorial Day - Campaign,2021,2021-05-31,2021-06-04,Acquisition,351,Promo - Beverages,Mailer
+162,Sports & Outdoors  - Campaign,2021,2021-06-01,2021-06-05,Acquisition,352,Promo - Sports,Twitter
+162,Sports & Outdoors  - Campaign,2021,2021-06-01,2021-06-05,Acquisition,353,Promo - Digestive Health,Mailer
+163,Toys  - Campaign,2021,2021-06-17,2021-06-21,UpSell,354,Promo - Bikes,GameApp
+164,Health  - Campaign,2021,2021-06-23,2021-06-27,Acquisition,355,Promo - Oral Care,Mailer
+165,Independence Day - Campaign,2021,2021-07-02,2021-07-06,Cross-Sell,356,Promo - Breakfast & Cereal,Mailer
+165,Independence Day - Campaign,2021,2021-07-02,2021-07-06,Cross-Sell,357,Promo - Diapering,TikTok
+165,Independence Day - Campaign,2021,2021-07-02,2021-07-06,Cross-Sell,358,Promo - Fiber Supplements,MobileApp
+166,Independence Day - Campaign,2021,2021-07-03,2021-07-07,Special,359,Promo - Foot Care,GameApp
+166,Independence Day - Campaign,2021,2021-07-03,2021-07-07,Special,360,Promo - Sports,Mailer
+167,Independence Day - Campaign,2021,2021-07-04,2021-07-08,Cross-Sell,361,Promo - Breakfast & Cereal,MobileApp
+167,Independence Day - Campaign,2021,2021-07-04,2021-07-08,Cross-Sell,362,Promo - Home Safety,SMS
+167,Independence Day - Campaign,2021,2021-07-04,2021-07-08,Cross-Sell,363,Promo - Sun Care,Mailer
+168,Independence Day (Observed) - Campaign,2021,2021-07-05,2021-07-09,UpSell,364,Promo - Laxatives,Twitter
+168,Independence Day (Observed) - Campaign,2021,2021-07-05,2021-07-09,UpSell,365,Promo - Pest Control,MobileApp
+169,Food  - Campaign,2021,2021-07-11,2021-07-15,Cross-Sell,366,Promo - Eye Care,Mailer
+169,Food  - Campaign,2021,2021-07-11,2021-07-15,Cross-Sell,367,Promo - Chocolate Candy & Gum,WebSite
+169,Food  - Campaign,2021,2021-07-11,2021-07-15,Cross-Sell,368,Promo - Protein & Fitness,Mailer
+170,Food  - Campaign,2021,2021-07-17,2021-07-21,UpSell,369,Promo - Snacks Cookies & Chips,Phone
+170,Food  - Campaign,2021,2021-07-17,2021-07-21,UpSell,370,Promo - Condiments Sauces & Spices,Twitter
+170,Food  - Campaign,2021,2021-07-17,2021-07-21,UpSell,371,Promo - Outdoor Play,GameApp
+171,Health  - Campaign,2021,2021-07-19,2021-07-23,Other,372,Promo - Travel Size Beauty,Facebook
+171,Health  - Campaign,2021,2021-07-19,2021-07-23,Other,373,Promo - Exercise & Fitness,SMS
+172,Books  - Campaign,2021,2021-08-16,2021-08-20,Cross-Sell,374,Promo - Sports,Facebook
+172,Books  - Campaign,2021,2021-08-16,2021-08-20,Cross-Sell,375,Promo - Home Health Care,WebSite
+173,Household Essentials  - Campaign,2021,2021-08-28,2021-09-01,Retention,376,Promo - Sports,Email
+174,Labor Day - Campaign,2021,2021-09-03,2021-09-07,Cross-Sell,377,Promo - Laxatives,Phone
+174,Labor Day - Campaign,2021,2021-09-03,2021-09-07,Cross-Sell,378,Promo - Outdoor Sports,Facebook
+175,Labor Day - Campaign,2021,2021-09-04,2021-09-08,Retention,379,Promo - Meal Solutions Grains & Pasta,Twitter
+176,Labor Day - Campaign,2021,2021-09-05,2021-09-09,Retention,380,Promo - Diabetes Care Brands,TikTok
+176,Labor Day - Campaign,2021,2021-09-05,2021-09-09,Retention,381,Promo - Outdoor Sports,Phone
+176,Labor Day - Campaign,2021,2021-09-05,2021-09-09,Retention,382,Promo - Bikes,GameApp
+177,Labor Day - Campaign,2021,2021-09-06,2021-09-10,UpSell,383,Promo - Outdoor Sports,Facebook
+177,Labor Day - Campaign,2021,2021-09-06,2021-09-10,UpSell,384,Promo - Foot Care,Phone
+178,Clothing  - Campaign,2021,2021-09-11,2021-09-15,Special,385,Promo - Digestive Health,Email
+178,Clothing  - Campaign,2021,2021-09-11,2021-09-15,Special,386,Promo - Bath & Body,Facebook
+179,Columbus Day - Campaign,2021,2021-10-08,2021-10-12,Cross-Sell,387,Promo - Breakfast & Cereal,MobileApp
+179,Columbus Day - Campaign,2021,2021-10-08,2021-10-12,Cross-Sell,388,Promo - Sports,GameApp
+180,Columbus Day - Campaign,2021,2021-10-09,2021-10-13,Cross-Sell,389,Promo - Lip Care,SMS
+180,Columbus Day - Campaign,2021,2021-10-09,2021-10-13,Cross-Sell,390,Promo - Tools,Twitter
+181,Columbus Day - Campaign,2021,2021-10-10,2021-10-14,Retention,391,Promo - Cleaning Supplies,MobileApp
+181,Columbus Day - Campaign,2021,2021-10-10,2021-10-14,Retention,392,Promo - Baking,Facebook
+181,Columbus Day - Campaign,2021,2021-10-10,2021-10-14,Retention,393,Promo - Condiments Sauces & Spices,MobileApp
+182,Columbus Day - Campaign,2021,2021-10-11,2021-10-15,UpSell,394,Promo - Foot Care,WebSite
+182,Columbus Day - Campaign,2021,2021-10-11,2021-10-15,UpSell,395,Promo - Oral Care,Facebook
+183,Home  - Campaign,2021,2021-10-13,2021-10-17,UpSell,396,Promo - Baby Activities & Gear,TikTok
+183,Home  - Campaign,2021,2021-10-13,2021-10-17,UpSell,397,Promo - Breakfast & Cereal,Email
+183,Home  - Campaign,2021,2021-10-13,2021-10-17,UpSell,398,Promo - Sports,TikTok
+184,Patio & Garden  - Campaign,2021,2021-10-17,2021-10-21,Retention,399,Promo - Feeding,MobileApp
+184,Patio & Garden  - Campaign,2021,2021-10-17,2021-10-21,Retention,400,Promo - Bikes,MobileApp
+184,Patio & Garden  - Campaign,2021,2021-10-17,2021-10-21,Retention,401,Promo - Bikes,GameApp
+185,Veterans Day - Campaign,2021,2021-11-11,2021-11-15,UpSell,402,Promo - Beverages,GameApp
+185,Veterans Day - Campaign,2021,2021-11-11,2021-11-15,UpSell,403,Promo - Condiments Sauces & Spices,Twitter
+185,Veterans Day - Campaign,2021,2021-11-11,2021-11-15,UpSell,404,Promo - Bikes,Mailer
+186,Veterans Day - Campaign,2021,2021-11-12,2021-11-16,Retention,405,Promo - Breakfast & Cereal,Twitter
+186,Veterans Day - Campaign,2021,2021-11-12,2021-11-16,Retention,406,Promo - Bath & Body,SMS
+186,Veterans Day - Campaign,2021,2021-11-12,2021-11-16,Retention,407,Promo - Bikes,Twitter
+187,Veterans Day - Campaign,2021,2021-11-13,2021-11-17,UpSell,408,Promo - Oral Care,WebSite
+187,Veterans Day - Campaign,2021,2021-11-13,2021-11-17,UpSell,409,Promo - Diabetes Care,Facebook
+187,Veterans Day - Campaign,2021,2021-11-13,2021-11-17,UpSell,410,Promo - Bath & Body,MobileApp
+188,Veterans Day - Campaign,2021,2021-11-14,2021-11-18,Special,411,Promo - Foot Care,Mailer
+189,Premium Beauty  - Campaign,2021,2021-11-17,2021-11-21,Retention,412,Promo - Sports,WebSite
+190,Clothing  - Campaign,2021,2021-11-20,2021-11-24,UpSell,413,Promo - Diabetes Care,Facebook
+190,Clothing  - Campaign,2021,2021-11-20,2021-11-24,UpSell,414,Promo - Shaving,Email
+190,Clothing  - Campaign,2021,2021-11-20,2021-11-24,UpSell,415,Promo - Sleep & Snoring Aids,Facebook
+191,Thanksgiving - Campaign,2021,2021-11-23,2021-11-27,Retention,416,Promo - Baking,GameApp
+192,Thanksgiving - Campaign,2021,2021-11-24,2021-11-28,Acquisition,417,Promo - Bath & Body,Mailer
+193,Thanksgiving - Campaign,2021,2021-11-25,2021-11-29,Acquisition,418,Promo - Makeup,GameApp
+193,Thanksgiving - Campaign,2021,2021-11-25,2021-11-29,Acquisition,419,Promo - Meal Solutions Grains & Pasta,GameApp
+193,Thanksgiving - Campaign,2021,2021-11-25,2021-11-29,Acquisition,420,Promo - Home Health Care,Mailer
+194,Black Friday - Campaign,2021,2021-11-26,2021-11-30,Retention,421,Promo - Beauty Next Day,GameApp
+195,Health  - Campaign,2021,2021-12-12,2021-12-16,UpSell,422,Promo - Sports,WebSite
+196,Christmas - Campaign,2021,2021-12-22,2021-12-26,Retention,423,Promo - Outdoor Sports,GameApp
+196,Christmas - Campaign,2021,2021-12-22,2021-12-26,Retention,424,Promo - Nursery & Decor,MobileApp
+196,Christmas - Campaign,2021,2021-12-22,2021-12-26,Retention,425,Promo - Bikes,TikTok
+197,Christmas Eve - Campaign,2021,2021-12-23,2021-12-27,Special,426,Promo - Bath & Body,SMS
+197,Christmas Eve - Campaign,2021,2021-12-23,2021-12-27,Special,427,Promo - Bath & Body,Facebook
+198,Christmas Day (Observed) - Campaign,2021,2021-12-24,2021-12-28,Other,428,Promo - Bikes,Facebook
+198,Christmas Day (Observed) - Campaign,2021,2021-12-24,2021-12-28,Other,429,Promo - First Aid,Twitter
+199,Christmas Day - Campaign,2021,2021-12-25,2021-12-29,Acquisition,430,Promo - Meal Solutions Grains & Pasta,WebSite
+199,Christmas Day - Campaign,2021,2021-12-25,2021-12-29,Acquisition,431,Promo - Sports,MobileApp
+200,Christmas Day - Campaign,2021,2021-12-26,2021-12-30,Special,432,Promo - Chocolate Candy & Gum,Email
+200,Christmas Day - Campaign,2021,2021-12-26,2021-12-30,Special,433,Promo - Bath & Body,SMS
+201,Baby  - Campaign,2021,2021-12-29,2022-01-02,Other,434,Promo - Weight Management,WebSite
+201,Baby  - Campaign,2021,2021-12-29,2022-01-02,Other,435,Promo - Feminine Care,Email
+201,Baby  - Campaign,2021,2021-12-29,2022-01-02,Other,436,Promo - Premium Fragrance,MobileApp
+202,New Year's Day (Observed) - Campaign,2021,2021-12-31,2022-01-04,Cross-Sell,437,Promo - Meal Solutions Grains & Pasta,Email
+202,New Year's Day (Observed) - Campaign,2021,2021-12-31,2022-01-04,Cross-Sell,438,Promo - Family Planning,Mailer
+203,New Year's Day - Campaign,2022,2022-01-01,2022-01-05,Acquisition,439,Promo - Baby Activities & Gear,GameApp
+203,New Year's Day - Campaign,2022,2022-01-01,2022-01-05,Acquisition,440,Promo - Health & Safety,Twitter
+204,New Year's Day - Campaign,2022,2022-01-02,2022-01-06,Other,441,Promo - Feeding,Mailer
+204,New Year's Day - Campaign,2022,2022-01-02,2022-01-06,Other,442,Promo - Shoe Care & Repair,Twitter
+204,New Year's Day - Campaign,2022,2022-01-02,2022-01-06,Other,443,Promo - Bikes,GameApp
+205,Martin Luther King Jr. Day - Campaign,2022,2022-01-14,2022-01-18,UpSell,444,Promo - Here for Every Beauty,Email
+205,Martin Luther King Jr. Day - Campaign,2022,2022-01-14,2022-01-18,UpSell,445,Promo - Hot Tubs & Saunas,SMS
+205,Martin Luther King Jr. Day - Campaign,2022,2022-01-14,2022-01-18,UpSell,446,Promo - Beverages,Facebook
+206,Martin Luther King Jr. Day - Campaign,2022,2022-01-15,2022-01-19,Acquisition,447,Promo - Shaving,TikTok
+206,Martin Luther King Jr. Day - Campaign,2022,2022-01-15,2022-01-19,Acquisition,448,Promo - Weight Management,TikTok
+206,Martin Luther King Jr. Day - Campaign,2022,2022-01-15,2022-01-19,Acquisition,449,Promo - Sports,GameApp
+207,Martin Luther King Jr. Day - Campaign,2022,2022-01-16,2022-01-20,Special,450,Promo - Bikes,Twitter
+207,Martin Luther King Jr. Day - Campaign,2022,2022-01-16,2022-01-20,Special,451,Promo - Chocolate Candy & Gum,Facebook
+207,Martin Luther King Jr. Day - Campaign,2022,2022-01-16,2022-01-20,Special,452,Promo - Feeding,Email
+208,Martin Luther King Jr. Day - Campaign,2022,2022-01-17,2022-01-21,Special,453,Promo - Bikes,TikTok
+208,Martin Luther King Jr. Day - Campaign,2022,2022-01-17,2022-01-21,Special,454,Promo - Foot Care,Email
+208,Martin Luther King Jr. Day - Campaign,2022,2022-01-17,2022-01-21,Special,455,Promo - Bikes,Phone
+209,Home  - Campaign,2022,2022-01-28,2022-02-01,UpSell,456,Promo - Protein & Fitness,MobileApp
+209,Home  - Campaign,2022,2022-01-28,2022-02-01,UpSell,457,Promo - Home Health Care,MobileApp
+209,Home  - Campaign,2022,2022-01-28,2022-02-01,UpSell,458,Promo - Protein & Fitness,MobileApp
+210,Health  - Campaign,2022,2022-02-10,2022-02-14,Special,459,Promo - Bath & Body,Facebook
+210,Health  - Campaign,2022,2022-02-10,2022-02-14,Special,460,Promo - Outdoor Sports,MobileApp
+211,Toys  - Campaign,2022,2022-02-14,2022-02-18,Special,461,Promo - Vitamins & Supplements,GameApp
+212,Washington's Birthday - Campaign,2022,2022-02-18,2022-02-22,Acquisition,462,Promo - Health & Safety,Twitter
+212,Washington's Birthday - Campaign,2022,2022-02-18,2022-02-22,Acquisition,463,Promo - Sun Care,TikTok
+212,Washington's Birthday - Campaign,2022,2022-02-18,2022-02-22,Acquisition,464,Promo - Outdoor Play,Phone
+213,Washington's Birthday - Campaign,2022,2022-02-19,2022-02-23,Cross-Sell,465,Promo - Feminine Care,MobileApp
+213,Washington's Birthday - Campaign,2022,2022-02-19,2022-02-23,Cross-Sell,466,Promo - Batteries,Twitter
+213,Washington's Birthday - Campaign,2022,2022-02-19,2022-02-23,Cross-Sell,467,Promo - Bikes,TikTok
+214,Washington's Birthday - Campaign,2022,2022-02-20,2022-02-24,Other,468,Promo - Diabetes Care Brands,Facebook
+215,Washington's Birthday - Campaign,2022,2022-02-21,2022-02-25,Special,469,Promo - Bikes,Phone
+215,Washington's Birthday - Campaign,2022,2022-02-21,2022-02-25,Special,470,Promo - Condiments Sauces & Spices,Twitter
+216,Food  - Campaign,2022,2022-03-17,2022-03-21,Special,471,Promo - Cleaning Supplies,SMS
+216,Food  - Campaign,2022,2022-03-17,2022-03-21,Special,472,Promo - Feeding,GameApp
+217,Health  - Campaign,2022,2022-03-18,2022-03-22,Special,473,Promo - Snacks Cookies & Chips,Mailer
+217,Health  - Campaign,2022,2022-03-18,2022-03-22,Special,474,Promo - Deodorants & Antiperspirants,Phone
+217,Health  - Campaign,2022,2022-03-18,2022-03-22,Special,475,Promo - Bikes,Facebook
+218,Beauty  - Campaign,2022,2022-03-30,2022-04-03,Special,476,Promo - Home Health Care,WebSite
+218,Beauty  - Campaign,2022,2022-03-30,2022-04-03,Special,477,Promo - Beauty by Topic,Twitter
+219,Sports & Outdoors  - Campaign,2022,2022-04-16,2022-04-20,Acquisition,478,Promo - Bikes,Facebook
+219,Sports & Outdoors  - Campaign,2022,2022-04-16,2022-04-20,Acquisition,479,Promo - Recreation,Mailer
+220,Auto & Tires  - Campaign,2022,2022-04-19,2022-04-23,Special,480,Promo - Nursery & Decor,WebSite
+221,Clothing  - Campaign,2022,2022-04-24,2022-04-28,Other,481,Promo - Bikes,Email
+221,Clothing  - Campaign,2022,2022-04-24,2022-04-28,Other,482,Promo - Condiments Sauces & Spices,Mailer
+221,Clothing  - Campaign,2022,2022-04-24,2022-04-28,Other,483,Promo - Baking,Mailer
+222,Food  - Campaign,2022,2022-05-16,2022-05-20,Other,484,Promo - Sports,Facebook
+223,Personal Care  - Campaign,2022,2022-05-20,2022-05-24,Retention,485,Promo - Shaving,Facebook
+223,Personal Care  - Campaign,2022,2022-05-20,2022-05-24,Retention,486,Promo - Bikes,Twitter
+223,Personal Care  - Campaign,2022,2022-05-20,2022-05-24,Retention,487,Promo - Baking,Facebook
+224,Memorial Day - Campaign,2022,2022-05-27,2022-05-31,Acquisition,488,Promo - Kids Bikes & Riding Toys,Twitter
+225,Memorial Day - Campaign,2022,2022-05-28,2022-06-01,Other,489,Promo - Exercise & Fitness,Email
+225,Memorial Day - Campaign,2022,2022-05-28,2022-06-01,Other,490,Promo - Sun Care,Phone
+226,Memorial Day - Campaign,2022,2022-05-29,2022-06-02,UpSell,491,Promo - Health & Safety,Mailer
+227,Memorial Day - Campaign,2022,2022-05-30,2022-06-03,Cross-Sell,492,Promo - Sports,Mailer
+227,Memorial Day - Campaign,2022,2022-05-30,2022-06-03,Cross-Sell,493,Promo - Quit Smoking,Phone
+227,Memorial Day - Campaign,2022,2022-05-30,2022-06-03,Cross-Sell,494,Promo - Home Health Care,Facebook
+228,Health  - Campaign,2022,2022-06-14,2022-06-18,Acquisition,495,Promo - Nursery & Decor,MobileApp
+228,Health  - Campaign,2022,2022-06-14,2022-06-18,Acquisition,496,Promo - Beverages,SMS
+229,Books  - Campaign,2022,2022-06-20,2022-06-24,UpSell,497,Promo - Car Seats,Email
+229,Books  - Campaign,2022,2022-06-20,2022-06-24,UpSell,498,Promo - Hair Care,Email
+229,Books  - Campaign,2022,2022-06-20,2022-06-24,UpSell,499,Promo - Baking,SMS
+230,Independence Day - Campaign,2022,2022-07-01,2022-07-05,UpSell,500,Promo - Bikes,Mailer
+231,Independence Day - Campaign,2022,2022-07-02,2022-07-06,UpSell,501,Promo - Childrens Health Shop,WebSite
+231,Independence Day - Campaign,2022,2022-07-02,2022-07-06,UpSell,502,Promo - Shaving,Facebook
+232,Independence Day - Campaign,2022,2022-07-03,2022-07-07,Cross-Sell,503,Promo - Sports,MobileApp
+233,Independence Day - Campaign,2022,2022-07-04,2022-07-08,UpSell,504,Promo - Condiments Sauces & Spices,Twitter
+233,Independence Day - Campaign,2022,2022-07-04,2022-07-08,UpSell,505,Promo - Premium Fragrance,TikTok
+233,Independence Day - Campaign,2022,2022-07-04,2022-07-08,UpSell,506,Promo - Health & Safety,Email
+234,Health  - Campaign,2022,2022-07-09,2022-07-13,Cross-Sell,507,Promo - Bedding,GameApp
+234,Health  - Campaign,2022,2022-07-09,2022-07-13,Cross-Sell,508,Promo - Sports,Phone
+235,Sports & Outdoors  - Campaign,2022,2022-07-26,2022-07-30,Special,509,Promo - Shaving,MobileApp
+235,Sports & Outdoors  - Campaign,2022,2022-07-26,2022-07-30,Special,510,Promo - Outdoor Sports,GameApp
+235,Sports & Outdoors  - Campaign,2022,2022-07-26,2022-07-30,Special,511,Promo - Pain Relievers,Phone
+236,Home Improvement  - Campaign,2022,2022-08-04,2022-08-08,Cross-Sell,512,Promo - Outdoor Sports,Email
+236,Home Improvement  - Campaign,2022,2022-08-04,2022-08-08,Cross-Sell,513,Promo - Meal Solutions Grains & Pasta,GameApp
+236,Home Improvement  - Campaign,2022,2022-08-04,2022-08-08,Cross-Sell,514,Promo - Foot Care,WebSite
+237,Food  - Campaign,2022,2022-08-07,2022-08-11,Other,515,Promo - Chocolate Candy & Gum,Mailer
+238,Health  - Campaign,2022,2022-08-29,2022-09-02,Other,516,Promo - Bathroom,Facebook
+238,Health  - Campaign,2022,2022-08-29,2022-09-02,Other,517,Promo - Vitamins & Supplements,Phone
+239,Independence Day - Campaign,2022,2022-09-02,2022-09-06,Special,518,Promo - Home Health Care,Facebook
+240,Independence Day - Campaign,2022,2022-09-03,2022-09-07,Special,519,Promo - Bath & Body,Email
+240,Independence Day - Campaign,2022,2022-09-03,2022-09-07,Special,520,Promo - Chocolate Candy & Gum,WebSite
+241,Independence Day - Campaign,2022,2022-09-04,2022-09-08,Retention,521,Promo - Sports,Mailer
+242,Independence Day - Campaign,2022,2022-09-05,2022-09-09,Cross-Sell,522,Promo - Cleaning Supplies,Twitter
+242,Independence Day - Campaign,2022,2022-09-05,2022-09-09,Cross-Sell,523,Promo - Beverages,Mailer
+242,Independence Day - Campaign,2022,2022-09-05,2022-09-09,Cross-Sell,524,Promo - Vitamins & Supplements,GameApp
+243,Clothing  - Campaign,2022,2022-09-06,2022-09-10,Retention,525,Promo - Shoe Care & Repair,Twitter
+243,Clothing  - Campaign,2022,2022-09-06,2022-09-10,Retention,526,Promo - Diapering,GameApp
+243,Clothing  - Campaign,2022,2022-09-06,2022-09-10,Retention,527,Promo - Bath & Body,Mailer
+244,Electronics  - Campaign,2022,2022-09-12,2022-09-16,Acquisition,528,Promo - Vitamins & Supplements,MobileApp
+245,Health  - Campaign,2022,2022-09-14,2022-09-18,UpSell,529,Promo - Sports,TikTok
+245,Health  - Campaign,2022,2022-09-14,2022-09-18,UpSell,530,Promo - Bath & Body,Mailer
+245,Health  - Campaign,2022,2022-09-14,2022-09-18,UpSell,531,Promo - Sports,Mailer
+246,Premium Beauty  - Campaign,2022,2022-09-18,2022-09-22,Other,532,Promo - Feeding,MobileApp
+246,Premium Beauty  - Campaign,2022,2022-09-18,2022-09-22,Other,533,Promo - Sun Care,MobileApp
+247,Health  - Campaign,2022,2022-09-25,2022-09-29,Special,534,Promo - Meal Solutions Grains & Pasta,Phone
+247,Health  - Campaign,2022,2022-09-25,2022-09-29,Special,535,Promo - Bikes,Facebook
+247,Health  - Campaign,2022,2022-09-25,2022-09-29,Special,536,Promo - Chocolate Candy & Gum,Mailer
+248,Independence Day - Campaign,2022,2022-10-07,2022-10-11,Special,537,Promo - Outdoor Play,Mailer
+248,Independence Day - Campaign,2022,2022-10-07,2022-10-11,Special,538,Promo - Teens Rooms,Email
+248,Independence Day - Campaign,2022,2022-10-07,2022-10-11,Special,539,Promo - Shop Toys by Price,TikTok
+249,Independence Day - Campaign,2022,2022-10-08,2022-10-12,Cross-Sell,540,Promo - Feeding,Mailer
+249,Independence Day - Campaign,2022,2022-10-08,2022-10-12,Cross-Sell,541,Promo - Oral Care,TikTok
+250,Independence Day - Campaign,2022,2022-10-09,2022-10-13,Other,542,Promo - Outdoor Sports,Twitter
+251,Independence Day - Campaign,2022,2022-10-10,2022-10-14,Cross-Sell,543,Promo - Home Health Care,Phone
+251,Independence Day - Campaign,2022,2022-10-10,2022-10-14,Cross-Sell,544,Promo - Here for Every Beauty,SMS
+252,Beauty  - Campaign,2022,2022-10-22,2022-10-26,Cross-Sell,545,Promo - Weight Management,MobileApp
+252,Beauty  - Campaign,2022,2022-10-22,2022-10-26,Cross-Sell,546,Promo - Nursery & Decor,WebSite
+253,Household Essentials  - Campaign,2022,2022-10-27,2022-10-31,Retention,547,Promo - Bath & Body,MobileApp
+254,Premium Beauty  - Campaign,2022,2022-10-30,2022-11-03,Other,548,Promo - Bikes,TikTok
+254,Premium Beauty  - Campaign,2022,2022-10-30,2022-11-03,Other,549,Promo - Outdoor Sports,GameApp
+254,Premium Beauty  - Campaign,2022,2022-10-30,2022-11-03,Other,550,Promo - Bikes,WebSite
+255,Independence Day - Campaign,2022,2022-11-11,2022-11-15,UpSell,551,Promo - Bath & Body,GameApp
+255,Independence Day - Campaign,2022,2022-11-11,2022-11-15,UpSell,552,Promo - Bikes,MobileApp
+256,Independence Day - Campaign,2022,2022-11-12,2022-11-16,Retention,553,Promo - Sports,TikTok
+257,Independence Day - Campaign,2022,2022-11-13,2022-11-17,Cross-Sell,554,Promo - Recreation,MobileApp
+257,Independence Day - Campaign,2022,2022-11-13,2022-11-17,Cross-Sell,555,Promo - Bikes,WebSite
+258,Thanksgiving - Campaign,2022,2022-11-23,2022-11-27,Special,556,Promo - Shaving,MobileApp
+258,Thanksgiving - Campaign,2022,2022-11-23,2022-11-27,Special,557,Promo - Feeding,Facebook
+259,Thanksgiving - Campaign,2022,2022-11-24,2022-11-28,Cross-Sell,558,Promo - Cold Cough and Flu,Mailer
+259,Thanksgiving - Campaign,2022,2022-11-24,2022-11-28,Cross-Sell,559,Promo - Sports,GameApp
+260,Black Friday - Campaign,2022,2022-11-25,2022-11-29,Other,560,Promo - Pest Control,TikTok
+261,Cyber Monday - Campaign,2022,2022-11-28,2022-12-02,Retention,561,Promo - Bathroom,GameApp
+261,Cyber Monday - Campaign,2022,2022-11-28,2022-12-02,Retention,562,Promo - Diapering,GameApp
+262,Health  - Campaign,2022,2022-11-29,2022-12-03,Acquisition,563,Promo - Superfoods & Cleanses,GameApp
+262,Health  - Campaign,2022,2022-11-29,2022-12-03,Acquisition,564,Promo - Exercise & Fitness,Twitter
+263,Health  - Campaign,2022,2022-12-05,2022-12-09,UpSell,565,Promo - Sports,Facebook
+263,Health  - Campaign,2022,2022-12-05,2022-12-09,UpSell,566,Promo - Meal Solutions Grains & Pasta,Phone
+264,Beauty  - Campaign,2022,2022-12-08,2022-12-12,Retention,567,Promo - Exercise & Fitness,Email
+264,Beauty  - Campaign,2022,2022-12-08,2022-12-12,Retention,568,Promo - Meal Solutions Grains & Pasta,MobileApp
+265,Auto & Tires  - Campaign,2022,2022-12-10,2022-12-14,Cross-Sell,569,Promo - Oral Care,Phone
+266,Home Improvement  - Campaign,2022,2022-12-18,2022-12-22,Other,570,Promo - Laxatives,Email
+267,Christmast - Campaign,2022,2022-12-22,2022-12-26,Cross-Sell,571,Promo - Health & Safety,Twitter
+267,Christmast - Campaign,2022,2022-12-22,2022-12-26,Cross-Sell,572,Promo - Keto Diet,WebSite
+268,Christmas - Campaign,2022,2022-12-23,2022-12-27,Cross-Sell,573,Promo - Condiments Sauces & Spices,Phone
+269,Christmas Eve - Campaign,2022,2022-12-24,2022-12-28,Cross-Sell,574,Promo - Sports,TikTok
+269,Christmas Eve - Campaign,2022,2022-12-24,2022-12-28,Cross-Sell,575,Promo - Condiments Sauces & Spices,Phone
+269,Christmas Eve - Campaign,2022,2022-12-24,2022-12-28,Cross-Sell,576,Promo - Feminine Care,Phone
+270,Christmas Day - Campaign,2022,2022-12-25,2022-12-29,Special,577,Promo - Shop Toys by Price,MobileApp
+271,Christmas Day (Observed) - Campaign,2022,2022-12-26,2022-12-30,Acquisition,578,Promo - Pest Control,Twitter
+271,Christmas Day (Observed) - Campaign,2022,2022-12-26,2022-12-30,Acquisition,579,Promo - Pest Control,GameApp
+272,Health  - Campaign,2022,2022-12-27,2022-12-31,Acquisition,580,Promo - Bath & Body,Email
+273,New Years Eve - Campaign,2022,2022-12-31,2023-01-04,Retention,581,Promo - Beverages,SMS
+274,New Year's Day - Campaign,2023,2023-01-01,2023-01-05,Special,582,Promo - Coffee,Twitter
+275,New Year's Day (Observed) - Campaign,2023,2023-01-02,2023-01-06,Other,583,Promo - Bikes,Email
+275,New Year's Day (Observed) - Campaign,2023,2023-01-02,2023-01-06,Other,584,Promo - Baby Activities & Gear,Email
+276,Martin Luther King Jr. Day - Campaign,2023,2023-01-13,2023-01-17,UpSell,585,Promo - Sports,MobileApp
+276,Martin Luther King Jr. Day - Campaign,2023,2023-01-13,2023-01-17,UpSell,586,Promo - Sports,Facebook
+276,Martin Luther King Jr. Day - Campaign,2023,2023-01-13,2023-01-17,UpSell,587,Promo - Oral Care,MobileApp
+277,Martin Luther King Jr. Day - Campaign,2023,2023-01-14,2023-01-18,Special,588,Promo - Sports,TikTok
+277,Martin Luther King Jr. Day - Campaign,2023,2023-01-14,2023-01-18,Special,589,Promo - Baby Activities & Gear,GameApp
+277,Martin Luther King Jr. Day - Campaign,2023,2023-01-14,2023-01-18,Special,590,Promo - Bathroom,WebSite
+278,Martin Luther King Jr. Day - Campaign,2023,2023-01-15,2023-01-19,Retention,591,Promo - Premium Fragrance,TikTok
+278,Martin Luther King Jr. Day - Campaign,2023,2023-01-15,2023-01-19,Retention,592,Promo - Sports,GameApp
+279,Martin Luther King Jr. Day - Campaign,2023,2023-01-16,2023-01-20,Acquisition,593,Promo - Feeding,TikTok
+279,Martin Luther King Jr. Day - Campaign,2023,2023-01-16,2023-01-20,Acquisition,594,Promo - Car Seats,Email
+280,Health  - Campaign,2023,2023-02-06,2023-02-10,Acquisition,595,Promo - Garden Center,Mailer
+280,Health  - Campaign,2023,2023-02-06,2023-02-10,Acquisition,596,Promo - Sports,TikTok
+281,Food  - Campaign,2023,2023-02-11,2023-02-15,Cross-Sell,597,Promo - Kids Rooms,SMS
+281,Food  - Campaign,2023,2023-02-11,2023-02-15,Cross-Sell,598,Promo - Oral Care,Phone
+281,Food  - Campaign,2023,2023-02-11,2023-02-15,Cross-Sell,599,Promo - Fiber Supplements,MobileApp
+282,Washington's Birthday - Campaign,2023,2023-02-17,2023-02-21,UpSell,600,Promo - Feeding,Phone
+282,Washington's Birthday - Campaign,2023,2023-02-17,2023-02-21,UpSell,601,Promo - Vitamins & Supplements,Twitter
+283,Washington's Birthday - Campaign,2023,2023-02-18,2023-02-22,Acquisition,602,Promo - Bath & Body,MobileApp
+284,Washington's Birthday - Campaign,2023,2023-02-19,2023-02-23,UpSell,603,Promo - Ear Care,SMS
+285,Washington's Birthday - Campaign,2023,2023-02-20,2023-02-24,Other,604,Promo - First Aid,Phone
+286,Patio & Garden  - Campaign,2023,2023-02-24,2023-02-28,UpSell,605,Promo - Light Bulbs,Mailer
+287,Baby  - Campaign,2023,2023-03-15,2023-03-19,Retention,606,Promo - Probiotics,MobileApp
+287,Baby  - Campaign,2023,2023-03-15,2023-03-19,Retention,607,Promo - Paper & Plastic,SMS
+288,Personal Care  - Campaign,2023,2023-03-21,2023-03-25,UpSell,608,Promo - Womens Clothing,WebSite
+288,Personal Care  - Campaign,2023,2023-03-21,2023-03-25,UpSell,609,Promo - Organic Foods,Twitter
+288,Personal Care  - Campaign,2023,2023-03-21,2023-03-25,UpSell,610,Promo - Coffee,SMS
+289,Personal Care  - Campaign,2023,2023-04-07,2023-04-11,Other,611,Promo - Meal Solutions Grains & Pasta,Mailer
+289,Personal Care  - Campaign,2023,2023-04-07,2023-04-11,Other,612,Promo - Outdoor Sports,TikTok
+289,Personal Care  - Campaign,2023,2023-04-07,2023-04-11,Other,613,Promo - Bath & Body,Email
+290,Home Improvement  - Campaign,2023,2023-04-24,2023-04-28,Acquisition,614,Promo - Feeding,MobileApp
+290,Home Improvement  - Campaign,2023,2023-04-24,2023-04-28,Acquisition,615,Promo - Sports,WebSite
+291,Memorial Day - Campaign,2023,2023-05-26,2023-05-30,Special,616,Promo - Health & Safety,Phone
+291,Memorial Day - Campaign,2023,2023-05-26,2023-05-30,Special,617,Promo - Decor,MobileApp
+292,Memorial Day - Campaign,2023,2023-05-27,2023-05-31,Cross-Sell,618,Promo - Sports,GameApp
+292,Memorial Day - Campaign,2023,2023-05-27,2023-05-31,Cross-Sell,619,Promo - Breakfast & Cereal,TikTok
+293,Memorial Day - Campaign,2023,2023-05-28,2023-06-01,Cross-Sell,620,Promo - Protein & Fitness,MobileApp
+293,Memorial Day - Campaign,2023,2023-05-28,2023-06-01,Cross-Sell,621,Promo - Coffee,Facebook
+294,Memorial Day - Campaign,2023,2023-05-29,2023-06-02,UpSell,622,Promo - Oral Care,Twitter
+295,Health  - Campaign,2023,2023-05-30,2023-06-03,Acquisition,623,Promo - Chocolate Candy & Gum,TikTok
+296,Auto & Tires  - Campaign,2023,2023-06-20,2023-06-24,Cross-Sell,624,Promo - Feminine Care,Twitter
+297,Independence Day - Campaign,2023,2023-06-30,2023-07-04,UpSell,625,Promo - Condiments Sauces & Spices,MobileApp
+297,Independence Day - Campaign,2023,2023-06-30,2023-07-04,UpSell,626,Promo - Condiments Sauces & Spices,MobileApp
+297,Independence Day - Campaign,2023,2023-06-30,2023-07-04,UpSell,627,Promo - Weight Management,Phone
+298,Independence Day - Campaign,2023,2023-07-01,2023-07-05,Cross-Sell,628,Promo - Condiments Sauces & Spices,WebSite
+299,Independence Day - Campaign,2023,2023-07-02,2023-07-06,UpSell,629,Promo - Pain Relievers,Facebook
+300,Independence Day - Campaign,2023,2023-07-03,2023-07-07,Acquisition,630,Promo - Beverages,WebSite
+301,Independence Day - Campaign,2023,2023-07-04,2023-07-08,Cross-Sell,631,Promo - Coffee,Twitter
+301,Independence Day - Campaign,2023,2023-07-04,2023-07-08,Cross-Sell,632,Promo - Bikes,MobileApp
+301,Independence Day - Campaign,2023,2023-07-04,2023-07-08,Cross-Sell,633,Promo - Recreation,Twitter
+302,Beauty  - Campaign,2023,2023-07-06,2023-07-10,Cross-Sell,634,Promo - Here for Every Beauty,Twitter
+303,Home  - Campaign,2023,2023-07-19,2023-07-23,Other,635,Promo - Outdoor Sports,SMS
+304,Household Essentials  - Campaign,2023,2023-07-30,2023-08-03,Cross-Sell,636,Promo - Condiments Sauces & Spices,GameApp
+304,Household Essentials  - Campaign,2023,2023-07-30,2023-08-03,Cross-Sell,637,Promo - Sports,Twitter
+305,Health  - Campaign,2023,2023-07-31,2023-08-04,UpSell,638,Promo - Nursery & Decor,Facebook
+305,Health  - Campaign,2023,2023-07-31,2023-08-04,UpSell,639,Promo - Oral Care,Mailer
+306,Patio & Garden  - Campaign,2023,2023-08-02,2023-08-06,Retention,640,Promo - Medicine Cabinet,TikTok
+307,Health  - Campaign,2023,2023-08-03,2023-08-07,UpSell,641,Promo - Sports,SMS
+308,Health  - Campaign,2023,2023-08-04,2023-08-08,Special,642,Promo - Home Health Care,Mailer
+308,Health  - Campaign,2023,2023-08-04,2023-08-08,Special,643,Promo - Medicine Cabinet,Mailer
+309,Household Essentials  - Campaign,2023,2023-08-05,2023-08-09,Special,644,Promo - Condiments Sauces & Spices,TikTok
+309,Household Essentials  - Campaign,2023,2023-08-05,2023-08-09,Special,645,Promo - Home Safety,Phone
+310,Health  - Campaign,2023,2023-08-20,2023-08-24,Retention,646,Promo - Toddlers Room,Phone
+311,Health  - Campaign,2023,2023-08-23,2023-08-27,Acquisition,647,Promo - Bath & Body,Phone
+312,Premium Beauty  - Campaign,2023,2023-08-25,2023-08-29,Special,648,Promo - Bikes,GameApp
+312,Premium Beauty  - Campaign,2023,2023-08-25,2023-08-29,Special,649,Promo - Premium Hair Care & Hair Tools,Mailer
+312,Premium Beauty  - Campaign,2023,2023-08-25,2023-08-29,Special,650,Promo - Shaving,WebSite
+313,Baby  - Campaign,2023,2023-08-28,2023-09-01,Retention,651,Promo - Sports,GameApp
+313,Baby  - Campaign,2023,2023-08-28,2023-09-01,Retention,652,Promo - Diapering,Mailer
+314,Labor Day - Campaign,2023,2023-09-01,2023-09-05,Cross-Sell,653,Promo - Vitamins & Supplements,Email
+314,Labor Day - Campaign,2023,2023-09-01,2023-09-05,Cross-Sell,654,Promo - Bikes,Phone
+314,Labor Day - Campaign,2023,2023-09-01,2023-09-05,Cross-Sell,655,Promo - Chocolate Candy & Gum,SMS
+315,Labor Day - Campaign,2023,2023-09-02,2023-09-06,Retention,656,Promo - Vitamins & Supplements,MobileApp
+315,Labor Day - Campaign,2023,2023-09-02,2023-09-06,Retention,657,Promo - Feeding,Facebook
+316,Labor Day - Campaign,2023,2023-09-03,2023-09-07,Cross-Sell,658,Promo - Here for Every Beauty,Phone
+316,Labor Day - Campaign,2023,2023-09-03,2023-09-07,Cross-Sell,659,Promo - Outdoor Play,SMS
+317,Labor Day - Campaign,2023,2023-09-04,2023-09-08,UpSell,660,Promo - Bikes,Facebook
+317,Labor Day - Campaign,2023,2023-09-04,2023-09-08,UpSell,661,Promo - Light Bulbs,MobileApp
+317,Labor Day - Campaign,2023,2023-09-04,2023-09-08,UpSell,662,Promo - Home Health Care,Twitter
+318,Premium Beauty  - Campaign,2023,2023-09-17,2023-09-21,Other,663,Promo - Bikes,GameApp
+319,Columbus Day - Campaign,2023,2023-10-07,2023-10-11,Acquisition,664,Promo - Mens Clothing,Email
+319,Columbus Day - Campaign,2023,2023-10-07,2023-10-11,Acquisition,665,Promo - Bath & Body,Mailer
+320,Columbus Day - Campaign,2023,2023-10-08,2023-10-12,Other,666,Promo - Bathroom,MobileApp
+320,Columbus Day - Campaign,2023,2023-10-08,2023-10-12,Other,667,Promo - Sports,WebSite
+320,Columbus Day - Campaign,2023,2023-10-08,2023-10-12,Other,668,Promo - Nursery & Decor,GameApp
+321,Columbus Day - Campaign,2023,2023-10-09,2023-10-13,Cross-Sell,669,Promo - Deodorants & Antiperspirants,Facebook
+321,Columbus Day - Campaign,2023,2023-10-09,2023-10-13,Cross-Sell,670,Promo - Bath & Body,WebSite
+321,Columbus Day - Campaign,2023,2023-10-09,2023-10-13,Cross-Sell,671,Promo - Womens Clothing,Email
+322,Health  - Campaign,2023,2023-10-10,2023-10-14,Special,672,Promo - Bikes,Facebook
+322,Health  - Campaign,2023,2023-10-10,2023-10-14,Special,673,Promo - Bikes,TikTok
+322,Health  - Campaign,2023,2023-10-10,2023-10-14,Special,674,Promo - Bikes,Twitter
+323,Auto & Tires  - Campaign,2023,2023-10-11,2023-10-15,Acquisition,675,Promo - Sports,Facebook
+323,Auto & Tires  - Campaign,2023,2023-10-11,2023-10-15,Acquisition,676,Promo - Eye Care,MobileApp
+324,Beauty  - Campaign,2023,2023-10-17,2023-10-21,Cross-Sell,677,Promo - Condiments Sauces & Spices,Twitter
+324,Beauty  - Campaign,2023,2023-10-17,2023-10-21,Cross-Sell,678,Promo - Feeding,Facebook
+325,Household Essentials  - Campaign,2023,2023-11-03,2023-11-07,Cross-Sell,679,Promo - Headaches,Email
+325,Household Essentials  - Campaign,2023,2023-11-03,2023-11-07,Cross-Sell,680,Promo - Mens Clothing,GameApp
+325,Household Essentials  - Campaign,2023,2023-11-03,2023-11-07,Cross-Sell,681,Promo - Bikes,Email
+326,Veterans Day (Observed) - Campaign,2023,2023-11-10,2023-11-14,Cross-Sell,682,Promo - Oral Care,MobileApp
+327,Veterans Day - Campaign,2023,2023-11-11,2023-11-15,Acquisition,683,Promo - Nursery & Decor,Facebook
+327,Veterans Day - Campaign,2023,2023-11-11,2023-11-15,Acquisition,684,Promo - Bikes,WebSite
+328,Veterans Day - Campaign,2023,2023-11-12,2023-11-16,UpSell,685,Promo - Superfoods & Cleanses,SMS
+329,Baby  - Campaign,2023,2023-11-17,2023-11-21,Acquisition,686,Promo - Meal Solutions Grains & Pasta,TikTok
+329,Baby  - Campaign,2023,2023-11-17,2023-11-21,Acquisition,687,Promo - Outdoor Sports,Facebook
+330,Thanksgiving - Campaign,2023,2023-11-22,2023-11-26,Acquisition,688,Promo - Nursery & Decor,TikTok
+330,Thanksgiving - Campaign,2023,2023-11-22,2023-11-26,Acquisition,689,Promo - Bikes,Phone
+331,Thanksgiving - Campaign,2023,2023-11-23,2023-11-27,Retention,690,Promo - Womens Clothing,TikTok
+332,Black Friday - Campaign,2023,2023-11-24,2023-11-28,Retention,691,Promo - Sports,MobileApp
+333,Baby  - Campaign,2023,2023-12-07,2023-12-11,Acquisition,692,Promo - Home Health Care,GameApp
+333,Baby  - Campaign,2023,2023-12-07,2023-12-11,Acquisition,693,Promo - Feeding,Facebook
+333,Baby  - Campaign,2023,2023-12-07,2023-12-11,Acquisition,694,Promo - Home Health Care,GameApp
+334,Home Improvement  - Campaign,2023,2023-12-11,2023-12-15,UpSell,695,Promo - Meal Solutions Grains & Pasta,TikTok
+334,Home Improvement  - Campaign,2023,2023-12-11,2023-12-15,UpSell,696,Promo - Condiments Sauces & Spices,Phone
+335,Christmas Eve - Campaign,2023,2023-12-24,2023-12-28,Special,697,Promo - Bikes,Mailer
+336,Christmas Day - Campaign,2023,2023-12-25,2023-12-29,Cross-Sell,698,Promo - Shop Toys by Price,WebSite
+337,Christmas Day - Campaign,2023,2023-12-26,2023-12-30,Special,699,Promo - Outdoor Sports,SMS
+338,Christmas Day - Campaign,2023,2023-12-27,2023-12-31,Acquisition,700,Promo - Baking,Email
+338,Christmas Day - Campaign,2023,2023-12-27,2023-12-31,Acquisition,701,Promo - Oral Care,TikTok
+338,Christmas Day - Campaign,2023,2023-12-27,2023-12-31,Acquisition,702,Promo - Outdoor Play,Mailer
+339,New Year's Day - Campaign,2024,2024-01-01,2024-01-05,Acquisition,703,Promo - Condiments Sauces & Spices,Phone
+340,Martin Luther King Jr. Day - Campaign,2024,2024-01-12,2024-01-16,Special,704,Promo - Car Seats,MobileApp
+341,Martin Luther King Jr. Day - Campaign,2024,2024-01-13,2024-01-17,Retention,705,Promo - Gift Baskets,Email
+341,Martin Luther King Jr. Day - Campaign,2024,2024-01-13,2024-01-17,Retention,706,Promo - Baby Activities & Gear,Mailer
+341,Martin Luther King Jr. Day - Campaign,2024,2024-01-13,2024-01-17,Retention,707,Promo - Condiments Sauces & Spices,GameApp
+342,Martin Luther King Jr. Day - Campaign,2024,2024-01-14,2024-01-18,Cross-Sell,708,Promo - Feeding,GameApp
+342,Martin Luther King Jr. Day - Campaign,2024,2024-01-14,2024-01-18,Cross-Sell,709,Promo - Nursery & Decor,Twitter
+343,Martin Luther King Jr. Day - Campaign,2024,2024-01-15,2024-01-19,Acquisition,710,Promo - Home Health Care,WebSite
+343,Martin Luther King Jr. Day - Campaign,2024,2024-01-15,2024-01-19,Acquisition,711,Promo - Weight Management,WebSite
+343,Martin Luther King Jr. Day - Campaign,2024,2024-01-15,2024-01-19,Acquisition,712,Promo - Baking,TikTok
+344,Toys  - Campaign,2024,2024-01-19,2024-01-23,UpSell,713,Promo - Feeding,TikTok
+344,Toys  - Campaign,2024,2024-01-19,2024-01-23,UpSell,714,Promo - Pain Relievers,Twitter
+345,Clothing  - Campaign,2024,2024-01-20,2024-01-24,Special,715,Promo - Breakfast & Cereal,WebSite
+345,Clothing  - Campaign,2024,2024-01-20,2024-01-24,Special,716,Promo - Vitamins & Supplements,Twitter
+346,Household Essentials  - Campaign,2024,2024-01-24,2024-01-28,Retention,717,Promo - Foot Care,SMS
+346,Household Essentials  - Campaign,2024,2024-01-24,2024-01-28,Retention,718,Promo - Feeding,Phone
+346,Household Essentials  - Campaign,2024,2024-01-24,2024-01-28,Retention,719,Promo - Feeding,WebSite
+347,Home Improvement  - Campaign,2024,2024-01-30,2024-02-03,UpSell,720,Promo - Beverages,WebSite
+347,Home Improvement  - Campaign,2024,2024-01-30,2024-02-03,UpSell,721,Promo - Batteries,WebSite
+347,Home Improvement  - Campaign,2024,2024-01-30,2024-02-03,UpSell,722,Promo - Skin Care,MobileApp
+348,Washington's Birthday - Campaign,2024,2024-02-16,2024-02-20,Retention,723,Promo - Incontinence,Email
+349,Washington's Birthday - Campaign,2024,2024-02-17,2024-02-21,Other,724,Promo - Home Health Care,Facebook
+349,Washington's Birthday - Campaign,2024,2024-02-17,2024-02-21,Other,725,Promo - Bath & Body,Twitter
+349,Washington's Birthday - Campaign,2024,2024-02-17,2024-02-21,Other,726,Promo - Exercise & Fitness,Mailer
+350,Washington's Birthday - Campaign,2024,2024-02-18,2024-02-22,Retention,727,Promo - Coffee,Mailer
+350,Washington's Birthday - Campaign,2024,2024-02-18,2024-02-22,Retention,728,Promo - Bikes,MobileApp
+351,Washington's Birthday - Campaign,2024,2024-02-19,2024-02-23,UpSell,729,Promo - Nursery & Decor,MobileApp
+351,Washington's Birthday - Campaign,2024,2024-02-19,2024-02-23,UpSell,730,Promo - Baking,Phone
+351,Washington's Birthday - Campaign,2024,2024-02-19,2024-02-23,UpSell,731,Promo - Outdoor Play,MobileApp
+352,Household Essentials  - Campaign,2024,2024-02-24,2024-02-28,UpSell,732,Promo - Nursery & Decor,SMS
+353,Auto & Tires  - Campaign,2024,2024-03-09,2024-03-13,Special,733,Promo - Sexual Wellness Top Brands,TikTok
+354,Beauty  - Campaign,2024,2024-03-20,2024-03-24,Other,734,Promo - Sports Fan Shop,TikTok
+355,Beauty  - Campaign,2024,2024-04-03,2024-04-07,Retention,735,Promo - Ear Care,Phone
+356,Toys  - Campaign,2024,2024-04-11,2024-04-15,Acquisition,736,Promo - Car Seats,Phone
+356,Toys  - Campaign,2024,2024-04-11,2024-04-15,Acquisition,737,Promo - Health & Safety,MobileApp
+356,Toys  - Campaign,2024,2024-04-11,2024-04-15,Acquisition,738,Promo - Medicine Cabinet,SMS
+357,Health  - Campaign,2024,2024-04-12,2024-04-16,UpSell,739,Promo - Meal Solutions Grains & Pasta,TikTok
+357,Health  - Campaign,2024,2024-04-12,2024-04-16,UpSell,740,Promo - Condiments Sauces & Spices,SMS
+357,Health  - Campaign,2024,2024-04-12,2024-04-16,UpSell,741,Promo - Baking,MobileApp
+358,Beauty  - Campaign,2024,2024-04-24,2024-04-28,Cross-Sell,742,Promo - Pain Relievers,WebSite
+358,Beauty  - Campaign,2024,2024-04-24,2024-04-28,Cross-Sell,743,Promo - Snacks Cookies & Chips,GameApp
+358,Beauty  - Campaign,2024,2024-04-24,2024-04-28,Cross-Sell,744,Promo - Pain Relievers,SMS
+359,Home  - Campaign,2024,2024-04-28,2024-05-02,Cross-Sell,745,Promo - Bath & Body,MobileApp
+359,Home  - Campaign,2024,2024-04-28,2024-05-02,Cross-Sell,746,Promo - Nursery & Decor,Twitter
+360,Home Improvement  - Campaign,2024,2024-05-02,2024-05-06,Retention,747,Promo - Baby Activities & Gear,MobileApp
+360,Home Improvement  - Campaign,2024,2024-05-02,2024-05-06,Retention,748,Promo - Outdoor Play,SMS
+361,Memorial Day - Campaign,2024,2024-05-24,2024-05-28,Special,749,Promo - Strollers,SMS
+361,Memorial Day - Campaign,2024,2024-05-24,2024-05-28,Special,750,Promo - Light Bulbs,Phone
+362,Memorial Day - Campaign,2024,2024-05-25,2024-05-29,Acquisition,751,Promo - Games & Puzzles,Email
+362,Memorial Day - Campaign,2024,2024-05-25,2024-05-29,Acquisition,752,Promo - Chocolate Candy & Gum,Twitter
+362,Memorial Day - Campaign,2024,2024-05-25,2024-05-29,Acquisition,753,Promo - First Aid,MobileApp
+363,Memorial Day - Campaign,2024,2024-05-26,2024-05-30,Cross-Sell,754,Promo - Sports,Facebook
+363,Memorial Day - Campaign,2024,2024-05-26,2024-05-30,Cross-Sell,755,Promo - Pest Control,Email
+364,Memorial Day - Campaign,2024,2024-05-27,2024-05-31,Retention,756,Promo - Nursery & Decor,WebSite
+364,Memorial Day - Campaign,2024,2024-05-27,2024-05-31,Retention,757,Promo - Bikes,Email
+365,Health  - Campaign,2024,2024-06-05,2024-06-09,UpSell,758,Promo - Outdoor Play,GameApp
+366,Baby  - Campaign,2024,2024-06-10,2024-06-14,Special,759,Promo - Gas Relief,Mailer
+366,Baby  - Campaign,2024,2024-06-10,2024-06-14,Special,760,Promo - Bikes,TikTok
+366,Baby  - Campaign,2024,2024-06-10,2024-06-14,Special,761,Promo - Premium Bath & Body,Phone
+367,Premium Beauty  - Campaign,2024,2024-06-23,2024-06-27,Retention,762,Promo - Sports,WebSite
+367,Premium Beauty  - Campaign,2024,2024-06-23,2024-06-27,Retention,763,Promo - Chocolate Candy & Gum,WebSite
+368,Auto & Tires  - Campaign,2024,2024-06-24,2024-06-28,Cross-Sell,764,Promo - Car Seats,MobileApp
+368,Auto & Tires  - Campaign,2024,2024-06-24,2024-06-28,Cross-Sell,765,Promo - Acid Reflux,Facebook
+369,Health  - Campaign,2024,2024-06-26,2024-06-30,Retention,766,Promo - Bath & Body,Phone
+369,Health  - Campaign,2024,2024-06-26,2024-06-30,Retention,767,Promo - Bikes,Email
+369,Health  - Campaign,2024,2024-06-26,2024-06-30,Retention,768,Promo - Health & Safety,Facebook
+370,Independence Day - Campaign,2024,2024-07-04,2024-07-08,UpSell,769,Promo - Bikes,Email
+370,Independence Day - Campaign,2024,2024-07-04,2024-07-08,UpSell,770,Promo - Bathroom,MobileApp
+370,Independence Day - Campaign,2024,2024-07-04,2024-07-08,UpSell,771,Promo - Home Health Care,SMS
+371,Independence Day - Campaign,2024,2024-07-05,2024-07-09,Acquisition,772,Promo - Sports,WebSite
+371,Independence Day - Campaign,2024,2024-07-05,2024-07-09,Acquisition,773,Promo - Light Bulbs,TikTok
+372,Independence Day - Campaign,2024,2024-07-06,2024-07-10,Retention,774,Promo - Bikes,Facebook
+373,Independence Day - Campaign,2024,2024-07-07,2024-07-11,Other,775,Promo - Exercise & Fitness,SMS
+373,Independence Day - Campaign,2024,2024-07-07,2024-07-11,Other,776,Promo - Beverages,SMS
+373,Independence Day - Campaign,2024,2024-07-07,2024-07-11,Other,777,Promo - Outdoor Play,Email
+374,Personal Care  - Campaign,2024,2024-07-14,2024-07-18,Acquisition,778,Promo - Nursery & Decor,Phone
+375,Baby  - Campaign,2024,2024-07-17,2024-07-21,Special,779,Promo - Outdoor Play,Facebook
+375,Baby  - Campaign,2024,2024-07-17,2024-07-21,Special,780,Promo - Sports,MobileApp
+375,Baby  - Campaign,2024,2024-07-17,2024-07-21,Special,781,Promo - Bath & Body,SMS
+376,Musical Instruments  - Campaign,2024,2024-07-28,2024-08-01,Cross-Sell,782,Promo - Home Health Care,MobileApp
+376,Musical Instruments  - Campaign,2024,2024-07-28,2024-08-01,Cross-Sell,783,Promo - Pest Control,TikTok
+376,Musical Instruments  - Campaign,2024,2024-07-28,2024-08-01,Cross-Sell,784,Promo - Vitamins & Supplements,SMS
+377,Electronics  - Campaign,2024,2024-08-19,2024-08-23,Retention,785,Promo - Home Health Care,TikTok
+377,Electronics  - Campaign,2024,2024-08-19,2024-08-23,Retention,786,Promo - Coffee,Facebook
+377,Electronics  - Campaign,2024,2024-08-19,2024-08-23,Retention,787,Promo - Breakfast & Cereal,Email
+378,Beauty  - Campaign,2024,2024-08-22,2024-08-26,Retention,788,Promo - Recreation,GameApp
+378,Beauty  - Campaign,2024,2024-08-22,2024-08-26,Retention,789,Promo - Health & Safety,TikTok
+378,Beauty  - Campaign,2024,2024-08-22,2024-08-26,Retention,790,Promo - Sleep & Snoring Aids,MobileApp
+379,Labor Day - Campaign,2024,2024-08-30,2024-09-03,Retention,791,Promo - Beverages,SMS
+380,Labor Day - Campaign,2024,2024-08-31,2024-09-04,Retention,792,Promo - Bikes,MobileApp
+381,Labor Day - Campaign,2024,2024-09-01,2024-09-05,Acquisition,793,Promo - Sports,TikTok
+381,Labor Day - Campaign,2024,2024-09-01,2024-09-05,Acquisition,794,Promo - Weight Management,Mailer
+382,Labor Day - Campaign,2024,2024-09-02,2024-09-06,Acquisition,795,Promo - Medicine Cabinet,Twitter
+382,Labor Day - Campaign,2024,2024-09-02,2024-09-06,Acquisition,796,Promo - Automotive Replacement Parts,Email
+382,Labor Day - Campaign,2024,2024-09-02,2024-09-06,Acquisition,797,Promo - Condiments Sauces & Spices,SMS
+383,Food  - Campaign,2024,2024-09-07,2024-09-11,Acquisition,798,Promo - Decor,Email
+383,Food  - Campaign,2024,2024-09-07,2024-09-11,Acquisition,799,Promo - Family Planning,WebSite
+384,Beauty  - Campaign,2024,2024-09-11,2024-09-15,Other,800,Promo - Outdoor Play,MobileApp
+384,Beauty  - Campaign,2024,2024-09-11,2024-09-15,Other,801,Promo - Outdoor Play,TikTok
+385,Clothing  - Campaign,2024,2024-09-17,2024-09-21,UpSell,802,Promo - Vitamins & Supplements,Twitter
+385,Clothing  - Campaign,2024,2024-09-17,2024-09-21,UpSell,803,Promo - Vitamins & Supplements,TikTok
+385,Clothing  - Campaign,2024,2024-09-17,2024-09-21,UpSell,804,Promo - Pest Control,MobileApp
+386,Health  - Campaign,2024,2024-09-21,2024-09-25,UpSell,805,Promo - Sports,Email
+386,Health  - Campaign,2024,2024-09-21,2024-09-25,UpSell,806,Promo - Foot Care,Facebook
+387,Beauty  - Campaign,2024,2024-09-25,2024-09-29,UpSell,807,Promo - Bikes,SMS
+387,Beauty  - Campaign,2024,2024-09-25,2024-09-29,UpSell,808,Promo - Vitamins & Supplements,TikTok
+387,Beauty  - Campaign,2024,2024-09-25,2024-09-29,UpSell,809,Promo - Nursery & Decor,GameApp
+388,Personal Care  - Campaign,2024,2024-10-04,2024-10-08,Retention,810,Promo - Shoe Care & Repair,Phone
+388,Personal Care  - Campaign,2024,2024-10-04,2024-10-08,Retention,811,Promo - Baking,Phone
+388,Personal Care  - Campaign,2024,2024-10-04,2024-10-08,Retention,812,Promo - Feeding,GameApp
+389,Personal Care  - Campaign,2024,2024-10-07,2024-10-11,Other,813,Promo - Strollers,Phone
+389,Personal Care  - Campaign,2024,2024-10-07,2024-10-11,Other,814,Promo - Diabetes Care,Mailer
+390,Home Improvement  - Campaign,2024,2024-10-08,2024-10-12,Special,815,Promo - Nursery & Decor,MobileApp
+391,Columbus Day - Campaign,2024,2024-10-11,2024-10-15,Special,816,Promo - Bikes,TikTok
+392,Columbus Day - Campaign,2024,2024-10-12,2024-10-16,Special,817,Promo - Cleaning Supplies,Email
+392,Columbus Day - Campaign,2024,2024-10-12,2024-10-16,Special,818,Promo - Condiments Sauces & Spices,TikTok
+392,Columbus Day - Campaign,2024,2024-10-12,2024-10-16,Special,819,Promo - Chocolate Candy & Gum,Twitter
+393,Columbus Day - Campaign,2024,2024-10-13,2024-10-17,Cross-Sell,820,Promo - Bathroom,TikTok
+393,Columbus Day - Campaign,2024,2024-10-13,2024-10-17,Cross-Sell,821,Promo - Sports,GameApp
+394,Columbus Day - Campaign,2024,2024-10-14,2024-10-18,Acquisition,822,Promo - Baby Activities & Gear,Facebook
+394,Columbus Day - Campaign,2024,2024-10-14,2024-10-18,Acquisition,823,Promo - Oral Care,Phone
+395,Veterans Day - Campaign,2024,2024-11-08,2024-11-12,Acquisition,824,Promo - Outdoor Play,GameApp
+396,Veterans Day - Campaign,2024,2024-11-09,2024-11-13,UpSell,825,Promo - Health & Safety,Mailer
+396,Veterans Day - Campaign,2024,2024-11-09,2024-11-13,UpSell,826,Promo - Home Health Care,Mailer
+396,Veterans Day - Campaign,2024,2024-11-09,2024-11-13,UpSell,827,Promo - Bikes,GameApp
+397,Veterans Day - Campaign,2024,2024-11-10,2024-11-14,UpSell,828,Promo - Bikes,GameApp
+398,Veterans Day - Campaign,2024,2024-11-11,2024-11-15,Special,829,Promo - Recreation,SMS
+398,Veterans Day - Campaign,2024,2024-11-11,2024-11-15,Special,830,Promo - Health & Safety,Email
+399,Home  - Campaign,2024,2024-11-18,2024-11-22,Other,831,Promo - Sports,SMS
+399,Home  - Campaign,2024,2024-11-18,2024-11-22,Other,832,Promo - Shoe Care & Repair,Facebook
+400,Beauty  - Campaign,2024,2024-11-25,2024-11-29,Acquisition,833,Promo - Exercise & Fitness,GameApp
+400,Beauty  - Campaign,2024,2024-11-25,2024-11-29,Acquisition,834,Promo - Bikes,WebSite
+400,Beauty  - Campaign,2024,2024-11-25,2024-11-29,Acquisition,835,Promo - Bath & Body,Email
+401,Thanksgiving - Campaign,2024,2024-11-27,2024-12-01,Acquisition,836,Promo - Sports,MobileApp
+401,Thanksgiving - Campaign,2024,2024-11-27,2024-12-01,Acquisition,837,Promo - Snacks Cookies & Chips,TikTok
+402,Thanksgiving - Campaign,2024,2024-11-28,2024-12-02,Other,838,Promo - Nursery & Decor,Twitter
+403,Black Friday - Campaign,2024,2024-11-29,2024-12-03,Retention,839,Promo - Condiments Sauces & Spices,MobileApp
+403,Black Friday - Campaign,2024,2024-11-29,2024-12-03,Retention,840,Promo - Mens Clothing,Email
+404,Home Improvement  - Campaign,2024,2024-12-03,2024-12-07,Acquisition,841,Promo - Sports,WebSite
+404,Home Improvement  - Campaign,2024,2024-12-03,2024-12-07,Acquisition,842,Promo - Feeding,MobileApp
+404,Home Improvement  - Campaign,2024,2024-12-03,2024-12-07,Acquisition,843,Promo - Beverages,Facebook
+405,Premium Beauty  - Campaign,2024,2024-12-12,2024-12-16,Cross-Sell,844,Promo - Nursery & Decor,Phone
+405,Premium Beauty  - Campaign,2024,2024-12-12,2024-12-16,Cross-Sell,845,Promo - Shaving,Phone
+406,Food  - Campaign,2024,2024-12-13,2024-12-17,Special,846,Promo - Decor,WebSite
+407,Christmas Eve - Campaign,2024,2024-12-24,2024-12-28,Retention,847,Promo - Pest Control,TikTok
+407,Christmas Eve - Campaign,2024,2024-12-24,2024-12-28,Retention,848,Promo - Snacks Cookies & Chips,GameApp
+408,Christmas Day - Campaign,2024,2024-12-25,2024-12-29,Acquisition,849,Promo - Sun Care,Facebook
+408,Christmas Day - Campaign,2024,2024-12-25,2024-12-29,Acquisition,850,Promo - Health & Safety,TikTok
+408,Christmas Day - Campaign,2024,2024-12-25,2024-12-29,Acquisition,851,Promo - Bath,WebSite
+409,New Years Eve - Campaign,2024,2024-12-31,2025-01-04,UpSell,852,Promo - Fresh Food,Mailer
+409,New Years Eve - Campaign,2024,2024-12-31,2025-01-04,UpSell,853,Promo - Incontinence,GameApp
+409,New Years Eve - Campaign,2024,2024-12-31,2025-01-04,UpSell,854,Promo - Pest Control,SMS
+410,New Year's Day - Campaign,2025,2025-01-01,2025-01-05,Retention,855,Promo - Feminine Care,Twitter
+410,New Year's Day - Campaign,2025,2025-01-01,2025-01-05,Retention,856,Promo - Sports,Twitter
+411,Home Improvement  - Campaign,2025,2025-01-09,2025-01-13,Acquisition,857,Promo - Eye Care,Phone
+411,Home Improvement  - Campaign,2025,2025-01-09,2025-01-13,Acquisition,858,Promo - Nursery & Decor,MobileApp
+411,Home Improvement  - Campaign,2025,2025-01-09,2025-01-13,Acquisition,859,Promo - Beverages,GameApp
+412,Martin Luther King Jr. Day - Campaign,2025,2025-01-17,2025-01-21,Retention,860,Promo - Outdoor Sports,Phone
+413,Martin Luther King Jr. Day - Campaign,2025,2025-01-18,2025-01-22,Acquisition,861,Promo - Outdoor Sports,Email
+413,Martin Luther King Jr. Day - Campaign,2025,2025-01-18,2025-01-22,Acquisition,862,Promo - First Aid,Facebook
+414,Martin Luther King Jr. Day - Campaign,2025,2025-01-19,2025-01-23,Special,863,Promo - Bikes,Phone
+414,Martin Luther King Jr. Day - Campaign,2025,2025-01-19,2025-01-23,Special,864,Promo - Foot Care,MobileApp
+414,Martin Luther King Jr. Day - Campaign,2025,2025-01-19,2025-01-23,Special,865,Promo - Sports,GameApp
+415,Martin Luther King Jr. Day - Campaign,2025,2025-01-20,2025-01-24,Special,866,Promo - Here for Every Beauty,TikTok
+416,Beauty  - Campaign,2025,2025-02-06,2025-02-10,UpSell,867,Promo - Bikes,Email
+417,Health  - Campaign,2025,2025-02-10,2025-02-14,Retention,868,Promo - Bath & Body,Facebook
+418,Food  - Campaign,2025,2025-02-12,2025-02-16,Retention,869,Promo - Bikes,Email
+418,Food  - Campaign,2025,2025-02-12,2025-02-16,Retention,870,Promo - Bikes,Phone
+418,Food  - Campaign,2025,2025-02-12,2025-02-16,Retention,871,Promo - Outdoor Play,GameApp
+419,Washington's Birthday - Campaign,2025,2025-02-14,2025-02-18,Other,872,Promo - Shop Toys by Age,WebSite
+419,Washington's Birthday - Campaign,2025,2025-02-14,2025-02-18,Other,873,Promo - Snacks Cookies & Chips,Facebook
+420,Washington's Birthday - Campaign,2025,2025-02-15,2025-02-19,Special,874,Promo - Bikes,MobileApp
+420,Washington's Birthday - Campaign,2025,2025-02-15,2025-02-19,Special,875,Promo - Meal Solutions Grains & Pasta,Mailer
+421,Washington's Birthday - Campaign,2025,2025-02-16,2025-02-20,Acquisition,876,Promo - Light Bulbs,WebSite
+422,Washington's Birthday - Campaign,2025,2025-02-17,2025-02-21,Special,877,Promo - Ear Care,Twitter
+423,Home  - Campaign,2025,2025-02-22,2025-02-26,Other,878,Promo - Coffee,SMS
+423,Home  - Campaign,2025,2025-02-22,2025-02-26,Other,879,Promo - Sports,Email
+423,Home  - Campaign,2025,2025-02-22,2025-02-26,Other,880,Promo - Clean Living Bath & Body,Twitter
+424,Food  - Campaign,2025,2025-03-18,2025-03-22,Retention,881,Promo - Outdoor Play,Email
+424,Food  - Campaign,2025,2025-03-18,2025-03-22,Retention,882,Promo - Sports,TikTok
+425,Home  - Campaign,2025,2025-03-19,2025-03-23,Acquisition,883,Promo - Weight Management,Twitter
+426,Home  - Campaign,2025,2025-03-31,2025-04-04,Other,884,Promo - Batteries,GameApp
+427,Sports & Outdoors  - Campaign,2025,2025-04-10,2025-04-14,UpSell,885,Promo - Digestive Health,Facebook
+427,Sports & Outdoors  - Campaign,2025,2025-04-10,2025-04-14,UpSell,886,Promo - Sports,Phone
+428,Health  - Campaign,2025,2025-04-27,2025-05-01,Other,887,Promo - Bath & Body,Twitter
+429,Home  - Campaign,2025,2025-05-12,2025-05-16,Cross-Sell,888,Promo - Outdoor Play,Twitter
+429,Home  - Campaign,2025,2025-05-12,2025-05-16,Cross-Sell,889,Promo - Vitamins & Supplements,WebSite
+429,Home  - Campaign,2025,2025-05-12,2025-05-16,Cross-Sell,890,Promo - Outdoor Play,Email
+430,Memorial Day - Campaign,2025,2025-05-23,2025-05-27,UpSell,891,Promo - Home Health Care,Twitter
+430,Memorial Day - Campaign,2025,2025-05-23,2025-05-27,UpSell,892,Promo - Outdoor Play,Email
+431,Memorial Day - Campaign,2025,2025-05-24,2025-05-28,Special,893,Promo - Cleaning Supplies,MobileApp
+431,Memorial Day - Campaign,2025,2025-05-24,2025-05-28,Special,894,Promo - Bath & Body,Twitter
+431,Memorial Day - Campaign,2025,2025-05-24,2025-05-28,Special,895,Promo - Sports,Facebook
+432,Memorial Day - Campaign,2025,2025-05-25,2025-05-29,Acquisition,896,Promo - Protein & Fitness,GameApp
+433,Memorial Day - Campaign,2025,2025-05-26,2025-05-30,Acquisition,897,Promo - Bikes,WebSite
+434,Household Essentials  - Campaign,2025,2025-06-08,2025-06-12,Retention,898,Promo - Womens Clothing,Mailer
+434,Household Essentials  - Campaign,2025,2025-06-08,2025-06-12,Retention,899,Promo - Home Health Care,WebSite
+434,Household Essentials  - Campaign,2025,2025-06-08,2025-06-12,Retention,900,Promo - Sports,Facebook
+435,Baby  - Campaign,2025,2025-06-11,2025-06-15,Cross-Sell,901,Promo - Strollers,Facebook
+435,Baby  - Campaign,2025,2025-06-11,2025-06-15,Cross-Sell,902,Promo - Meal Solutions Grains & Pasta,MobileApp
+435,Baby  - Campaign,2025,2025-06-11,2025-06-15,Cross-Sell,903,Promo - Probiotics,MobileApp
+436,Health  - Campaign,2025,2025-06-13,2025-06-17,UpSell,904,Promo - Foot Care,GameApp
+436,Health  - Campaign,2025,2025-06-13,2025-06-17,UpSell,905,Promo - Bathroom,GameApp
+437,Toys  - Campaign,2025,2025-06-14,2025-06-18,Special,906,Promo - Baby Activities & Gear,SMS
+437,Toys  - Campaign,2025,2025-06-14,2025-06-18,Special,907,Promo - Baby Activities & Gear,MobileApp
+438,Toys  - Campaign,2025,2025-06-15,2025-06-19,Retention,908,Promo - Bikes,Email
+438,Toys  - Campaign,2025,2025-06-15,2025-06-19,Retention,909,Promo - Nursery & Decor,Facebook
+438,Toys  - Campaign,2025,2025-06-15,2025-06-19,Retention,910,Promo - Condiments Sauces & Spices,WebSite
+439,Sports & Outdoors  - Campaign,2025,2025-06-20,2025-06-24,Acquisition,911,Promo - Surveillance Equipment,Email
+439,Sports & Outdoors  - Campaign,2025,2025-06-20,2025-06-24,Acquisition,912,Promo - Oral Care,WebSite
+440,Health  - Campaign,2025,2025-06-28,2025-07-02,Retention,913,Promo - Bikes,Twitter
+441,Independence Day - Campaign,2025,2025-07-04,2025-07-08,Retention,914,Promo - Foot Care,Mailer
+441,Independence Day - Campaign,2025,2025-07-04,2025-07-08,Retention,915,Promo - Organic Foods,Email
+441,Independence Day - Campaign,2025,2025-07-04,2025-07-08,Retention,916,Promo - Batteries,MobileApp
+442,Independence Day - Campaign,2025,2025-07-05,2025-07-09,Special,917,Promo - Vitamins & Supplements,Phone
+442,Independence Day - Campaign,2025,2025-07-05,2025-07-09,Special,918,Promo - Disney Toys,Facebook
+442,Independence Day - Campaign,2025,2025-07-05,2025-07-09,Special,919,Promo - Bikes,TikTok
+443,Independence Day - Campaign,2025,2025-07-06,2025-07-10,Acquisition,920,Promo - Outdoor Sports,SMS
+443,Independence Day - Campaign,2025,2025-07-06,2025-07-10,Acquisition,921,Promo - Weight Management,Facebook
+443,Independence Day - Campaign,2025,2025-07-06,2025-07-10,Acquisition,922,Promo - Deodorants & Antiperspirants,Twitter
+444,Beauty  - Campaign,2025,2025-07-07,2025-07-11,UpSell,923,Promo - Decor,Mailer
+445,Premium Beauty  - Campaign,2025,2025-07-15,2025-07-19,Retention,924,Promo - Beauty Next Day,Phone
+446,Home Improvement  - Campaign,2025,2025-07-20,2025-07-24,Cross-Sell,925,Promo - Feeding,GameApp
+447,Musical Instruments  - Campaign,2025,2025-07-28,2025-08-01,Retention,926,Promo - Sports,Phone
+447,Musical Instruments  - Campaign,2025,2025-07-28,2025-08-01,Retention,927,Promo - Snacks Cookies & Chips,MobileApp
+447,Musical Instruments  - Campaign,2025,2025-07-28,2025-08-01,Retention,928,Promo - Coffee,Facebook
+448,Health  - Campaign,2025,2025-08-01,2025-08-05,UpSell,929,Promo - Outdoor Play,Facebook
+448,Health  - Campaign,2025,2025-08-01,2025-08-05,UpSell,930,Promo - Snacks Cookies & Chips,Mailer
+448,Health  - Campaign,2025,2025-08-01,2025-08-05,UpSell,931,Promo - Chocolate Candy & Gum,GameApp
+449,Health  - Campaign,2025,2025-08-06,2025-08-10,Other,932,Promo - Kids Rooms,Mailer
+449,Health  - Campaign,2025,2025-08-06,2025-08-10,Other,933,Promo - Foot Care,WebSite
+449,Health  - Campaign,2025,2025-08-06,2025-08-10,Other,934,Promo - Vitamins & Supplements,Facebook
+450,Health  - Campaign,2025,2025-08-08,2025-08-12,Other,935,Promo - Shop Toys by Age,GameApp
+450,Health  - Campaign,2025,2025-08-08,2025-08-12,Other,936,Promo - Chocolate Candy & Gum,TikTok
+450,Health  - Campaign,2025,2025-08-08,2025-08-12,Other,937,Promo - Oral Care,GameApp
+451,Beauty  - Campaign,2025,2025-08-09,2025-08-13,Retention,938,Promo - Eye Care,SMS
+451,Beauty  - Campaign,2025,2025-08-09,2025-08-13,Retention,939,Promo - Baking,TikTok
+452,Personal Care  - Campaign,2025,2025-08-14,2025-08-18,Other,940,Promo - Beverages,SMS
+452,Personal Care  - Campaign,2025,2025-08-14,2025-08-18,Other,941,Promo - Bath & Body,TikTok
+453,Food  - Campaign,2025,2025-08-17,2025-08-21,Other,942,Promo - Vitamins & Supplements,SMS
+454,Health  - Campaign,2025,2025-08-27,2025-08-31,Acquisition,943,Promo - Coffee,Email
+454,Health  - Campaign,2025,2025-08-27,2025-08-31,Acquisition,944,Promo - Home Safety,Twitter
+455,Labor Day - Campaign,2025,2025-08-29,2025-09-02,Retention,945,Promo - Snacks Cookies & Chips,WebSite
+455,Labor Day - Campaign,2025,2025-08-29,2025-09-02,Retention,946,Promo - Condiments Sauces & Spices,WebSite
+455,Labor Day - Campaign,2025,2025-08-29,2025-09-02,Retention,947,Promo - Batteries,Phone
+456,Labor Day - Campaign,2025,2025-08-30,2025-09-03,Cross-Sell,948,Promo - Bikes,SMS
+456,Labor Day - Campaign,2025,2025-08-30,2025-09-03,Cross-Sell,949,Promo - Sports,Email
+456,Labor Day - Campaign,2025,2025-08-30,2025-09-03,Cross-Sell,950,Promo - Breakfast & Cereal,Facebook
+457,Labor Day - Campaign,2025,2025-08-31,2025-09-04,Acquisition,951,Promo - Condiments Sauces & Spices,WebSite
+457,Labor Day - Campaign,2025,2025-08-31,2025-09-04,Acquisition,952,Promo - Chocolate Candy & Gum,WebSite
+458,Labor Day - Campaign,2025,2025-09-01,2025-09-05,Retention,953,Promo - Sports,Twitter
+458,Labor Day - Campaign,2025,2025-09-01,2025-09-05,Retention,954,Promo - Nursery & Decor,Twitter
+459,Home  - Campaign,2025,2025-09-07,2025-09-11,Acquisition,955,Promo - Sports,TikTok
+459,Home  - Campaign,2025,2025-09-07,2025-09-11,Acquisition,956,Promo - Bikes,Mailer
+460,Food  - Campaign,2025,2025-09-13,2025-09-17,UpSell,957,Promo - Feeding,MobileApp
+460,Food  - Campaign,2025,2025-09-13,2025-09-17,UpSell,958,Promo - Superfoods & Cleanses,Email
+461,Health  - Campaign,2025,2025-09-19,2025-09-23,Retention,959,Promo - Medicine Cabinet,Phone
+461,Health  - Campaign,2025,2025-09-19,2025-09-23,Retention,960,Promo - Feeding,Twitter
+461,Health  - Campaign,2025,2025-09-19,2025-09-23,Retention,961,Promo - Light Bulbs,SMS
+462,Columbus Day - Campaign,2025,2025-10-10,2025-10-14,Acquisition,962,Promo - Recreation,Phone
+462,Columbus Day - Campaign,2025,2025-10-10,2025-10-14,Acquisition,963,Promo - Pest Control,GameApp
+463,Columbus Day - Campaign,2025,2025-10-11,2025-10-15,Retention,964,Promo - Feeding,Facebook
+463,Columbus Day - Campaign,2025,2025-10-11,2025-10-15,Retention,965,Promo - Vitamins & Supplements,MobileApp
+463,Columbus Day - Campaign,2025,2025-10-11,2025-10-15,Retention,966,Promo - Beverages,Email
+464,Columbus Day - Campaign,2025,2025-10-12,2025-10-16,UpSell,967,Promo - Sports,Facebook
+465,Columbus Day - Campaign,2025,2025-10-13,2025-10-17,UpSell,968,Promo - Oral Care,Email
+465,Columbus Day - Campaign,2025,2025-10-13,2025-10-17,UpSell,969,Promo - Decor,MobileApp
+466,Food  - Campaign,2025,2025-10-26,2025-10-30,Acquisition,970,Promo - Ear Care,Email
+466,Food  - Campaign,2025,2025-10-26,2025-10-30,Acquisition,971,Promo - Oral Care,MobileApp
+467,Clothing  - Campaign,2025,2025-10-28,2025-11-01,Acquisition,972,Promo - Tools,Phone
+467,Clothing  - Campaign,2025,2025-10-28,2025-11-01,Acquisition,973,Promo - Chocolate Candy & Gum,Mailer
+468,Premium Beauty  - Campaign,2025,2025-10-30,2025-11-03,Special,974,Promo - Beverages,SMS
+469,Health  - Campaign,2025,2025-11-02,2025-11-06,Retention,975,Promo - Bikes,MobileApp
+470,Veterans Day - Campaign,2025,2025-11-08,2025-11-12,Acquisition,976,Promo - Vitamins & Supplements,Mailer
+470,Veterans Day - Campaign,2025,2025-11-08,2025-11-12,Acquisition,977,Promo - Diabetes Care,Email
+471,Veterans Day - Campaign,2025,2025-11-09,2025-11-13,Acquisition,978,Promo - Recreation,MobileApp
+471,Veterans Day - Campaign,2025,2025-11-09,2025-11-13,Acquisition,979,Promo - Meal Solutions Grains & Pasta,Facebook
+471,Veterans Day - Campaign,2025,2025-11-09,2025-11-13,Acquisition,980,Promo - Sports,Email
+472,Veterans Day - Campaign,2025,2025-11-10,2025-11-14,Other,981,Promo - Here for Every Beauty,MobileApp
+473,Veterans Day - Campaign,2025,2025-11-11,2025-11-15,UpSell,982,Promo - Breakfast & Cereal,GameApp
+474,Thanksgiving - Campaign,2025,2025-11-26,2025-11-30,UpSell,983,Promo - Bikes,Phone
+474,Thanksgiving - Campaign,2025,2025-11-26,2025-11-30,UpSell,984,Promo - Bathroom,Facebook
+475,Thanksgiving - Campaign,2025,2025-11-27,2025-12-01,Cross-Sell,985,Promo - Sports,Phone
+476,Black Friday - Campaign,2025,2025-11-28,2025-12-02,Special,986,Promo - Outdoor Play,Phone
+476,Black Friday - Campaign,2025,2025-11-28,2025-12-02,Special,987,Promo - Outdoor Play,TikTok
+476,Black Friday - Campaign,2025,2025-11-28,2025-12-02,Special,988,Promo - Premium Bath & Body,Twitter
+477,Home Improvement  - Campaign,2025,2025-12-02,2025-12-06,Cross-Sell,989,Promo - Light Bulbs,Twitter
+477,Home Improvement  - Campaign,2025,2025-12-02,2025-12-06,Cross-Sell,990,Promo - Hair Care,SMS
+478,Health  - Campaign,2025,2025-12-07,2025-12-11,Special,991,Promo - Recreation,GameApp
+478,Health  - Campaign,2025,2025-12-07,2025-12-11,Special,992,Promo - Light Bulbs,TikTok
+478,Health  - Campaign,2025,2025-12-07,2025-12-11,Special,993,Promo - Deodorants & Antiperspirants,TikTok
+479,Christmas Eve - Campaign,2025,2025-12-24,2025-12-28,Other,994,Promo - Snacks Cookies & Chips,TikTok
+479,Christmas Eve - Campaign,2025,2025-12-24,2025-12-28,Other,995,Promo - Bikes,SMS
+480,Christmas Day - Campaign,2025,2025-12-25,2025-12-29,Retention,996,Promo - Pest Control,SMS
+480,Christmas Day - Campaign,2025,2025-12-25,2025-12-29,Retention,997,Promo - Eye Care,Email
+480,Christmas Day - Campaign,2025,2025-12-25,2025-12-29,Retention,998,Promo - Coffee,Phone
+481,Premium Beauty  - Campaign,2025,2025-12-29,2026-01-02,UpSell,999,Promo - Foot Care,Twitter

@@ -1,0 +1,46 @@
+﻿source_id,source_name,source_type
+1,TikTok,Social Media
+2,Facebook,Social Media
+3,InstaGram,Social Media
+4,Twitter,Social Media
+5,SnapChat,Social Media
+6,Reddit,Social Media
+7,YouTube,Social Media
+8,LinkedIn,Social Media
+9,ZenDesk,Support
+10,FreshDesk,Support
+11,LiveAgent,Support
+12,Zoho,Support
+13,Atera,Support
+14,BigCommerce,eCommerce
+15,shopify,eCommerce
+16,Magento,eCommerce
+17,Google,eCommerce
+18,Wish,eCommerce
+19,Walmart,eCommerce
+20,Target,eCommerce
+21,eBay,eCommerce
+22,Amazon,eCommerce
+23,WayFair,eCommerce
+24,Experian,3rd Party Enhancement
+25,Merkle,3rd Party Enhancement
+26,OpenCorporates,3rd Party Enhancement
+27,ZoomInfo,3rd Party Enhancement
+28,Acxiom,3rd Party Enhancement
+29,SAP,CRM System
+30,SalesForce,CRM System
+31,Great Plains,CRM System
+32,BizTalk,CRM System
+33,Xant,CRM System
+34,Tiger Event,EventMgmt
+35,Partner Event,EventMgmt
+36,Web Event,EventMgmt
+37,General Event,EventMgmt
+38,Tiger Delivery,Fulfillment
+39,Tiger Shipping,Fulfillment
+40,Tiger Chatbot,Interactions
+41,Tiger Call Center,Interactions
+42,Tiger 1-800,Interactions
+43,Tiger Web,Interactions
+44,Tiger Social,Interactions
+45,Tiger Community,Interactions
