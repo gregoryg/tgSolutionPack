@@ -113,12 +113,47 @@ case $choice in
 	a)
 	    echo ''
 	    echo 'Lets load all of the schemas'
-	    gsql packages/entityResMDM/createMDMSchema.gsql
-	    gsql packages/fraud/scripts/createFraudSchema.gsql
-	    gsql packages/ldbc/createLDBCSchema.gsql
-	    gsql packages/synthea/scripts/createSyntheaSchema.gsql
-	    gsql packages/imdb/scripts/createIMDBSchema.gsql
-	    gsql packages/recommendations/scripts/createRecommendationsSchema.gsql
+		gsql packages/entityResMDM/scripts/01-create-schema.gsql
+		gsql packages/entityResMDM/scripts/02-load-data.gsql
+		gsql packages/entityResMDM/scripts/03-add-queries.gsql
+	    echo "Install Fraud/AML - data tbd"
+		gsql packages/fraud/scripts/01-create-schema.gsql
+		##gsql packages/fraud/scripts/02-load-data.gsql
+		echo ''
+		echo "Install LDBC - with small sample dataset"
+		gsql packages/ldbc/scripts/createLDBCSchema.gsql
+		gsql packages/ldbc/scripts/createLDBCSampleJobs.gsql
+		gsql packages/ldbc/scripts/runLDBCLoadJob.gsql
+	    echo ''
+	    echo "Install TPC-DS - data tbd"
+		gsql packages/tpc-ds/scripts/01-create-schema.gsql
+		gsql packages/tpc-ds/scripts/02-load-data.gsql
+	    echo ''
+	    echo "Install Synthea"
+		gsql packages/synthea/scripts/createSyntheaSchema.gsql
+		./packages/synthea/scripts/installLoadJobs.sh
+		gsql packages/synthea/scripts/runSyntheaLoadJobs.gsql
+	    echo ''
+	    echo "Install IMDB"
+	    gsql packages/imdb/scripts/01-create-schema.gsql
+	    gsql packages/imdb/scripts/02-load-data.gsql
+	    echo ''
+	    echo "Install Cust360"
+	    ./packages/cust360/installCust360.sh
+	    echo ''
+	    echo "Install Recommendations"
+		gsql packages/recommendations/scripts/01-create-schema.gsql
+		gsql packages/recommendations/scripts/02-load-data.gsql
+	    echo ''
+	    echo "Install AML Sim"
+		gsql work-in-progress/AMLSim/scripts/01-create-schema.gsql
+		gsql work-in-progress/AMLSim/scripts/02-load-data.gsql
+	    echo "Install Ontime Perf Graph"
+		gsql work-in-progress/airline/scripts/01-create-schema.gsql
+		gsql work-in-progress/airline/scripts/createAirlineLoadJobs.gsql
+	    echo ''
+	    echo "Install Adworks Graph"
+		gsql work-in-progress/adworks/scripts/01-create-schema.gsql
 	    echo ''
 	    ;;
 	mysql)
