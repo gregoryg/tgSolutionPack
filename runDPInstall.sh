@@ -51,16 +51,15 @@ case $choice in
 		gsql packages/entityResMDM/scripts/03-add-queries.gsql
 	    ;;
 	2)
-	    echo "Install Fraud/AML - data tbd"
+	    echo "Install Fraud/AML"
 		gsql packages/fraud/scripts/01-create-schema.gsql
-		##gsql packages/fraud/scripts/02-load-data.gsql
+		gsql packages/fraud/scripts/02-load-data.gsql
 	    ;;
 	3)
 		echo ''
 		echo "Install LDBC - with small sample dataset"
-		gsql packages/ldbc/scripts/createLDBCSchema.gsql
-		gsql packages/ldbc/scripts/createLDBCSampleJobs.gsql
-		gsql packages/ldbc/scripts/runLDBCLoadJob.gsql
+		gsql packages/ldbc/scripts/01-create-schema.gsql
+		gsql packages/ldbc/scripts/02-load-data-sample.gsql
 	    ;;
 	4)
 	    echo ''
