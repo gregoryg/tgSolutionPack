@@ -160,7 +160,18 @@ case $choice in
 	    echo ''
 	    ./runMySQLSetup.sh
 	    echo ''
+	    ;;
+	q)
+		echo 'exiting installer...'
+		;;
+	Q)
+		echo 'exiting installer...'
+		;;		
+	*) 
+		echo 'Invalid option'
+    	;;
 esac
 
 echo ''
 echo 'Finished with setup....'
+echo ''
