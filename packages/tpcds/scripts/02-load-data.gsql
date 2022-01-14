@@ -22,5 +22,4 @@ USE GRAPH TPCDS
 
 }
 
-
 RUN LOADING JOB tpcds_loading_job

@@ -7,15 +7,15 @@ CREATE LOADING JOB customer360_load_er FOR GRAPH Customer360 {
   ###################################################################
   # define customer group
   ###################################################################
-  DEFINE FILENAME f_profile = "packages/cust360/data/customer360/data/ce_persona.csv";
-  DEFINE FILENAME f_friends = "packages/cust360/data/customer360/data/ce_friends.csv";
-  DEFINE FILENAME f_ipaddr  = "packages/cust360/data/customer360/data/ce_ipaddr.csv";
-  DEFINE FILENAME f_device  = "packages/cust360/data/customer360/data/ce_devices.csv";
-  DEFINE FILENAME f_email   = "packages/cust360/data/customer360/data/ce_emails.csv";
-  DEFINE FILENAME f_phone   = "packages/cust360/data/customer360/data/ce_phones.csv";
-  DEFINE FILENAME f_address = "packages/cust360/data/customer360/data/ce_address.csv";
-  DEFINE FILENAME f_source  = "packages/cust360/data/customer360/data/ce_datasource.csv";
-  DEFINE FILENAME f_geog    = "packages/cust360/data/customer360/data/ce_geog.csv";
+  DEFINE FILENAME f_profile = "./packages/cust360/data/ce_persona.csv";
+  DEFINE FILENAME f_friends = "./packages/cust360/data/ce_friends.csv";
+  DEFINE FILENAME f_ipaddr  = "./packages/cust360/data/ce_ipaddr.csv";
+  DEFINE FILENAME f_device  = "./packages/cust360/data/ce_devices.csv";
+  DEFINE FILENAME f_email   = "./packages/cust360/data/ce_emails.csv";
+  DEFINE FILENAME f_phone   = "./packages/cust360/data/ce_phones.csv";
+  DEFINE FILENAME f_address = "./packages/cust360/data/ce_address.csv";
+  DEFINE FILENAME f_source  = "./packages/cust360/data/ce_datasource.csv";
+  DEFINE FILENAME f_geog    = "./packages/cust360/data/ce_geog.csv";
   
   DEFINE HEADER hdr_profile = "user_id", "full_name", "user_name", "email_address", "cookie", "gender", "ssn", "birthdate", "job", "company", "creditcard", "ethnicity", "married", "income", "education", "address_id", "ipaddress", "phone_number", "device", "source_id";
   DEFINE HEADER hdr_friends = "user_id", "friend_id", "friend_date", "friend_type";

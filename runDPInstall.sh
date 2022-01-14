@@ -63,9 +63,9 @@ case $choice in
 	    ;;
 	4)
 	    echo ''
-	    echo "Install TPC-DS - data tbd"
-		gsql packages/tpc-ds/scripts/01-create-schema.gsql
-		gsql packages/tpc-ds/scripts/02-load-data.gsql
+	    echo "Install TPC-DS"
+		gsql packages/tpcds/scripts/01-create-schema.gsql
+		gsql packages/tpcds/scripts/02-load-data.gsql
 	    ;;
 	5)
 	    echo ''
@@ -106,7 +106,7 @@ case $choice in
 	11)
 	    echo ''
 	    echo "Install Adworks Graph"
-		gsql work-in-progress/adworks/scripts/01-create-schema.gsql
+		gsql work-in-progress/adWorks/scripts/01-create-schema.gsql
 	    ;;
 
 	a)
@@ -117,12 +117,11 @@ case $choice in
 		gsql packages/entityResMDM/scripts/03-add-queries.gsql
 	    echo "Install Fraud/AML - data tbd"
 		gsql packages/fraud/scripts/01-create-schema.gsql
-		##gsql packages/fraud/scripts/02-load-data.gsql
+		gsql packages/fraud/scripts/02-load-data.gsql
 		echo ''
 		echo "Install LDBC - with small sample dataset"
-		gsql packages/ldbc/scripts/createLDBCSchema.gsql
-		gsql packages/ldbc/scripts/createLDBCSampleJobs.gsql
-		gsql packages/ldbc/scripts/runLDBCLoadJob.gsql
+		gsql packages/ldbc/scripts/01-create-schema.gsql
+		gsql packages/ldbc/scripts/02-load-data-sample.gsql
 	    echo ''
 	    echo "Install TPC-DS - data tbd"
 		gsql packages/tpc-ds/scripts/01-create-schema.gsql
@@ -152,7 +151,7 @@ case $choice in
 		gsql work-in-progress/airline/scripts/createAirlineLoadJobs.gsql
 	    echo ''
 	    echo "Install Adworks Graph"
-		gsql work-in-progress/adworks/scripts/01-create-schema.gsql
+		gsql work-in-progress/adWorks/scripts/01-create-schema.gsql
 	    echo ''
 	    ;;
 	mysql)
@@ -161,7 +160,18 @@ case $choice in
 	    echo ''
 	    ./runMySQLSetup.sh
 	    echo ''
+	    ;;
+	q)
+		echo 'exiting installer...'
+		;;
+	Q)
+		echo 'exiting installer...'
+		;;		
+	*) 
+		echo 'Invalid option'
+    	;;
 esac
 
 echo ''
 echo 'Finished with setup....'
+echo ''
