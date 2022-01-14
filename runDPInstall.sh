@@ -106,7 +106,7 @@ case $choice in
 	11)
 	    echo ''
 	    echo "Install Adworks Graph"
-		gsql work-in-progress/adworks/scripts/01-create-schema.gsql
+		gsql work-in-progress/adWorks/scripts/01-create-schema.gsql
 	    ;;
 
 	a)
@@ -151,7 +151,7 @@ case $choice in
 		gsql work-in-progress/airline/scripts/createAirlineLoadJobs.gsql
 	    echo ''
 	    echo "Install Adworks Graph"
-		gsql work-in-progress/adworks/scripts/01-create-schema.gsql
+		gsql work-in-progress/adWorks/scripts/01-create-schema.gsql
 	    echo ''
 	    ;;
 	mysql)
