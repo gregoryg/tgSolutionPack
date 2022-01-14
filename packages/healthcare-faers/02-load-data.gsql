@@ -1,0 +1,61 @@
+USE GRAPH HealthcareFaers
+CREATE LOADING JOB load_faers FOR GRAPH HealthcareFaers {
+  DEFINE FILENAME THER = "m1:/home/tigergraph/mydata/healthcare-faers/data/THER.csv";
+  DEFINE HEADER hdr_THER = "primaryid","caseid","dsg_drug_seq","start_dt","end_dt","dur","dur_cod";
+
+  DEFINE FILENAME INDI = "m1:/home/tigergraph/mydata/healthcare-faers/data/INDI.csv";
+  DEFINE HEADER hdr_INDI = "primaryid","caseid","indi_drug_seq","indi_pt";
+
+  DEFINE FILENAME DRUG = "m1:/home/tigergraph/mydata/healthcare-faers/data/DRUG.csv";
+  DEFINE HEADER hdr_DRUG = "primaryid","caseid","drug_seq","role_cod","drugname","prod_ai","val_vbm","route","dose_vbm","cum_dose_chr","cum_dose_unit","dechal","rechal","lot_num","exp_dt","nda_num","dose_amt","dose_unit","dose_form","dose_freq";
+
+  DEFINE FILENAME REAC = "m1:/home/tigergraph/mydata/healthcare-faers/data/REAC.csv";
+  DEFINE HEADER hdr_REAC = "primaryid","caseid","pt","drug_rec_act";
+
+  DEFINE FILENAME OUTC = "m1:/home/tigergraph/mydata/healthcare-faers/data/OUTC.csv";
+  DEFINE HEADER hdr_OUTC = "primaryid","caseid","outc_cod";
+
+  DEFINE FILENAME RPSR = "m1:/home/tigergraph/mydata/healthcare-faers/data/RPSR.csv";
+  DEFINE HEADER hdr_RPSR = "primaryid","caseid","pt","drug_rec_act";
+
+  DEFINE FILENAME DEMO = "m1:/home/tigergraph/mydata/healthcare-faers/data/DEMO.csv";
+  DEFINE HEADER hdr_DEMO = "primaryid","caseid","caseversion","i_f_code","event_dt","mfr_dt","init_fda_dt","fda_dt","rept_cod","auth_num","mfr_num","mfr_sndr","lit_ref","age","age_cod","age_grp","sex","e_sub","wt","wt_cod","rept_dt","to_mfr","occp_cod","reporter_country","occr_country";
+
+
+  LOAD THER TO VERTEX Therapy VALUES(gsql_concat($"primaryid", $"dsg_drug_seq"), $"dsg_drug_seq", $"start_dt", $"end_dt") USING HEADER="true";
+  LOAD THER TO EDGE isUsedInTherapy VALUES(gsql_concat($"primaryid", $"dsg_drug_seq"), gsql_concat($"primaryid", $"dsg_drug_seq")) USING HEADER="true";
+
+  LOAD INDI TO VERTEX Indication VALUES(gsql_concat($"primaryid", $"indi_drug_seq"), $"indi_drug_seq", $"indi_pt") USING HEADER="true";
+  LOAD INDI TO EDGE hasIndications VALUES(gsql_concat($"primaryid", $"indi_drug_seq"), gsql_concat($"primaryid", $"indi_drug_seq")) USING HEADER="true";
+
+  LOAD DRUG TO VERTEX Drug VALUES($"drugname", $"drugname", $"prod_ai") USING HEADER="true";
+  LOAD DRUG TO VERTEX DrugSequence VALUES(gsql_concat($"primaryid", $"drug_seq"), $"drug_seq", $"role_cod", $"drugname")  USING HEADER="true";
+  LOAD DRUG TO EDGE hasDrugs VALUES(gsql_concat($"primaryid", $"drug_seq"), $"drugname")  USING HEADER="true";
+  LOAD DRUG TO EDGE hasSequences VALUES($"primaryid", gsql_concat($"primaryid", $"drug_seq")) USING HEADER="true";
+
+  LOAD REAC TO VERTEX Reaction VALUES($"pt", $"pt", $"drug_rec_act")  USING HEADER="true";
+  LOAD REAC TO EDGE hasReactions VALUES($"primaryid", $"pt") USING HEADER="true";
+
+  LOAD OUTC TO VERTEX Outcome VALUES($"outc_cod", $"outc_cod") USING HEADER="true";
+  LOAD OUTC TO EDGE hasOutcomes VALUES($"primaryid", $"outc_cod") USING HEADER="true";
+
+  LOAD RPSR TO VERTEX ReportSource VALUES ($"rpsr_cod", $"rpsr_cod") USING HEADER="true";
+  LOAD RPSR TO EDGE hasReportSources VALUES($"primaryid", $"rpsr_cod") USING HEADER="true";
+
+
+  LOAD DEMO TO VERTEX Patient VALUES ($"primaryid",
+                                      $"age",
+                                      $"age_cod",
+                                      $"age_grp",
+                                      $"sex",
+                                      $"wt",
+                                      $"wt_cod",
+                                      $"occp_cod") USING HEADER="true";
+  LOAD DEMO TO VERTEX PharmaCompany VALUES($"mfr_sndr", $"mfr_sndr") USING HEADER="true";
+  LOAD DEMO TO VERTEX ReportedCase VALUES($"primaryid", $"caseid", $"caseversion", $"fda_dt", $"mfr_sndr", $"reporter_country", $"occr_country") USING HEADER="true";
+  LOAD DEMO TO EDGE hasPatient VALUES($"primaryid", $"primaryid") USING HEADER="true";
+  LOAD DEMO TO EDGE relatedTo VALUES($"primaryid", $"mfr_sndr") USING HEADER="true";
+}
+
+RUN LOADING JOB load_faers
+DROP JOB load_faers
