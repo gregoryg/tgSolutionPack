@@ -18,8 +18,8 @@
 
 The tgSolutionPack consists of 2 gzip archieve files for deployment
    
-    `tgSolutionPack.tar.gz - contains all of the scripting necessary to deploy`
-    `tgSolutionPackData.tar.gz - contains the source data for each demo - packaged separately due to large size`
+    * tgSolutionPack.tar.gz - contains all of the scripting necessary to deploy
+    * tgSolutionPackData.tar.gz - contains the source data for each demo - packaged separately due to large size
 
 1. Clone this project, which contains the tgSolutionPack.tar.gz package
 
