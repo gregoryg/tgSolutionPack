@@ -18,20 +18,20 @@
 
 The tgSolutionPack consists of 2 gzip archieve files for deployment
    
-```bash
-    tgSolutionPack.tar.gz - contains all of the scripting necessary to deploy
-    tgSolutionPackData.tar.gz - contains the source data for each demo - packaged separately due to large size
-    ```
+    `tgSolutionPack.tar.gz - contains all of the scripting necessary to deploy`
+    `tgSolutionPackData.tar.gz - contains the source data for each demo - packaged separately due to large size`
 
-The package can be installed on any instance running a TigerGraph application. The install process is simple:
+1. Clone this project, which contains the tgSolutionPack.tar.gz package
 
-1.  Download the data file archieve using the follwoing command. Note: this public S3 bucket location may change some day
+2.  Download the data file archieve using the follwoing command. Note: this public S3 bucket location may change some day
 
     ```bash
     wget https://tgsedemodatabucket.s3.amazonaws.com/tgSolutionPackData.tar.gz
     ```
 
-1.  Copy (scp for secure copy) the tgSolutionPack.tar.gz archive file to the target machine. if you are running Docker locally:
+The package can be installed on any instance running a TigerGraph application. The install process is simple:
+
+3.  Copy (scp for secure copy) the tgSolutionPack.tar.gz archive file to the target machine. if you are running Docker locally:
 
     ```bash
     scp -P 14022 tgSolutionPack.tar.gz tigergraph@localhost:~/
@@ -39,13 +39,13 @@ The package can be installed on any instance running a TigerGraph application. T
     ```
 This will transfer the file to the root of the `tigergraph` user home
 
-2.  SSH to the container
+4.  SSH to the container
 
     ```bash
     ssh -p 14022 tigergraph@localhost
     ```
 
-3.  Uncompress the archive to the `mydata` directory:
+5.  Uncompress the archive to the `mydata` directory:
 
     ```bash
     mkdir ~/mydata
@@ -54,19 +54,19 @@ This will transfer the file to the root of the `tigergraph` user home
     tar -xzvf ../tgSolutionPackData.tar.gz
     ```
 
-4.  change directory into the tgSolutionPack folder:
+6.  change directory into the tgSolutionPack folder:
 
     ```bash
     cd tgSolutionPack
     ```
 
-5.  run the install script and follow the instructions
+7.  run the install script and follow the instructions
 
     ```bash
     ./runDPInstall.sh
     ```
 
-6.  Select one of the solution packs to install
+8.  Select one of the solution packs to install
 
     1 - Entity Resolution(MDM)
     2 - Fraud Detection
@@ -82,9 +82,9 @@ This will transfer the file to the root of the `tigergraph` user home
     A/a - install all of the packs
     mysql - Stage all of the source data to a local mysql db
 
-7.  The script Will create the objects, loading job and execute each load job to populate the graph.
+9.  The script Will create the objects, loading job and execute each load job to populate the graph.
 
-8.  Go to the Studio UI to see progress
+10.  Go to the Studio UI to see progress
     -   for the local Docker container: <http://localhost:14240>
 
 Notes:
