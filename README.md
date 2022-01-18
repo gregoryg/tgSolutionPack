@@ -89,4 +89,5 @@ This will transfer the file to the root of the `tigergraph` user home
 
 Notes:
     - The demo pack can also install sql-based schema into a local mysql database
+    - future releases of the demo pack will include Data packs of various sizes: small, large, gi-normous
 
