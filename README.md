@@ -17,7 +17,8 @@
 </ol>
 
 The tgSolutionPack consists of 2 gzip archieve files for deployment
-   ```bash
+   
+```bash
     tgSolutionPack.tar.gz - contains all of the scripting necessary to deploy
     tgSolutionPackData.tar.gz - contains the source data for each demo - packaged separately due to large size
     ```
@@ -88,4 +89,4 @@ This will transfer the file to the root of the `tigergraph` user home
 
 Notes:
     - The demo pack can also install sql-based schema into a local mysql database
-    
+
