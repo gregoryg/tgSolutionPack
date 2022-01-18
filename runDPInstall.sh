@@ -20,7 +20,7 @@ fi
 echo ''
 echo "TigerGraph tgSolutionPack install script"
 echo ""
-echo "Usage: "
+echo "Select the demo pack to install (1-11/a): "
 echo ""
 echo "1 - Entity Resolution(MDM)"
 echo "2 - Fraud Detection"

@@ -3,25 +3,38 @@
 `tgSolutionPack` - this package contains scripts and data to be used to populate any TigerGraph instance with on of the popular starter kit demos. Currently the kit includes these use cases:
 
 <ol>
-<li>1 - Entity Resolution(MDM)</li>
-<li>2 - Fraud Detection</li>
-<li>3 - LDBC Benchmark</li>
-<li>4 - TPC-DS Benchmark</li>
-<li>5 - Synthea HealthCare</li>
-<li>6 - IMDB</li>
-<li>7 - Customer360</li>
-<li>8 - Recommendations</li>
-<li>9 - AML Sim</li>
-<li>10 - Ontime Flight Performance</li>
-<li>11 - Adworks</li>
+<li>Entity Resolution(MDM)</li>
+<li>Fraud Detection</li>
+<li>LDBC Benchmark</li>
+<li>TPC-DS Benchmark</li>
+<li>Synthea HealthCare</li>
+<li>IMDB</li>
+<li>Customer360</li>
+<li>Recommendations</li>
+<li>AML Sim</li>
+<li>Ontime Flight Performance</li>
+<li>Adworks</li>
 </ol>
 
-The package can be installed on any instance containing a TigerGraph application. The install process is simple:
+The tgSolutionPack consists of 2 gzip archieve files for deployment
+   ```bash
+    tgSolutionPack.tar.gz - contains all of the scripting necessary to deploy
+    tgSolutionPackData.tar.gz - contains the source data for each demo - packaged separately due to large size
+    ```
+
+The package can be installed on any instance running a TigerGraph application. The install process is simple:
+
+1.  Download the data file archieve using the follwoing command. Note: this public S3 bucket location may change some day
+
+    ```bash
+    wget https://tgsedemodatabucket.s3.amazonaws.com/tgSolutionPackData.tar.gz
+    ```
 
 1.  Copy (scp for secure copy) the tgSolutionPack.tar.gz archive file to the target machine. if you are running Docker locally:
 
     ```bash
     scp -P 14022 tgSolutionPack.tar.gz tigergraph@localhost:~/
+    scp -P 14022 tgSolutionPackData.tar.gz tigergraph@localhost:~/
     ```
 This will transfer the file to the root of the `tigergraph` user home
 
@@ -37,6 +50,7 @@ This will transfer the file to the root of the `tigergraph` user home
     mkdir ~/mydata
     cd mydata
     tar -xzvf ../tgSolutionPack.tar.gz
+    tar -xzvf ../tgSolutionPackData.tar.gz
     ```
 
 4.  change directory into the tgSolutionPack folder:
@@ -54,20 +68,24 @@ This will transfer the file to the root of the `tigergraph` user home
 6.  Select one of the solution packs to install
 
     1 - Entity Resolution(MDM)
-
     2 - Fraud Detection
-
     3 - LDBC Benchmark
-
     4 - TPC-DS Benchmark
-
-    5 - Synthea Healthcare
-
-    6 - Flight Delays
-
+    5 - Synthea HealthCare
+    6 - IMDB
     7 - Customer360
+    8 - Recommendations
+    9 - AML Sim
+    10 - Ontime Flight Performance
+    11 - Adworks
+    A/a - install all of the packs
+    mysql - Stage all of the source data to a local mysql db
 
-7.  The script Will create the objects, loading job and begin to load data.
+7.  The script Will create the objects, loading job and execute each load job to populate the graph.
 
 8.  Go to the Studio UI to see progress
     -   for the local Docker container: <http://localhost:14240>
+
+Notes:
+    - The demo pack can also install sql-based schema into a local mysql database
+    
