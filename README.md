@@ -2,17 +2,19 @@
 
 `tgSolutionPack` - this package contains scripts and data to be used to populate any TigerGraph instance with on of the popular starter kit demos. Currently the kit includes these use cases:
 
-1 - Entity Resolution(MDM)
-2 - Fraud Detection
-3 - LDBC Benchmark
-4 - TPC-DS Benchmark
-5 - Synthea HealthCare
-6 - IMDB
-7 - Customer360
-8 - Recommendations
-9 - AML Sim
-10 - Ontime Flight Performance
-11 - Adworks
+<ol>
+<li>1 - Entity Resolution(MDM)</li>
+<li>2 - Fraud Detection</li>
+<li>3 - LDBC Benchmark</li>
+<li>4 - TPC-DS Benchmark</li>
+<li>5 - Synthea HealthCare</li>
+<li>6 - IMDB</li>
+<li>7 - Customer360</li>
+<li>8 - Recommendations</li>
+<li>9 - AML Sim</li>
+<li>10 - Ontime Flight Performance</li>
+<li>11 - Adworks</li>
+</ol>
 
 The package can be installed on any instance containing a TigerGraph application. The install process is simple:
 
