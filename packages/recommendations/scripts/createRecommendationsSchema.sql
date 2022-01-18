@@ -83,3 +83,8 @@ CREATE  TABLE tags (
      tag                VARCHAR(100),
      tmstamp            DATE
 );
+
+DROP TABLE IF EXISTS genres;
+CREATE  TABLE genres (
+     genresName             VARCHAR(50)
+);
