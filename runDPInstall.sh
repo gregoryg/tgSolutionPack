@@ -51,7 +51,7 @@ case $choice in
 		gsql packages/entityResMDM/scripts/03-add-queries.gsql
 	    ;;
 	2)
-	    echo "Install Fraud/AML"
+	    echo "Install Anti-Fraud (AML)"
 		gsql packages/fraud/scripts/01-create-schema.gsql
 		gsql packages/fraud/scripts/02-load-data.gsql
 	    ;;

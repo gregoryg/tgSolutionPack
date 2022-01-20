@@ -87,7 +87,8 @@ This will transfer the file to the root of the `tigergraph` user home
 10.  Go to the Studio UI to see progress
     -   for the local Docker container: <http://localhost:14240>
 
-Notes:
+Notes
+
     - The demo pack can also install sql-based schema into a local mysql database
     - future releases of the demo pack will include Data packs of various sizes: small, large, gi-normous
 
