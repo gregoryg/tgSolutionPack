@@ -17,9 +17,10 @@ USE GRAPH TPCDS
    LOAD productItemData TO VERTEX Product_Item VALUES($0, $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21) USING SEPARATOR=",", HEADER="true", EOL="\n";
    LOAD ship_modeData TO VERTEX Ship_Mode VALUES($0, $1, $2, $3, $4, $5) USING SEPARATOR=",", HEADER="true", EOL="\n";
    LOAD store_salesData TO VERTEX Store_Sales VALUES($0, $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22) USING SEPARATOR=",", HEADER="true", EOL="\n";
-   LOAD storeData TO VERTEX Store VALUES($0, $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23 $24, $25, $26, $27, $28) USING SEPARATOR=",", HEADER="true", EOL="\n";
+   LOAD storeData TO VERTEX Store VALUES($0, $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28) USING SEPARATOR=",", HEADER="true", EOL="\n";
    LOAD cust_demoData TO VERTEX Demographic VALUES($0, $1, $2, $3, $4, $5, $6, $7, $8) USING SEPARATOR=",", HEADER="true", EOL="\n";
 
 }
 
 RUN LOADING JOB tpcds_loading_job
+
