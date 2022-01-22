@@ -33,6 +33,7 @@ echo '8 - Recommendations'
 echo '9 - AML Sim'
 echo '10 - Ontime Flight Performance'
 echo '11 - Adworks'
+echo '12 - NetoworkIT Impact Analysis Graph'
 echo "A/a - install all of the packs"
 echo "mysql - Stage all of the source data to a local mysql db"
 echo ''
@@ -45,7 +46,7 @@ case $choice in
 
 	1)
 		echo ''
-		echo "Install MDM...."
+		echo "Install Entity Resolution (MDM)"
 		gsql packages/entityResMDM/scripts/01-create-schema.gsql
 		gsql packages/entityResMDM/scripts/02-load-data.gsql
 		gsql packages/entityResMDM/scripts/03-add-queries.gsql
@@ -108,7 +109,12 @@ case $choice in
 	    echo "Install Adworks Graph"
 		gsql work-in-progress/adWorks/scripts/01-create-schema.gsql
 	    ;;
-
+	12) 
+	    echo ''
+	    echo "Install NetoworkIT Impact Analysis Graph"
+		gsql packages/NetworkITResOpt/scripts/01-create-schema.gsql
+		gsql packages/NetworkITResOpt/scripts/01-create-schema.gsql
+		;;
 	a)
 	    echo ''
 	    echo 'Lets load all of the schemas'
@@ -124,8 +130,8 @@ case $choice in
 		gsql packages/ldbc/scripts/02-load-data-sample.gsql
 	    echo ''
 	    echo "Install TPC-DS - data tbd"
-		gsql packages/tpc-ds/scripts/01-create-schema.gsql
-		gsql packages/tpc-ds/scripts/02-load-data.gsql
+		gsql packages/tpcds/scripts/01-create-schema.gsql
+		gsql packages/tpcds/scripts/02-load-data.gsql
 	    echo ''
 	    echo "Install Synthea"
 		gsql packages/synthea/scripts/createSyntheaSchema.gsql
@@ -153,6 +159,10 @@ case $choice in
 	    echo "Install Adworks Graph"
 		gsql work-in-progress/adWorks/scripts/01-create-schema.gsql
 	    echo ''
+	    echo ''
+	    echo "Install NetoworkIT Impact Analysis Graph"
+		gsql packages/NetworkITResOpt/scripts/01-create-schema.gsql
+		gsql packages/NetworkITResOpt/scripts/01-create-schema.gsql
 	    ;;
 	mysql)
 	    echo ''
@@ -168,7 +178,7 @@ case $choice in
 		echo 'exiting installer...'
 		;;		
 	*) 
-		echo 'Invalid option'
+		echo 'Invalid option, exiting installer..'
     	;;
 esac
 
