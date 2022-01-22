@@ -113,7 +113,7 @@ case $choice in
 	    echo ''
 	    echo "Install NetoworkIT Impact Analysis Graph"
 		gsql packages/NetworkITResOpt/scripts/01-create-schema.gsql
-		gsql packages/NetworkITResOpt/scripts/01-create-schema.gsql
+		gsql packages/NetworkITResOpt/scripts/02-load-data.gsql
 		;;
 	a)
 	    echo ''
