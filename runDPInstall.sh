@@ -115,6 +115,12 @@ case $choice in
 		gsql packages/NetworkITResOpt/scripts/01-create-schema.gsql
 		gsql packages/NetworkITResOpt/scripts/02-load-data.gsql
 		;;
+	13) 
+	    echo ''
+	    echo "Install Shortest Path Flights Graph"
+		gsql packages/shortestPathFlights/scripts/01-create-schema.gsql
+		gsql packages/shortestPathFlights/scripts/02-load-data.gsql
+		;;
 	a)
 	    echo ''
 	    echo 'Lets load all of the schemas'
@@ -163,6 +169,10 @@ case $choice in
 	    echo "Install NetoworkIT Impact Analysis Graph"
 		gsql packages/NetworkITResOpt/scripts/01-create-schema.gsql
 		gsql packages/NetworkITResOpt/scripts/01-create-schema.gsql
+	    echo ''
+	    echo "Install Shortest Path Flights Graph"
+		gsql packages/shortestPathFlights/scripts/01-create-schema.gsql
+		gsql packages/shortestPathFlights/scripts/02-load-data.gsql
 	    ;;
 	mysql)
 	    echo ''
