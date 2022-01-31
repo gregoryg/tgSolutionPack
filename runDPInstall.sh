@@ -34,7 +34,8 @@ echo '9 - AML Sim'
 echo '10 - Ontime Flight Performance'
 echo '11 - Adworks'
 echo '12 - NetoworkIT Impact Analysis Graph'
-echo "A/a - install all of the packs"
+echo "S/s - Install the Starter Kits"
+echo "A/a - Install all of the packs"
 echo "mysql - Stage all of the source data to a local mysql db"
 echo ''
 
@@ -121,7 +122,12 @@ case $choice in
 		gsql packages/shortestPathFlights/scripts/01-create-schema.gsql
 		gsql packages/shortestPathFlights/scripts/02-load-data.gsql
 		;;
-	a)
+	s|S) 
+	    echo ''
+	    echo "Install the TigerGraph Starter Kits"
+
+		;;
+	a|A)
 	    echo ''
 	    echo 'Lets load all of the schemas'
 		gsql packages/entityResMDM/scripts/01-create-schema.gsql
