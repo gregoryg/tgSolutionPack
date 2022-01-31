@@ -11,7 +11,7 @@
 
 for file in "./"create*
 do
-  	[[ -f "$file" ]] && echo "$file is a regular file"
+  	[[ -f "$file" ]] && echo "Publishing kit $file to the cloud..."
 
   	echo "Execute the python script"
   	python $file
