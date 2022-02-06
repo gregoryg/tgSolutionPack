@@ -9,6 +9,7 @@
 
 ## This scripts will create schemas and load data from S3, depending on input
 
+echo ''
 echo "The tgSolutionPack includes the following starter kits:"
 echo ''
 
