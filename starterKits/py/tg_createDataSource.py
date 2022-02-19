@@ -26,7 +26,7 @@ import pyTigerGraph as tg
 #User definied parameters
 host = "https://localhost"
 username = "tigergraph"
-password = "tigergraph" 
+password = "tiger***" 
 
 conn = tg.TigerGraphConnection(host=host, username=username, password=password)
 
