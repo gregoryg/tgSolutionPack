@@ -1,0 +1,24 @@
+USE GRAPH Rec2HyperMarketingGraph
+
+GRANT DATA_SOURCE tg_s3_data_source TO GRAPH Rec2HyperMarketingGraph
+
+CREATE LOADING JOB Rec2HyperMarketingGraph_load_job FOR GRAPH Rec2HyperMarketingGraph {
+
+LOAD "$S3BUCKETTOKEN/Rec2HyperMarketing/product.tsv"}" TO VERTEX product VALUES ($"primary_id", $"name", $"latitude", $"longitude") USING SEPARATOR = "\\t", HEADER = "true";
+LOAD "$S3BUCKETTOKEN/Rec2HyperMarketing/feature.tsv"}" TO VERTEX feature VALUES ($"primary_id", $"name") USING SEPARATOR = "\\t", HEADER = "true";
+LOAD "$S3BUCKETTOKEN/Rec2HyperMarketing/customer.tsv"}" TO VERTEX customer VALUES ($"primary_id", $"name") USING SEPARATOR = "\\t", HEADER = "true";
+LOAD "$S3BUCKETTOKEN/Rec2HyperMarketing/history.tsv"}" TO VERTEX history VALUES ($"primary_id", $"name") USING SEPARATOR = "\\t", HEADER = "true";
+LOAD "$S3BUCKETTOKEN/Rec2HyperMarketing/demographic.tsv"}" TO VERTEX demographic VALUES ($"primary_id", $"name") USING SEPARATOR = "\\t", HEADER = "true";
+LOAD "$S3BUCKETTOKEN/Rec2HyperMarketing/context.tsv"}" TO VERTEX context VALUES ($"primary_id", $"ctxValue") USING SEPARATOR = "\\t", HEADER = "true";
+LOAD "$S3BUCKETTOKEN/Rec2HyperMarketing/demo_customer.tsv"}" TO EDGE demo_customer VALUES ($"from", $"to") USING SEPARATOR = "\\t", HEADER = "true";
+LOAD "$S3BUCKETTOKEN/Rec2HyperMarketing/customer_history.tsv"}" TO EDGE customer_history VALUES ($"from", $"to") USING SEPARATOR = "\\t", HEADER = "true";
+LOAD "$S3BUCKETTOKEN/Rec2HyperMarketing/history_product.tsv"}" TO EDGE history_product VALUES ($"from", $"to") USING SEPARATOR = "\\t", HEADER = "true";
+LOAD "$S3BUCKETTOKEN/Rec2HyperMarketing/demo_feature.tsv"}" TO EDGE demo_feature VALUES ($"from", $"to", $"affinity") USING SEPARATOR = "\\t", HEADER = "true";
+LOAD "$S3BUCKETTOKEN/Rec2HyperMarketing/customer_feature.tsv"}" TO EDGE customer_feature VALUES ($"from", $"to", $"affinity") USING SEPARATOR = "\\t", HEADER = "true";
+LOAD "$S3BUCKETTOKEN/Rec2HyperMarketing/product_feature.tsv"}" TO EDGE product_feature VALUES ($"from", $"to", $"weight") USING SEPARATOR = "\\t", HEADER = "true";
+LOAD "$S3BUCKETTOKEN/Rec2HyperMarketing/product_context.tsv"}" TO EDGE product_context VALUES ($"from", $"to") USING SEPARATOR = "\\t", HEADER = "true";
+}
+
+RUN LOADING JOB Rec2HyperMarketingGraph_load_job USING EOF="true"
+DROP JOB Rec2HyperMarketingGraph_load_job
+

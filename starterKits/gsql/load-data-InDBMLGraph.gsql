@@ -1,0 +1,14 @@
+USE GRAPH InDBMLGraph
+
+GRANT DATA_SOURCE tg_s3_data_source TO GRAPH InDBMLGraph
+
+CREATE LOADING JOB InDBMLGraph_load_job FOR GRAPH InDBMLGraph {
+
+LOAD "$S3BUCKETTOKEN/InDBML/USER.tsv"}" TO VERTEX USER VALUES ($"primary_id", SPLIT($"theta", "#")) USING SEPARATOR = "\\t", HEADER = "true";
+LOAD "$S3BUCKETTOKEN/InDBML/MOVIE.tsv"}" TO VERTEX MOVIE VALUES ($"primary_id", $"name", $"avg_rating", SPLIT($"x", "#")) USING SEPARATOR = "\\t", HEADER = "true";
+LOAD "$S3BUCKETTOKEN/InDBML/rate.tsv"}" TO EDGE rate VALUES ($"from", $"to", $"rating", $"label") USING SEPARATOR = "\\t", HEADER = "true";
+}
+
+RUN LOADING JOB InDBMLGraph_load_job USING EOF="true"
+DROP JOB InDBMLGraph_load_job
+

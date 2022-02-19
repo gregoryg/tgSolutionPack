@@ -1,0 +1,14 @@
+USE GRAPH RecEngMovieGraph
+
+GRANT DATA_SOURCE tg_s3_data_source TO GRAPH RecEngMovieGraph
+
+CREATE LOADING JOB RecEngMovieGraph_load_job FOR GRAPH RecEngMovieGraph {
+
+LOAD "$S3BUCKETTOKEN/RecEngMovie/person.tsv"}" TO VERTEX person VALUES ($"primary_id") USING SEPARATOR = "\\t", HEADER = "true";
+LOAD "$S3BUCKETTOKEN/RecEngMovie/movie.tsv"}" TO VERTEX movie VALUES ($"primary_id", $"title", $"genres") USING SEPARATOR = "\\t", HEADER = "true";
+LOAD "$S3BUCKETTOKEN/RecEngMovie/rate.tsv"}" TO EDGE rate VALUES ($"from", $"to", $"rating", $"rated_at") USING SEPARATOR = "\\t", HEADER = "true";
+}
+
+RUN LOADING JOB RecEngMovieGraph_load_job USING EOF="true"
+DROP JOB RecEngMovieGraph_load_job
+
