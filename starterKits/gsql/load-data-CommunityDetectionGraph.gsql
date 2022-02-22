@@ -4,20 +4,20 @@ GRANT DATA_SOURCE tg_s3_data_source TO GRAPH CommunityDetectionGraph
 
 CREATE LOADING JOB CommunityDetectionGraph_load_job FOR GRAPH CommunityDetectionGraph {
 
-LOAD "$S3BUCKETTOKEN/CommunityDetection/Specialty.tsv"}" TO VERTEX Specialty VALUES ($"primary_id") USING SEPARATOR = "\\t", HEADER = "true";
-LOAD "$S3BUCKETTOKEN/CommunityDetection/SubSpecialty.tsv"}" TO VERTEX SubSpecialty VALUES ($"primary_id") USING SEPARATOR = "\\t", HEADER = "true";
-LOAD "$S3BUCKETTOKEN/CommunityDetection/Claim.tsv"}" TO VERTEX Claim VALUES ($"primary_id", $"rx_fill_date", $"ICD10Code", $"ICD10CodeDescription", $"CodeGroupTitle") USING SEPARATOR = "\\t", HEADER = "true";
-LOAD "$S3BUCKETTOKEN/CommunityDetection/Patient.tsv"}" TO VERTEX Patient VALUES ($"primary_id") USING SEPARATOR = "\\t", HEADER = "true";
-LOAD "$S3BUCKETTOKEN/CommunityDetection/Prescriber.tsv"}" TO VERTEX Prescriber VALUES ($"primary_id", $"pageRank", $"communityId") USING SEPARATOR = "\\t", HEADER = "true";
-LOAD "$S3BUCKETTOKEN/CommunityDetection/Kangaroo.tsv"}" TO VERTEX Kangaroo VALUES ($"primary_id", $"communityId") USING SEPARATOR = "\\t", HEADER = "true";
-LOAD "$S3BUCKETTOKEN/CommunityDetection/FlickrImage.tsv"}" TO VERTEX FlickrImage VALUES ($"primary_id", $"communityId") USING SEPARATOR = "\\t", HEADER = "true";
-LOAD "$S3BUCKETTOKEN/CommunityDetection/associated.tsv"}" TO EDGE associated VALUES ($"from", $"to") USING SEPARATOR = "\\t", HEADER = "true";
-LOAD "$S3BUCKETTOKEN/CommunityDetection/specialty_subspecialty.tsv"}" TO EDGE specialty_subspecialty VALUES ($"from", $"to") USING SEPARATOR = "\\t", HEADER = "true";
-LOAD "$S3BUCKETTOKEN/CommunityDetection/submitted_by.tsv"}" TO EDGE submitted_by VALUES ($"from", $"to") USING SEPARATOR = "\\t", HEADER = "true";
-LOAD "$S3BUCKETTOKEN/CommunityDetection/subspecialty_prescriber.tsv"}" TO EDGE subspecialty_prescriber VALUES ($"from", $"to") USING SEPARATOR = "\\t", HEADER = "true";
-LOAD "$S3BUCKETTOKEN/CommunityDetection/referral.tsv"}" TO EDGE referral VALUES ($"from", $"to", $"num_patient") USING SEPARATOR = "\\t", HEADER = "true";
-LOAD "$S3BUCKETTOKEN/CommunityDetection/kanga_link.tsv"}" TO EDGE kanga_link VALUES ($"from", $"to", $"weight") USING SEPARATOR = "\\t", HEADER = "true";
-LOAD "$S3BUCKETTOKEN/CommunityDetection/flickr_link.tsv"}" TO EDGE flickr_link VALUES ($"from", $"to") USING SEPARATOR = "\\t", HEADER = "true";
+LOAD "$tg_s3_data_source:{\"file.uris\":\"s3://tg-workshop-us/starter-kits/CommunityDetection/Specialty.tsv\"}" TO VERTEX Specialty VALUES ($"primary_id") USING SEPARATOR = "\t", HEADER = "true";
+LOAD "$tg_s3_data_source:{\"file.uris\":\"s3://tg-workshop-us/starter-kits/CommunityDetection/SubSpecialty.tsv\"}" TO VERTEX SubSpecialty VALUES ($"primary_id") USING SEPARATOR = "\t", HEADER = "true";
+LOAD "$tg_s3_data_source:{\"file.uris\":\"s3://tg-workshop-us/starter-kits/CommunityDetection/Claim.tsv\"}" TO VERTEX Claim VALUES ($"primary_id", $"rx_fill_date", $"ICD10Code", $"ICD10CodeDescription", $"CodeGroupTitle") USING SEPARATOR = "\t", HEADER = "true";
+LOAD "$tg_s3_data_source:{\"file.uris\":\"s3://tg-workshop-us/starter-kits/CommunityDetection/Patient.tsv\"}" TO VERTEX Patient VALUES ($"primary_id") USING SEPARATOR = "\t", HEADER = "true";
+LOAD "$tg_s3_data_source:{\"file.uris\":\"s3://tg-workshop-us/starter-kits/CommunityDetection/Prescriber.tsv\"}" TO VERTEX Prescriber VALUES ($"primary_id", $"pageRank", $"communityId") USING SEPARATOR = "\t", HEADER = "true";
+LOAD "$tg_s3_data_source:{\"file.uris\":\"s3://tg-workshop-us/starter-kits/CommunityDetection/Kangaroo.tsv\"}" TO VERTEX Kangaroo VALUES ($"primary_id", $"communityId") USING SEPARATOR = "\t", HEADER = "true";
+LOAD "$tg_s3_data_source:{\"file.uris\":\"s3://tg-workshop-us/starter-kits/CommunityDetection/FlickrImage.tsv\"}" TO VERTEX FlickrImage VALUES ($"primary_id", $"communityId") USING SEPARATOR = "\t", HEADER = "true";
+LOAD "$tg_s3_data_source:{\"file.uris\":\"s3://tg-workshop-us/starter-kits/CommunityDetection/associated.tsv\"}" TO EDGE associated VALUES ($"from", $"to") USING SEPARATOR = "\t", HEADER = "true";
+LOAD "$tg_s3_data_source:{\"file.uris\":\"s3://tg-workshop-us/starter-kits/CommunityDetection/specialty_subspecialty.tsv\"}" TO EDGE specialty_subspecialty VALUES ($"from", $"to") USING SEPARATOR = "\t", HEADER = "true";
+LOAD "$tg_s3_data_source:{\"file.uris\":\"s3://tg-workshop-us/starter-kits/CommunityDetection/submitted_by.tsv\"}" TO EDGE submitted_by VALUES ($"from", $"to") USING SEPARATOR = "\t", HEADER = "true";
+LOAD "$tg_s3_data_source:{\"file.uris\":\"s3://tg-workshop-us/starter-kits/CommunityDetection/subspecialty_prescriber.tsv\"}" TO EDGE subspecialty_prescriber VALUES ($"from", $"to") USING SEPARATOR = "\t", HEADER = "true";
+LOAD "$tg_s3_data_source:{\"file.uris\":\"s3://tg-workshop-us/starter-kits/CommunityDetection/referral.tsv\"}" TO EDGE referral VALUES ($"from", $"to", $"num_patient") USING SEPARATOR = "\t", HEADER = "true";
+LOAD "$tg_s3_data_source:{\"file.uris\":\"s3://tg-workshop-us/starter-kits/CommunityDetection/kanga_link.tsv\"}" TO EDGE kanga_link VALUES ($"from", $"to", $"weight") USING SEPARATOR = "\t", HEADER = "true";
+LOAD "$tg_s3_data_source:{\"file.uris\":\"s3://tg-workshop-us/starter-kits/CommunityDetection/flickr_link.tsv\"}" TO EDGE flickr_link VALUES ($"from", $"to") USING SEPARATOR = "\t", HEADER = "true";
 }
 
 RUN LOADING JOB CommunityDetectionGraph_load_job USING EOF="true"

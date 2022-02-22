@@ -1,0 +1,10 @@
+USE GRAPH tmpGraph
+
+GRANT DATA_SOURCE tg_s3_data_source TO GRAPH tmpGraph
+
+CREATE LOADING JOB tmpGraph_load_job FOR GRAPH tmpGraph {
+
+
+RUN LOADING JOB tmpGraph_load_job USING EOF="true"
+DROP JOB tmpGraph_load_job
+

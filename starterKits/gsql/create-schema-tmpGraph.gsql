@@ -1,0 +1,12 @@
+USE GLOBAL
+DROP GRAPH tmpGraph
+
+CREATE GRAPH tmpGraph()
+USE GRAPH tmpGraph
+
+CREATE SCHEMA_CHANGE JOB tmpGraph_change_job FOR GRAPH tmpGraph {
+
+}
+
+RUN SCHEMA_CHANGE JOB tmpGraph_change_job
+DROP JOB tmpGraph_change_job
